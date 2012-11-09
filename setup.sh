@@ -1,13 +1,14 @@
+#!/bin/zsh
 cd ~
-rm .zshrc
+rm -f .zshrc
 ln -s src/dotfiles/zshrc .zshrc
 touch .zshrc.local
-rm .zshenv
+rm -f .zshenv
 ln -s src/dotfiles/zshenv .zshenv
 touch .zshenv.local
-rm .gdbinit
+rm -f .gdbinit
 ln -s src/dotfiles/gdbinit .gdbinit
-rm .emacs
+rm -rf .emacs
 ln -s src/dotfiles/emacs .emacs
 mkdir -p Library/Preferences/Aquamacs\ Emacs
 cd Library/Preferences/Aquamacs\ Emacs
