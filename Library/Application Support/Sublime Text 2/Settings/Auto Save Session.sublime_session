@@ -24,9 +24,13 @@
 			"build_system": "Packages/User/scons_all.sublime-build",
 			"command_palette":
 			{
-				"height": 47.0,
+				"height": 187.0,
 				"selected_items":
 				[
+					[
+						"test",
+						"Build: test"
+					],
 					[
 						"IMP.rmf",
 						"Build: IMP.rmf"
@@ -49,6 +53,7 @@
 			},
 			"file_history":
 			[
+				"/Users/drussel/src/npc/config.py",
 				"/Users/drussel/src/imp/imp/modules/rmf/dependency/RMF/CMakeLists.txt",
 				"/Users/drussel/src/imp/imp/modules/core/benchmark/benchmark_omp_evaluate.cpp",
 				"/Users/drussel/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
@@ -59,11 +64,9 @@
 			},
 			"find_in_files":
 			{
-				"height": 93.0,
+				"height": 0.0,
 				"where_history":
 				[
-					"/Users/drussel/src/imp/imp",
-					""
 				]
 			},
 			"find_state":
@@ -71,8 +74,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"slack",
-					"slack estimate"
+					"chain_diff"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -150,7 +152,7 @@
 			"side_bar_width": 150.0,
 			"status_bar_visible": true
 		},
-		"new_window_width": 842.0
+		"new_window_width": 1032.0
 	},
 	"windows":
 	[
@@ -216,7 +218,7 @@
 			},
 			"find_in_files":
 			{
-				"height": 93.0,
+				"height": 0.0,
 				"where_history":
 				[
 					"/Users/drussel/src/imp/imp.old"
@@ -500,8 +502,8 @@
 								"selection":
 								[
 									[
-										1474,
-										1446
+										554,
+										606
 									]
 								],
 								"settings":
@@ -515,7 +517,7 @@
 									"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 1756.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
@@ -558,7 +560,7 @@
 			{
 				"height": 453.0
 			},
-			"position": "-4 390 779 1028 0 0 2560 1418 ",
+			"position": "0 0 779 1028 0 0 1680 1028 ",
 			"replace":
 			{
 				"height": 0.0
@@ -614,15 +616,47 @@
 					"file": "modules/kernel/include/internal/attribute_tables.h",
 					"settings":
 					{
-						"buffer_size": 25773,
+						"buffer_size": 26050,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "modules/container/include/ClosePairContainer.h",
+					"file": "modules/kernel/include/Key.h",
 					"settings":
 					{
-						"buffer_size": 3539,
+						"buffer_size": 6433,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "modules/kernel/include/ScoreAccumulator.h",
+					"settings":
+					{
+						"buffer_size": 3480,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "modules/kernel/src/Model_evaluate.cpp",
+					"settings":
+					{
+						"buffer_size": 6099,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "modules/kernel/src/Restraint.cpp",
+					"settings":
+					{
+						"buffer_size": 8185,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "modules/atom/src/BrownianDynamics.cpp",
+					"settings":
+					{
+						"buffer_size": 11722,
 						"line_ending": "Unix"
 					}
 				}
@@ -655,8 +689,9 @@
 			},
 			"file_history":
 			[
-				"/Users/drussel/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+				"/Users/drussel/src/imp/imp/modules/container/include/ClosePairContainer.h",
 				"/Users/drussel/src/imp/imp/modules/core/include/ExcludedVolumeRestraint.h",
+				"/Users/drussel/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 				"/Users/drussel/src/imp/imp/modules/rmf/dependency/RMF/CMakeLists.txt",
 				"/Users/drussel/src/imp/imp/modules/core/benchmark/benchmark_omp_evaluate.cpp"
 			],
@@ -666,7 +701,7 @@
 			},
 			"find_in_files":
 			{
-				"height": 93.0,
+				"height": 0.0,
 				"where_history":
 				[
 					"/Users/drussel/src/imp/imp",
@@ -678,6 +713,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"+=",
 					"slack",
 					"slack estimate"
 				],
@@ -697,7 +733,7 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 6,
 					"sheets":
 					[
 						{
@@ -733,15 +769,15 @@
 							"file": "modules/kernel/include/internal/attribute_tables.h",
 							"settings":
 							{
-								"buffer_size": 25773,
+								"buffer_size": 26050,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										16371,
-										16371
+										1019,
+										1019
 									]
 								],
 								"settings":
@@ -751,25 +787,25 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 3198.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
 						},
 						{
 							"buffer": 2,
-							"file": "modules/container/include/ClosePairContainer.h",
+							"file": "modules/kernel/include/Key.h",
 							"settings":
 							{
-								"buffer_size": 3539,
+								"buffer_size": 6433,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										3174,
-										3192
+										6017,
+										6017
 									]
 								],
 								"settings":
@@ -779,7 +815,119 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 715.0,
+								"translation.y": 2692.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "modules/kernel/include/ScoreAccumulator.h",
+							"settings":
+							{
+								"buffer_size": 3480,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2749,
+										2749
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 855.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "modules/kernel/src/Model_evaluate.cpp",
+							"settings":
+							{
+								"buffer_size": 6099,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										5131,
+										5088
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1685.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "modules/kernel/src/Restraint.cpp",
+							"settings":
+							{
+								"buffer_size": 8185,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										7701,
+										7701
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 2731.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "modules/atom/src/BrownianDynamics.cpp",
+							"settings":
+							{
+								"buffer_size": 11722,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										8674,
+										8674
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 3185.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
@@ -793,7 +941,7 @@
 			},
 			"input":
 			{
-				"height": 0.0
+				"height": 31.0
 			},
 			"layout":
 			{
@@ -822,7 +970,7 @@
 			{
 				"height": 453.0
 			},
-			"position": "778 390 842 1028 0 0 2560 1418 ",
+			"position": "782 0 842 1028 0 0 1680 1028 ",
 			"replace":
 			{
 				"height": 0.0
@@ -852,551 +1000,6 @@
 			"status_bar_visible": true,
 			"window_id": 6,
 			"workspace_name": "/Users/drussel/src/imp/imp/imp.sublime-project"
-		},
-		{
-			"auto_complete":
-			{
-				"selected_items":
-				[
-					[
-						"lib",
-						"lib"
-					]
-				]
-			},
-			"buffers":
-			[
-				{
-					"file": "/Users/drussel/src/imp/debug/config.py",
-					"settings":
-					{
-						"buffer_size": 244,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/drussel/src/npc/debug/config.py",
-					"settings":
-					{
-						"buffer_size": 92,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/drussel/src/npc/npc/npctransport/test/test_rmf_sites.py",
-					"settings":
-					{
-						"buffer_size": 1434,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/drussel/src/npc/npc/npctransport/test/test_init_from_rmf.py",
-					"settings":
-					{
-						"buffer_size": 4426,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "Preferences.sublime-settings",
-					"settings":
-					{
-						"buffer_size": 418,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "Default (OSX).sublime-keymap",
-					"settings":
-					{
-						"buffer_size": 53,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/drussel/src/npc/npc/npctransport/src/rmf_links.cpp",
-					"settings":
-					{
-						"buffer_size": 3447,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/drussel/src/npc/debug/build/include/IMP/npctransport/rmf_links.h",
-					"settings":
-					{
-						"buffer_size": 2900,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/drussel/src/imp/debug/build/include/IMP/base/utility_macros.h",
-					"settings":
-					{
-						"buffer_size": 5835,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/drussel/src/imp/debug/build/include/IMP/rmf/atom_links.h",
-					"settings":
-					{
-						"buffer_size": 4503,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/drussel/src/npc/npc/npctransport/src/SimulationData.cpp",
-					"settings":
-					{
-						"buffer_size": 41446,
-						"line_ending": "Unix"
-					}
-				}
-			],
-			"build_system": "Packages/User/scons_all.sublime-build",
-			"command_palette":
-			{
-				"height": 187.0,
-				"selected_items":
-				[
-					[
-						"test",
-						"Build: test"
-					],
-					[
-						"IMP.rmf",
-						"Build: IMP.rmf"
-					]
-				],
-				"width": 392.0
-			},
-			"console":
-			{
-				"height": 0.0
-			},
-			"distraction_free":
-			{
-				"menu_visible": true,
-				"show_minimap": false,
-				"show_open_files": false,
-				"show_tabs": false,
-				"side_bar_visible": false,
-				"status_bar_visible": false
-			},
-			"file_history":
-			[
-				"/Users/drussel/src/npc/config.py",
-				"/Users/drussel/src/imp/imp/modules/rmf/dependency/RMF/CMakeLists.txt",
-				"/Users/drussel/src/imp/imp/modules/core/benchmark/benchmark_omp_evaluate.cpp",
-				"/Users/drussel/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
-			],
-			"find":
-			{
-				"height": 35.0
-			},
-			"find_in_files":
-			{
-				"height": 0.0,
-				"where_history":
-				[
-				]
-			},
-			"find_state":
-			{
-				"case_sensitive": false,
-				"find_history":
-				[
-					"chain_diff"
-				],
-				"highlight": true,
-				"in_selection": false,
-				"preserve_case": false,
-				"regex": false,
-				"replace_history":
-				[
-				],
-				"reverse": false,
-				"show_context": true,
-				"use_buffer2": true,
-				"whole_word": false,
-				"wrap": true
-			},
-			"groups":
-			[
-				{
-					"selected": 4,
-					"sheets":
-					[
-						{
-							"buffer": 0,
-							"file": "/Users/drussel/src/imp/debug/config.py",
-							"settings":
-							{
-								"buffer_size": 244,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										99,
-										99
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Python/Python.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/Users/drussel/src/npc/debug/config.py",
-							"settings":
-							{
-								"buffer_size": 92,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										92,
-										92
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Python/Python.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/Users/drussel/src/npc/npc/npctransport/test/test_rmf_sites.py",
-							"settings":
-							{
-								"buffer_size": 1434,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										300,
-										300
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Python/Python.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/Users/drussel/src/npc/npc/npctransport/test/test_init_from_rmf.py",
-							"settings":
-							{
-								"buffer_size": 4426,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										165,
-										4376
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Python/Python.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 4,
-							"file": "Preferences.sublime-settings",
-							"settings":
-							{
-								"buffer_size": 418,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										410,
-										410
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/JavaScript/JSON.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 5,
-							"file": "Default (OSX).sublime-keymap",
-							"settings":
-							{
-								"buffer_size": 53,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										53,
-										53
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/JavaScript/JSON.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 6,
-							"file": "/Users/drussel/src/npc/npc/npctransport/src/rmf_links.cpp",
-							"settings":
-							{
-								"buffer_size": 3447,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1491,
-										1491
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C++.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 7,
-							"file": "/Users/drussel/src/npc/debug/build/include/IMP/npctransport/rmf_links.h",
-							"settings":
-							{
-								"buffer_size": 2900,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1114,
-										1114
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C++.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 8,
-							"file": "/Users/drussel/src/imp/debug/build/include/IMP/base/utility_macros.h",
-							"settings":
-							{
-								"buffer_size": 5835,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1336,
-										1336
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C++.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 9,
-							"file": "/Users/drussel/src/imp/debug/build/include/IMP/rmf/atom_links.h",
-							"settings":
-							{
-								"buffer_size": 4503,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C++.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 10,
-							"file": "/Users/drussel/src/npc/npc/npctransport/src/SimulationData.cpp",
-							"settings":
-							{
-								"buffer_size": 41446,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										36669,
-										36669
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C++.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 13715.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						}
-					]
-				}
-			],
-			"incremental_find":
-			{
-				"height": 0.0
-			},
-			"input":
-			{
-				"height": 0.0
-			},
-			"layout":
-			{
-				"cells":
-				[
-					[
-						0,
-						0,
-						1,
-						1
-					]
-				],
-				"cols":
-				[
-					0.0,
-					1.0
-				],
-				"rows":
-				[
-					0.0,
-					1.0
-				]
-			},
-			"menu_visible": true,
-			"output.exec":
-			{
-				"height": 453.0
-			},
-			"position": "415 261 1032 1137 0 0 2560 1418 ",
-			"replace":
-			{
-				"height": 0.0
-			},
-			"save_all_on_build": true,
-			"select_file":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"select_project":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"show_minimap": true,
-			"show_open_files": false,
-			"show_tabs": true,
-			"side_bar_visible": true,
-			"side_bar_width": 150.0,
-			"status_bar_visible": true,
-			"window_id": 7,
-			"workspace_name": "/Users/drussel/Library/Application Support/Sublime Text 2/Packages/User/npc.sublime-project"
 		}
 	],
 	"workspaces":

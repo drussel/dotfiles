@@ -47,7 +47,15 @@
 			"file": "Preferences.sublime-settings",
 			"settings":
 			{
-				"buffer_size": 163,
+				"buffer_size": 436,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Default (OSX).sublime-keymap",
+			"settings":
+			{
+				"buffer_size": 53,
 				"line_ending": "Unix"
 			}
 		},
@@ -80,6 +88,14 @@
 			"settings":
 			{
 				"buffer_size": 4503,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/drussel/src/npc/npc/npctransport/src/SimulationData.cpp",
+			"settings":
+			{
+				"buffer_size": 41479,
 				"line_ending": "Unix"
 			}
 		}
@@ -123,7 +139,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -137,6 +153,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"chain_diff"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -154,7 +171,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 10,
 			"sheets":
 			[
 				{
@@ -249,8 +266,8 @@
 						"selection":
 						[
 							[
-								3863,
-								3863
+								165,
+								4376
 							]
 						],
 						"settings":
@@ -260,7 +277,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 595.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -270,15 +287,15 @@
 					"file": "Preferences.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 163,
+						"buffer_size": 436,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								160,
-								160
+								161,
+								161
 							]
 						],
 						"settings":
@@ -293,6 +310,32 @@
 				},
 				{
 					"buffer": 5,
+					"file": "Default (OSX).sublime-keymap",
+					"settings":
+					{
+						"buffer_size": 53,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53,
+								53
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "/Users/drussel/src/npc/npc/npctransport/src/rmf_links.cpp",
 					"settings":
 					{
@@ -303,8 +346,8 @@
 						"selection":
 						[
 							[
-								1491,
-								1491
+								632,
+								632
 							]
 						],
 						"settings":
@@ -314,13 +357,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 441.0,
+						"translation.y": 76.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "/Users/drussel/src/npc/debug/build/include/IMP/npctransport/rmf_links.h",
 					"settings":
 					{
@@ -342,13 +385,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 301.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "/Users/drussel/src/imp/debug/build/include/IMP/base/utility_macros.h",
 					"settings":
 					{
@@ -370,13 +413,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 469.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "/Users/drussel/src/imp/debug/build/include/IMP/rmf/atom_links.h",
 					"settings":
 					{
@@ -398,7 +441,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1348.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/Users/drussel/src/npc/npc/npctransport/src/SimulationData.cpp",
+					"settings":
+					{
+						"buffer_size": 41479,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36091,
+								36091
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 13805.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
