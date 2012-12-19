@@ -1,11 +1,12 @@
 {
 	"folder_history":
 	[
+		"/Users/drussel/src/rmf/rmf",
 		"/Users/drussel/src/imp/imp",
 		"/Users/drussel/src/imp/imp.old",
 		"/Users/drussel/src/npc/npc"
 	],
-	"last_window_id": 7,
+	"last_window_id": 15,
 	"settings":
 	{
 		"new_window_height": 1006.0,
@@ -21,166 +22,7 @@
 					]
 				]
 			},
-			"build_system": "Packages/User/scons_all.sublime-build",
-			"command_palette":
-			{
-				"height": 187.0,
-				"selected_items":
-				[
-					[
-						"test",
-						"Build: test"
-					],
-					[
-						"IMP.rmf",
-						"Build: IMP.rmf"
-					]
-				],
-				"width": 392.0
-			},
-			"console":
-			{
-				"height": 0.0
-			},
-			"distraction_free":
-			{
-				"menu_visible": true,
-				"show_minimap": false,
-				"show_open_files": false,
-				"show_tabs": false,
-				"side_bar_visible": false,
-				"status_bar_visible": false
-			},
-			"file_history":
-			[
-				"/Users/drussel/src/npc/config.py",
-				"/Users/drussel/src/imp/imp/modules/rmf/dependency/RMF/CMakeLists.txt",
-				"/Users/drussel/src/imp/imp/modules/core/benchmark/benchmark_omp_evaluate.cpp",
-				"/Users/drussel/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
-			],
-			"find":
-			{
-				"height": 35.0
-			},
-			"find_in_files":
-			{
-				"height": 0.0,
-				"where_history":
-				[
-				]
-			},
-			"find_state":
-			{
-				"case_sensitive": false,
-				"find_history":
-				[
-					"chain_diff"
-				],
-				"highlight": true,
-				"in_selection": false,
-				"preserve_case": false,
-				"regex": false,
-				"replace_history":
-				[
-				],
-				"reverse": false,
-				"show_context": true,
-				"use_buffer2": true,
-				"whole_word": false,
-				"wrap": true
-			},
-			"incremental_find":
-			{
-				"height": 0.0
-			},
-			"input":
-			{
-				"height": 0.0
-			},
-			"layout":
-			{
-				"cells":
-				[
-					[
-						0,
-						0,
-						1,
-						1
-					]
-				],
-				"cols":
-				[
-					0.0,
-					1.0
-				],
-				"rows":
-				[
-					0.0,
-					1.0
-				]
-			},
-			"menu_visible": true,
-			"output.exec":
-			{
-				"height": 453.0
-			},
-			"replace":
-			{
-				"height": 0.0
-			},
-			"save_all_on_build": true,
-			"select_file":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"select_project":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"show_minimap": true,
-			"show_open_files": false,
-			"show_tabs": true,
-			"side_bar_visible": true,
-			"side_bar_width": 150.0,
-			"status_bar_visible": true
-		},
-		"new_window_width": 1032.0
-	},
-	"windows":
-	[
-		{
-			"auto_complete":
-			{
-				"selected_items":
-				[
-					[
-						"lib",
-						"lib"
-					]
-				]
-			},
-			"buffers":
-			[
-				{
-					"contents": "Searching 3664 files for \"pragma openmp\"\n\n\n\nSearching 3664 files for \"pragma omp\"\n\n/Users/drussel/src/imp/imp.old/modules/atom/src/BrownianDynamics.cpp:\n  240      if (RigidBodyDiffusion::particle_is_instance(get_model(), ps[i])) {\n  241        //std::cout << \"rb\" << std::endl;\n  242: #pragma omp task default(none) firstprivate(i) shared(ps) if (omp_in_parallel())\n  243        {\n  244          advance_rigid_body_0(ps[i], 0, dtfs, ikT);\n  ...\n  257                           << \" was found: \"\n  258                           << p->get_name());\n  259: #pragma omp default(none) task shared(ps, dtfs, ikT)\n  260        advance_ball_0(ps[i], i, dtfs, ikT);\n  261      }\n  262    }\n  263: #pragma omp taskwait\n  264: #pragma omp flush\n  265    if (srk_) {\n  266      get_scoring_function()->evaluate(true);\n  267      for (unsigned int i=0; i< ps.size(); ++i) {\n  268: #pragma omp task default(none) firstprivate(i) shared(ps)\n  269        advance_ball_1(ps[i], i, dtfs, ikT);\n  270      }\n  271: #pragma omp taskwait\n  272: #pragma omp flush\n  273    }\n  274    return dt;\n\n/Users/drussel/src/imp/imp.old/modules/atom/test/test_bd.cpp:\n   16    }\n   17    IMP_NEW(IMP::atom::BrownianDynamics, bd, (m));\n   18: #pragma omp parallel\n   19    {\n   20: #pragma omp single\n   21      {\n   22        for (unsigned int i=0; i< 10; ++i) {\n\n/Users/drussel/src/imp/imp.old/modules/base/src/log.cpp:\n  110  \n  111  void add_to_log(std::string str) {\n  112: #pragma omp critical(IMPLOG)\n  113    {\n  114    IMP_INTERNAL_CHECK(static_cast<int>(internal::initialized)==11111111,\n\n/Users/drussel/src/imp/imp.old/modules/base/src/Object.cpp:\n   67    /*#ifdef _OPENMP\n   68    if (omp_in_parallel()) {\n   69: #pragma omp critical\n   70      std::cerr << \"Freeing objects in parallel is probably not a good thing\"\n   71                << std::endl;\n\n/Users/drussel/src/imp/imp.old/modules/container/src/PredicatePairsRestraint.cpp:\n   30      restraints_[i]->add_score_and_derivatives(sa);\n   31    }\n   32: #pragma omp taskwait\n   33  }\n   34  \n\n/Users/drussel/src/imp/imp.old/modules/container/src/PredicateQuadsRestraint.cpp:\n   30      restraints_[i]->add_score_and_derivatives(sa);\n   31    }\n   32: #pragma omp taskwait\n   33  }\n   34  \n\n/Users/drussel/src/imp/imp.old/modules/container/src/PredicateSingletonsRestraint.cpp:\n   30      restraints_[i]->add_score_and_derivatives(sa);\n   31    }\n   32: #pragma omp taskwait\n   33  }\n   34  \n\n/Users/drussel/src/imp/imp.old/modules/container/src/PredicateTripletsRestraint.cpp:\n   30      restraints_[i]->add_score_and_derivatives(sa);\n   31    }\n   32: #pragma omp taskwait\n   33  }\n   34  \n\n/Users/drussel/src/imp/imp.old/modules/container/test/test_predicate_restraint.cpp:\n   36    // make sure it doesn't hang with openmp\n   37    IMP::base::Pointer<IMP::ScoringFunction> sf= psr->create_scoring_function();\n   38: #pragma omp parallel\n   39    {\n   40: #pragma omp single\n   41      {\n   42        for (unsigned int i=0; i< 20; ++i) {\n\n/Users/drussel/src/imp/imp.old/modules/core/benchmark/benchmark_omp_evaluate.cpp:\n   59  \n   60    void benchmark_omp(IMP::core::RestraintsScoringFunction *sf) {\n   61: #pragma omp parallel firstprivate(sf)\n   62      {\n   63: #pragma omp single\n   64      {\n   65        double time, score=0.0;\n   ..\n   70      }\n   71      }\n   72: #pragma omp parallel firstprivate(sf)\n   73      {\n   74: #pragma omp single\n   75      {\n   76        double time, score=0.0;\n\n/Users/drussel/src/imp/imp.old/modules/kernel/include/internal/attribute_tables.h:\n   86    void add_cache_attribute(Key k, ParticleIndex particle,\n   87                             typename Traits::PassValue value) {\n   88: #pragma omp critical(IMPCache)\n   89      {\n   90        caches_.insert(k);\n   ..\n   93    }\n   94    void clear_caches(ParticleIndex particle) {\n   95: #pragma omp critical(IMPCache)\n   96      {\n   97        for (typename compatibility::set<Key>::const_iterator it=caches_.begin();\n   ..\n  418                       \"Writing the derivatives is not permitted now\");\n  419        double &val=sphere_derivatives_[particle][k.get_index()];\n  420: #pragma omp atomic\n  421        val+=dav;;\n  422      } else if (k.get_index() < 7) {\n  ...\n  424                       \"Writing the derivatives is not permitted now\");\n  425        double &val= internal_coordinate_derivatives_[particle][k.get_index()-4];\n  426: #pragma omp atomic\n  427        val+=dav;\n  428      } else {\n  429        FloatKey nk(k.get_index()-7);\n  430        double &val= derivatives_.access_attribute(nk, particle);\n  431: #pragma omp atomic\n  432        val+=dav;\n  433      }\n\n/Users/drussel/src/imp/imp.old/modules/kernel/include/Key.h:\n   58    static unsigned int find_index(std::string sc) {\n   59      unsigned int ret;\n   60: #pragma omp critical(IMPKey)\n   61      {\n   62        if (get_map().find(sc) == get_map().end()) {\n   ..\n   81    {\n   82      std::string ret;\n   83: #pragma omp critical(IMPKey)\n   84      {\n   85        IMP_INTERNAL_CHECK(static_cast<unsigned int>(i)\n   ..\n  111    static unsigned int add_key(std::string sc) {\n  112      unsigned int ret;\n  113: #pragma omp critical(IMPKey)\n  114      ret= IMP::internal::get_key_data(ID).add_key(sc);\n  115      return ret;\n  ...\n  119    static bool get_key_exists(std::string sc) {\n  120      bool ret;\n  121: #pragma omp critical(IMPKey)\n  122      ret= get_map().find(sc) != get_map().end();\n  123      return ret;\n  ...\n  145    static Key<ID, LazyAdd> add_alias(Key<ID, LazyAdd> old_key,\n  146                                          std::string new_name) {\n  147: #pragma omp critical(IMPKey)\n  148      {\n  149      IMP_INTERNAL_CHECK(get_map().find(new_name) == get_map().end(),\n  ...\n  217  inline void Key<ID, LA>::show_all(std::ostream &out)\n  218  {\n  219: #pragma omp critical(IMPKey)\n  220    internal::get_key_data(ID).show(out);\n  221  }\n  ...\n  225  {\n  226    base::Vector<std::string> str;\n  227: #pragma omp critical(IMPKey)\n  228    {\n  229      for (internal::KeyData::Map::const_iterator it= get_map().begin();\n\n/Users/drussel/src/imp/imp.old/modules/kernel/include/ScoreAccumulator.h:\n   74    void add_score(double score) {\n   75      double wscore= weight_.get_weight()*score;\n   76: #pragma omp atomic\n   77      score_->score += wscore;\n   78      if (score > local_max_) {\n   79: #pragma omp critical (IMPAbort)\n   80        score_->good= false;\n   81      }\n   ..\n   87      if (abort_on_bad_) {\n   88        bool good;\n   89: #pragma omp critical (IMPAbort)\n   90        good= score_->good;\n   91        return !good;\n   92      } else {\n   93        // be lazy for now\n   94:       //#pragma omp flush (score_->score)\n   95        double score= score_->score;\n   96        return score > global_max_;\n\n/Users/drussel/src/imp/imp.old/modules/kernel/src/internal/restraint_evaluation.cpp:\n  100        do_evaluate_one(sa, restraints[i].get(), m);\n  101      }\n  102: #pragma omp taskwait\n  103: #pragma omp flush\n  104    }\n  105    after_protected_evaluate(m, states, sa.get_derivative_accumulator());\n  ...\n  124    {\n  125      unprotected_evaluate_one(sa, restraint, m);\n  126: #pragma omp taskwait\n  127: #pragma omp flush\n  128    }\n  129    after_protected_evaluate(m, states, sa.get_derivative_accumulator());\n\n/Users/drussel/src/imp/imp.old/modules/kernel/src/Model_evaluate.cpp:\n   99          }\n  100  #else\n  101: #pragma omp task default(none) firstprivate(ss) if (omp_in_parallel())\n  102            {\n  103          ss->before_evaluate();\n  ...\n  105  #endif\n  106        }\n  107: #pragma omp taskwait\n  108: #pragma omp flush\n  109        cur_begin=cur_end;\n  110        //IMP_LOG(VERBOSE, \".\" << std::flush);\n  ...\n  151        }\n  152  #else\n  153: #pragma omp task default(none) firstprivate(ss, accum) if (omp_in_parallel())\n  154        {\n  155        ss->after_evaluate(calc_derivs?&accum:nullptr);\n  ...\n  158        //IMP_LOG(VERBOSE, \".\" << std::flush);\n  159      }\n  160: #pragma omp taskwait\n  161: #pragma omp flush\n  162      cur_begin=cur_end;\n  163      }\n\n/Users/drussel/src/imp/imp.old/modules/kernel/src/Restraint.cpp:\n  222    // implement these in macros to avoid extra virtual function call\n  223    ScoreAccumulator nsa(sa, this);\n  224: #pragma omp task default(none) firstprivate(nsa) if (omp_in_parallel())\n  225    do_add_score_and_derivatives(nsa);\n  226    set_was_used(true);\n\n/Users/drussel/src/imp/imp.old/modules/kernel/src/RestraintSet.cpp:\n   68    }\n   69    // for child tasks\n   70: #pragma omp taskwait\n   71  }\n   72  \n\n/Users/drussel/src/imp/imp.old/modules/rmf/benchmark/benchmark_brownian.cpp:\n  267    }\n  268    It it= create_restraints<PR>(link, lb, bottom, o);\n  269: #pragma omp parallel num_threads(4)\n  270    {\n  271: #pragma omp single\n  272      {\n  273        double total=0, runtime=0;\n\n/Users/drussel/src/imp/imp.old/README.md:\n    8  \n    9  The parallel work is done through OpenMP tasks. Each piece of code that can be done in parallel is labeled with\n   10: `#pragma omp task`. Waiting for all launched tasks to finish is done via `#pragma omp taskwait`. Note that if a task creates other tasks,\n   11: it must call taskwait as taskwait is not recursive. Updates to shared quantities are labeled with either `#pragma omp atomic`\n   12: or `#pragma omp critical`.\n   13  \n   14  To use multithreaded evaluation:\n   ..\n   22  2) the main .cpp file must have\n   23  ```\n   24: #pragma omp parallel\n   25  {\n   26: #pragma omp single\n   27    {\n   28       do stuff\n\n/Users/drussel/src/imp/imp.old/tools/maintenance/container_templates/container/PredicateNAMEsRestraint.cc:\n   28      restraints_[i]->add_score_and_derivatives(sa);\n   29    }\n   30: #pragma omp taskwait\n   31  }\n   32  \n\n58 matches across 20 files\n",
-					"settings":
-					{
-						"buffer_size": 9729,
-						"line_ending": "Unix",
-						"name": "Find Results",
-						"scratch": true
-					}
-				}
-			],
-			"build_system": "Packages/User/scons_all.sublime-build",
+			"build_system": "Packages/User/ninja.sublime-build",
 			"command_palette":
 			{
 				"height": 47.0,
@@ -208,487 +50,17 @@
 			},
 			"file_history":
 			[
-				"/Users/drussel/src/imp/imp/modules/rmf/dependency/RMF/CMakeLists.txt",
-				"/Users/drussel/src/imp/imp/modules/core/benchmark/benchmark_omp_evaluate.cpp",
-				"/Users/drussel/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
-			],
-			"find":
-			{
-				"height": 0.0
-			},
-			"find_in_files":
-			{
-				"height": 0.0,
-				"where_history":
-				[
-					"/Users/drussel/src/imp/imp.old"
-				]
-			},
-			"find_state":
-			{
-				"case_sensitive": false,
-				"find_history":
-				[
-					"pragma omp",
-					"pragma openmp"
-				],
-				"highlight": true,
-				"in_selection": false,
-				"preserve_case": false,
-				"regex": false,
-				"replace_history":
-				[
-				],
-				"reverse": false,
-				"show_context": true,
-				"use_buffer2": true,
-				"whole_word": false,
-				"wrap": true
-			},
-			"groups":
-			[
-				{
-					"selected": 0,
-					"sheets":
-					[
-						{
-							"buffer": 0,
-							"settings":
-							{
-								"buffer_size": 9729,
-								"regions":
-								{
-									"match":
-									{
-										"flags": 112,
-										"regions":
-										[
-											[
-												287,
-												297
-											],
-											[
-												555,
-												565
-											],
-											[
-												689,
-												699
-											],
-											[
-												717,
-												727
-											],
-											[
-												869,
-												879
-											],
-											[
-												997,
-												1007
-											],
-											[
-												1025,
-												1035
-											],
-											[
-												1211,
-												1221
-											],
-											[
-												1250,
-												1260
-											],
-											[
-												1447,
-												1457
-											],
-											[
-												1694,
-												1704
-											],
-											[
-												1992,
-												2002
-											],
-											[
-												2189,
-												2199
-											],
-											[
-												2391,
-												2401
-											],
-											[
-												2591,
-												2601
-											],
-											[
-												2857,
-												2867
-											],
-											[
-												2896,
-												2906
-											],
-											[
-												3148,
-												3158
-											],
-											[
-												3206,
-												3216
-											],
-											[
-												3314,
-												3324
-											],
-											[
-												3372,
-												3382
-											],
-											[
-												3667,
-												3677
-											],
-											[
-												3820,
-												3830
-											],
-											[
-												4112,
-												4122
-											],
-											[
-												4375,
-												4385
-											],
-											[
-												4558,
-												4568
-											],
-											[
-												4769,
-												4779
-											],
-											[
-												4921,
-												4931
-											],
-											[
-												5121,
-												5131
-											],
-											[
-												5322,
-												5332
-											],
-											[
-												5582,
-												5592
-											],
-											[
-												5781,
-												5791
-											],
-											[
-												5928,
-												5938
-											],
-											[
-												6222,
-												6232
-											],
-											[
-												6321,
-												6331
-											],
-											[
-												6469,
-												6479
-											],
-											[
-												6628,
-												6638
-											],
-											[
-												6909,
-												6919
-											],
-											[
-												6937,
-												6947
-											],
-											[
-												7124,
-												7134
-											],
-											[
-												7152,
-												7162
-											],
-											[
-												7368,
-												7378
-											],
-											[
-												7538,
-												7548
-											],
-											[
-												7566,
-												7576
-											],
-											[
-												7709,
-												7719
-											],
-											[
-												7941,
-												7951
-											],
-											[
-												7969,
-												7979
-											],
-											[
-												8219,
-												8229
-											],
-											[
-												8479,
-												8489
-											],
-											[
-												8673,
-												8683
-											],
-											[
-												8727,
-												8737
-											],
-											[
-												8977,
-												8987
-											],
-											[
-												9050,
-												9060
-											],
-											[
-												9227,
-												9237
-											],
-											[
-												9258,
-												9268
-											],
-											[
-												9392,
-												9402
-											],
-											[
-												9429,
-												9439
-											],
-											[
-												9664,
-												9674
-											]
-										],
-										"scope": ""
-									}
-								},
-								"selection":
-								[
-									[
-										554,
-										606
-									]
-								],
-								"settings":
-								{
-									"detect_indentation": false,
-									"output_tag": 2,
-									"result_base_dir": "",
-									"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-									"result_line_regex": "^ +([0-9]+):",
-									"scroll_past_end": true,
-									"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						}
-					]
-				}
-			],
-			"incremental_find":
-			{
-				"height": 0.0
-			},
-			"input":
-			{
-				"height": 0.0
-			},
-			"layout":
-			{
-				"cells":
-				[
-					[
-						0,
-						0,
-						1,
-						1
-					]
-				],
-				"cols":
-				[
-					0.0,
-					1.0
-				],
-				"rows":
-				[
-					0.0,
-					1.0
-				]
-			},
-			"menu_visible": true,
-			"output.exec":
-			{
-				"height": 453.0
-			},
-			"position": "0 0 779 1028 0 0 1680 1028 ",
-			"replace":
-			{
-				"height": 0.0
-			},
-			"save_all_on_build": true,
-			"select_file":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"select_project":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"show_minimap": true,
-			"show_open_files": false,
-			"show_tabs": true,
-			"side_bar_visible": true,
-			"side_bar_width": 150.0,
-			"status_bar_visible": true,
-			"window_id": 5,
-			"workspace_name": "/Users/drussel/src/imp/imp.old/OpenMP.sublime-project"
-		},
-		{
-			"auto_complete":
-			{
-				"selected_items":
-				[
-					[
-						"lib",
-						"lib"
-					]
-				]
-			},
-			"buffers":
-			[
-				{
-					"file": "modules/base/src/log.cpp",
-					"settings":
-					{
-						"buffer_size": 3291,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "modules/kernel/include/internal/attribute_tables.h",
-					"settings":
-					{
-						"buffer_size": 26050,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "modules/kernel/include/Key.h",
-					"settings":
-					{
-						"buffer_size": 6433,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "modules/kernel/include/ScoreAccumulator.h",
-					"settings":
-					{
-						"buffer_size": 3480,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "modules/kernel/src/Model_evaluate.cpp",
-					"settings":
-					{
-						"buffer_size": 6099,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "modules/kernel/src/Restraint.cpp",
-					"settings":
-					{
-						"buffer_size": 8185,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "modules/atom/src/BrownianDynamics.cpp",
-					"settings":
-					{
-						"buffer_size": 11722,
-						"line_ending": "Unix"
-					}
-				}
-			],
-			"build_system": "Packages/User/scons_all.sublime-build",
-			"command_palette":
-			{
-				"height": 47.0,
-				"selected_items":
-				[
-					[
-						"IMP.rmf",
-						"Build: IMP.rmf"
-					]
-				],
-				"width": 392.0
-			},
-			"console":
-			{
-				"height": 0.0
-			},
-			"distraction_free":
-			{
-				"menu_visible": true,
-				"show_minimap": false,
-				"show_open_files": false,
-				"show_tabs": false,
-				"side_bar_visible": false,
-				"status_bar_visible": false
-			},
-			"file_history":
-			[
+				"/Users/drussel/src/rmf/debug/make.sublime-build",
+				"/Users/drussel/src/imp/imp/modules/rmf/dependency/RMF/include/RMF/FileConstHandle.h",
+				"/Users/drussel/src/imp/imp/modules/rmf/dependency/RMF/src/backend/hdf5/HDF5DataSetCache1D.h",
+				"/Users/drussel/src/imp/imp/modules/rmf/dependency/RMF/src/backend/hdf5/HDF5SharedData.cpp",
+				"/Users/drussel/src/imp/imp/modules/rmf/dependency/RMF/src/backend/hdf5/HDF5DataSetCache3D.h",
+				"/Users/drussel/src/imp/imp/modules/atom/src/BrownianDynamics.cpp",
+				"/Users/drussel/src/imp/imp/modules/kernel/src/Restraint.cpp",
+				"/Users/drussel/src/imp/imp/modules/kernel/src/Model_evaluate.cpp",
+				"/Users/drussel/src/imp/imp/modules/kernel/include/ScoreAccumulator.h",
+				"/Users/drussel/src/imp/imp/modules/kernel/include/Key.h",
+				"/Users/drussel/src/imp/imp/modules/kernel/include/internal/attribute_tables.h",
 				"/Users/drussel/src/imp/imp/modules/container/include/ClosePairContainer.h",
 				"/Users/drussel/src/imp/imp/modules/core/include/ExcludedVolumeRestraint.h",
 				"/Users/drussel/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
@@ -713,6 +85,330 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"path",
+					"extract",
+					"_data",
+					"_datsa",
+					" >=",
+					"flush",
+					"frame",
+					"add_frame",
+					"+=",
+					"slack",
+					"slack estimate"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"_index"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 31.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 25.0
+			},
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 227.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 1026.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"lib",
+						"lib"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "modules/base/src/log.cpp",
+					"settings":
+					{
+						"buffer_size": 3225,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "modules/rmf/test/test_errors.py",
+					"settings":
+					{
+						"buffer_size": 921,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "modules/rmf/test/test_errors.cpp",
+					"settings":
+					{
+						"buffer_size": 241,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "modules/kernel/include/internal/input_output_exception.h",
+					"settings":
+					{
+						"buffer_size": 1524,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "modules/kernel/src/internal/input_output_exception.cpp",
+					"settings":
+					{
+						"buffer_size": 2024,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "modules/kernel/src/Model_evaluate.cpp",
+					"settings":
+					{
+						"buffer_size": 6511,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "modules/kernel/src/internal/restraint_evaluation.cpp",
+					"settings":
+					{
+						"buffer_size": 4841,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "modules/base/pyext/IMP_base.exceptions.i",
+					"settings":
+					{
+						"buffer_size": 6891,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "modules/base/pyext/swig.i-in",
+					"settings":
+					{
+						"buffer_size": 3415,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/drussel/src/imp/debug/config.py",
+					"settings":
+					{
+						"buffer_size": 244,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/drussel/src/imp/debug/build/include/IMP/internal/input_output_exception.h",
+					"settings":
+					{
+						"buffer_size": 1539,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/drussel/src/imp/debug/build/src/kernel/all.cpp",
+					"settings":
+					{
+						"buffer_size": 5547,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "modules/base/include/exception.h",
+					"settings":
+					{
+						"buffer_size": 8073,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "modules/base/src/exception.cpp",
+					"settings":
+					{
+						"buffer_size": 2143,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "modules/kernel/include/internal/attribute_tables.h",
+					"settings":
+					{
+						"buffer_size": 25284,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "modules/rmf/src/frames.cpp",
+					"settings":
+					{
+						"buffer_size": 2976,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "scons_tools/variables.py",
+					"settings":
+					{
+						"buffer_size": 27160,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "Packages/User/scons_all.sublime-build",
+			"command_palette":
+			{
+				"height": 47.0,
+				"selected_items":
+				[
+					[
+						"IMP.rmf",
+						"Build: IMP.rmf"
+					]
+				],
+				"width": 392.0
+			},
+			"console":
+			{
+				"height": 0.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/drussel/src/imp/imp/modules/base/include/exception.h",
+				"/Users/drussel/src/imp/imp/modules/base/include/open_mp.h",
+				"/Users/drussel/src/imp/imp/modules/rmf/src/frames.cpp",
+				"/Users/drussel/src/imp/imp/modules/rmf/dependency/RMF/include/RMF/FileHandle.h",
+				"/Users/drussel/src/imp/imp/modules/kernel/include/container_base.h",
+				"/Users/drussel/src/imp/imp/modules/kernel/src/Container.cpp",
+				"/Users/drussel/src/imp/imp/modules/kernel/test/test_model.py",
+				"/Users/drussel/src/imp/imp/modules/kernel/include/internal/attribute_tables.h",
+				"/Users/drussel/src/imp/imp/modules/kernel/include/declare_Model.h",
+				"/Users/drussel/src/imp/imp/modules/kernel/include/Model.h",
+				"/Users/drussel/src/imp/imp/tools/maintenance/container_templates/container/PredicateNAMEsRestraint.cc",
+				"/Users/drussel/src/imp/imp/modules/isd/test/test_GaussianProcessInterpolationRestraint.py",
+				"/Users/drussel/src/imp/imp/modules/rmf/dependency/RMF/include/RMF/FileConstHandle.h",
+				"/Users/drussel/src/imp/imp/modules/rmf/dependency/RMF/src/backend/hdf5/HDF5DataSetCache1D.h",
+				"/Users/drussel/src/imp/imp/modules/rmf/dependency/RMF/src/backend/hdf5/HDF5SharedData.cpp",
+				"/Users/drussel/src/imp/imp/modules/rmf/dependency/RMF/src/backend/hdf5/HDF5DataSetCache3D.h",
+				"/Users/drussel/src/imp/imp/modules/atom/src/BrownianDynamics.cpp",
+				"/Users/drussel/src/imp/imp/modules/kernel/src/Restraint.cpp",
+				"/Users/drussel/src/imp/imp/modules/kernel/src/Model_evaluate.cpp",
+				"/Users/drussel/src/imp/imp/modules/kernel/include/ScoreAccumulator.h",
+				"/Users/drussel/src/imp/imp/modules/kernel/include/Key.h",
+				"/Users/drussel/src/imp/imp/modules/container/include/ClosePairContainer.h",
+				"/Users/drussel/src/imp/imp/modules/core/include/ExcludedVolumeRestraint.h",
+				"/Users/drussel/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+				"/Users/drussel/src/imp/imp/modules/rmf/dependency/RMF/CMakeLists.txt",
+				"/Users/drussel/src/imp/imp/modules/core/benchmark/benchmark_omp_evaluate.cpp"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+					"/Users/drussel/src/imp/imp",
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"cxx11",
+					"input_outpu",
+					"inputoutput",
+					"exception",
+					" >=",
+					"flush",
+					"frame",
+					"add_frame",
 					"+=",
 					"slack",
 					"slack estimate"
@@ -733,7 +429,7 @@
 			"groups":
 			[
 				{
-					"selected": 6,
+					"selected": 3,
 					"sheets":
 					[
 						{
@@ -741,43 +437,15 @@
 							"file": "modules/base/src/log.cpp",
 							"settings":
 							{
-								"buffer_size": 3291,
+								"buffer_size": 3225,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										2063,
-										2063
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C++.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 880.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "modules/kernel/include/internal/attribute_tables.h",
-							"settings":
-							{
-								"buffer_size": 26050,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1019,
-										1019
+										0,
+										0
 									]
 								],
 								"settings":
@@ -793,47 +461,73 @@
 							"type": "text"
 						},
 						{
-							"buffer": 2,
-							"file": "modules/kernel/include/Key.h",
+							"buffer": 1,
+							"file": "modules/rmf/test/test_errors.py",
 							"settings":
 							{
-								"buffer_size": 6433,
+								"buffer_size": 921,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										6017,
-										6017
+										873,
+										873
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/C++/C++.tmLanguage",
-									"tab_size": 2,
+									"syntax": "Packages/Python/Python.tmLanguage",
+									"tab_size": 4,
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 2692.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "modules/rmf/test/test_errors.cpp",
+							"settings":
+							{
+								"buffer_size": 241,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										172,
+										172
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
 						},
 						{
 							"buffer": 3,
-							"file": "modules/kernel/include/ScoreAccumulator.h",
+							"file": "modules/kernel/include/internal/input_output_exception.h",
 							"settings":
 							{
-								"buffer_size": 3480,
+								"buffer_size": 1524,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										2749,
-										2749
+										240,
+										240
 									]
 								],
 								"settings":
@@ -843,53 +537,54 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 855.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
 						},
 						{
 							"buffer": 4,
-							"file": "modules/kernel/src/Model_evaluate.cpp",
+							"file": "modules/kernel/src/internal/input_output_exception.cpp",
 							"settings":
 							{
-								"buffer_size": 6099,
+								"buffer_size": 2024,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										5131,
-										5088
+										1902,
+										1902
 									]
 								],
 								"settings":
 								{
+									"auto_name": "",
 									"syntax": "Packages/C++/C++.tmLanguage",
 									"tab_size": 2,
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 1685.0,
+								"translation.y": 628.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
 						},
 						{
 							"buffer": 5,
-							"file": "modules/kernel/src/Restraint.cpp",
+							"file": "modules/kernel/src/Model_evaluate.cpp",
 							"settings":
 							{
-								"buffer_size": 8185,
+								"buffer_size": 6511,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										7701,
-										7701
+										3324,
+										3324
 									]
 								],
 								"settings":
@@ -899,25 +594,25 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 2731.0,
+								"translation.y": 1140.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
 						},
 						{
 							"buffer": 6,
-							"file": "modules/atom/src/BrownianDynamics.cpp",
+							"file": "modules/kernel/src/internal/restraint_evaluation.cpp",
 							"settings":
 							{
-								"buffer_size": 11722,
+								"buffer_size": 4841,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										8674,
-										8674
+										2377,
+										2377
 									]
 								],
 								"settings":
@@ -927,7 +622,283 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 3185.0,
+								"translation.y": 948.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "modules/base/pyext/IMP_base.exceptions.i",
+							"settings":
+							{
+								"buffer_size": 6891,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3424,
+										3424
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1065.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 8,
+							"file": "modules/base/pyext/swig.i-in",
+							"settings":
+							{
+								"buffer_size": 3415,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										155,
+										155
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 9,
+							"file": "/Users/drussel/src/imp/debug/config.py",
+							"settings":
+							{
+								"buffer_size": 244,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										244,
+										244
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 10,
+							"file": "/Users/drussel/src/imp/debug/build/include/IMP/internal/input_output_exception.h",
+							"settings":
+							{
+								"buffer_size": 1539,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 11,
+							"file": "/Users/drussel/src/imp/debug/build/src/kernel/all.cpp",
+							"settings":
+							{
+								"buffer_size": 5547,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										936,
+										936
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 12,
+							"file": "modules/base/include/exception.h",
+							"settings":
+							{
+								"buffer_size": 8073,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										275,
+										275
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 341.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 13,
+							"file": "modules/base/src/exception.cpp",
+							"settings":
+							{
+								"buffer_size": 2143,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2046,
+										2046
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 885.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 14,
+							"file": "modules/kernel/include/internal/attribute_tables.h",
+							"settings":
+							{
+								"buffer_size": 25284,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 15,
+							"file": "modules/rmf/src/frames.cpp",
+							"settings":
+							{
+								"buffer_size": 2976,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1316,
+										1316
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 125.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 16,
+							"file": "scons_tools/variables.py",
+							"settings":
+							{
+								"buffer_size": 27160,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										21274,
+										21274
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 6213.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
@@ -970,7 +941,7 @@
 			{
 				"height": 453.0
 			},
-			"position": "782 0 842 1028 0 0 1680 1028 ",
+			"position": "0 0 1619 1028 0 0 1680 1028 ",
 			"replace":
 			{
 				"height": 0.0
@@ -996,19 +967,392 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 223.0,
 			"status_bar_visible": true,
-			"window_id": 6,
+			"window_id": 14,
 			"workspace_name": "/Users/drussel/src/imp/imp/imp.sublime-project"
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"lib",
+						"lib"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "src/internal/SharedData.cpp",
+					"settings":
+					{
+						"buffer_size": 5961,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "src/exceptions.cpp",
+					"settings":
+					{
+						"buffer_size": 2798,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "include/RMF/exceptions.h",
+					"settings":
+					{
+						"buffer_size": 4933,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "AvroCpp/CMakeLists.txt",
+					"settings":
+					{
+						"buffer_size": 4939,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "AvroCpp/test/AvrogencppTests.cc",
+					"settings":
+					{
+						"buffer_size": 6489,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "Packages/User/scons_all.sublime-build",
+			"command_palette":
+			{
+				"height": 47.0,
+				"selected_items":
+				[
+					[
+						"IMP.rmf",
+						"Build: IMP.rmf"
+					]
+				],
+				"width": 392.0
+			},
+			"console":
+			{
+				"height": 0.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/drussel/src/rmf/rmf/include/RMF/utility.h",
+				"/Users/drussel/src/rmf/rmf/src/hdf5_wrapper.cpp",
+				"/Users/drussel/src/imp/imp/modules/base/include/exception.h",
+				"/Users/drussel/src/imp/imp/modules/base/include/open_mp.h",
+				"/Users/drussel/src/imp/imp/modules/rmf/src/frames.cpp",
+				"/Users/drussel/src/imp/imp/modules/rmf/dependency/RMF/include/RMF/FileHandle.h",
+				"/Users/drussel/src/imp/imp/modules/kernel/include/container_base.h",
+				"/Users/drussel/src/imp/imp/modules/kernel/src/Container.cpp",
+				"/Users/drussel/src/imp/imp/modules/kernel/test/test_model.py",
+				"/Users/drussel/src/imp/imp/modules/kernel/include/internal/attribute_tables.h",
+				"/Users/drussel/src/imp/imp/modules/kernel/include/declare_Model.h",
+				"/Users/drussel/src/imp/imp/modules/kernel/include/Model.h",
+				"/Users/drussel/src/imp/imp/tools/maintenance/container_templates/container/PredicateNAMEsRestraint.cc",
+				"/Users/drussel/src/imp/imp/modules/isd/test/test_GaussianProcessInterpolationRestraint.py",
+				"/Users/drussel/src/imp/imp/modules/rmf/dependency/RMF/include/RMF/FileConstHandle.h",
+				"/Users/drussel/src/imp/imp/modules/rmf/dependency/RMF/src/backend/hdf5/HDF5DataSetCache1D.h",
+				"/Users/drussel/src/imp/imp/modules/rmf/dependency/RMF/src/backend/hdf5/HDF5SharedData.cpp",
+				"/Users/drussel/src/imp/imp/modules/rmf/dependency/RMF/src/backend/hdf5/HDF5DataSetCache3D.h",
+				"/Users/drussel/src/imp/imp/modules/atom/src/BrownianDynamics.cpp",
+				"/Users/drussel/src/imp/imp/modules/kernel/src/Restraint.cpp",
+				"/Users/drussel/src/imp/imp/modules/kernel/src/Model_evaluate.cpp",
+				"/Users/drussel/src/imp/imp/modules/kernel/include/ScoreAccumulator.h",
+				"/Users/drussel/src/imp/imp/modules/kernel/include/Key.h",
+				"/Users/drussel/src/imp/imp/modules/container/include/ClosePairContainer.h",
+				"/Users/drussel/src/imp/imp/modules/core/include/ExcludedVolumeRestraint.h",
+				"/Users/drussel/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+				"/Users/drussel/src/imp/imp/modules/rmf/dependency/RMF/CMakeLists.txt",
+				"/Users/drussel/src/imp/imp/modules/core/benchmark/benchmark_omp_evaluate.cpp"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 93.0,
+				"where_history":
+				[
+					"/Users/drussel/src/imp/imp",
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"test",
+					"*this",
+					"char",
+					"input_outpu",
+					"inputoutput",
+					"exception",
+					" >=",
+					"flush",
+					"frame",
+					"add_frame",
+					"+=",
+					"slack",
+					"slack estimate"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"e"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "src/internal/SharedData.cpp",
+							"settings":
+							{
+								"buffer_size": 5961,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4551,
+										4551
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1204.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "src/exceptions.cpp",
+							"settings":
+							{
+								"buffer_size": 2798,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2703,
+										2703
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 549.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "include/RMF/exceptions.h",
+							"settings":
+							{
+								"buffer_size": 4933,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1959,
+										1979
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 563.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "AvroCpp/CMakeLists.txt",
+							"settings":
+							{
+								"buffer_size": 4939,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4350,
+										4350
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1470.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "AvroCpp/test/AvrogencppTests.cc",
+							"settings":
+							{
+								"buffer_size": 6489,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1060,
+										1060
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 31.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 453.0
+			},
+			"position": "0 0 1619 1028 0 0 1680 1028 ",
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 223.0,
+			"status_bar_visible": true,
+			"window_id": 15,
+			"workspace_name": "/Users/drussel/src/rmf/rmf/rmf.sublime-project"
 		}
 	],
 	"workspaces":
 	{
 		"recent_workspaces":
 		[
-			"/Users/drussel/Library/Application Support/Sublime Text 2/Packages/User/npc.sublime-project",
+			"/Users/drussel/src/rmf/rmf/rmf.sublime-project",
 			"/Users/drussel/src/imp/imp/imp.sublime-project",
-			"/Users/drussel/src/imp/imp.old/OpenMP.sublime-project"
+			"/Users/drussel/src/imp/imp.old/OpenMP.sublime-project",
+			"/Users/drussel/Library/Application Support/Sublime Text 2/Packages/User/npc.sublime-project"
 		]
 	}
 }
