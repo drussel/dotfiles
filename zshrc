@@ -139,3 +139,8 @@ bindkey '^B' backward-char
 bindkey '^F' forward-char
 
 source ~/.zshrc.local
+
+function precmd      {
+          echo `date +%Y-%m-%d--%H-%M-%S` $HOST $PWD `history -1` >> ~/.full_history
+}
+precmd=promptFunc
