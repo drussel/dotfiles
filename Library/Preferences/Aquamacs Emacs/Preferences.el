@@ -45,12 +45,12 @@
 
 (add-hook 'latex-mode-hook
            '(lambda ()
-	      (load flyspell-mode)	
+	      (load flyspell-mode)
 	      (flyspell-mode)
 	      (flyspell-buffer)))
 
 (add-hook 'reftex-mode-hook
-           '(lambda ()	
+           '(lambda ()
 	      (flyspell-mode)
 	      (flyspell-buffer)))
 
@@ -86,15 +86,15 @@
 ;(setq auto-save-file-name-transforms
 ;      `((".*" ,user-temporary-file-directory t)))
 
-;(require 'auto-save) 
-;(require 'backup-dir) 
+;(require 'auto-save)
+;(require 'backup-dir)
 
 ;(defvar user-temporary-file-directory
 ;  (concat (temp-directory) "/" (user-login-name)))
 ;(make-directory user-temporary-file-directory t)
 ;(setq backup-by-copying t)
 ;(setq auto-save-directory user-temporary-file-directory)
-;(setq auto-save-list-file-prefix 
+;(setq auto-save-list-file-prefix
 ;         (concat user-temporary-file-directory ".auto-saves-"))
 ;(setq bkup-backup-directory-info
 ;      `((t ,user-temporary-file-directory full-path)))
@@ -147,3 +147,10 @@
          (delete-blank-lines))))
 
 (add-hook 'write-file-hooks 'delete-trailing-blank-lines)
+
+(require 'ansi-color)
+(defun colorize-compilation-buffer ()
+  (toggle-read-only)
+  (ansi-color-filter-region (point-min) (point-max))
+  (toggle-read-only))
+(add-hook 'compilation-filter-hook 'colorize-compilation-buffer)
