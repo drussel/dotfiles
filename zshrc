@@ -131,6 +131,8 @@
 		mv /tmp/swapfile_zsh $2
 	}
 
+        alias cmake="cmake -G Ninja"
+
 bindkey -e
 bindkey '^D' delete-char
 bindkey '^A' beginning-of-line
