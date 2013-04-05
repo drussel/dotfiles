@@ -39,7 +39,7 @@
 (global-set-key [f7] 'compile)
 (global-set-key [f6] 'gud-gdb)
 
-(setq compile-command "scons -k -j $NUMPROCS")
+(setq compile-command "ninja -j 4")
 
 (autoload 'flyspell-mode "flyspell" "On-the-fly spelling checking" t)
 
@@ -154,3 +154,10 @@
   (ansi-color-filter-region (point-min) (point-max))
   (toggle-read-only))
 (add-hook 'compilation-filter-hook 'colorize-compilation-buffer)
+
+(autoload 'andersl-cmake-font-lock-activate "andersl-cmake-font-lock" nil t)
+(add-hook 'cmake-mode-hook 'andersl-cmake-font-lock-activate)
+(setq auto-mode-alist
+      (cons '("CMakeLists.txt" . andersl-cmake-font-lock-activate) auto-mode-alist))
+(setq auto-mode-alist
+      (cons '("\\.cmake$" . andersl-cmake-font-lock-activate) auto-mode-alist))
