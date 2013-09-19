@@ -10,26 +10,29 @@
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
   [color]
-    ui = auto
   [color "branch"]
-    current = yellow reverse
-    local = yellow
-    remote = green
+	current = yellow
+	local = yellow
+	remote = green
+	current = yellow
   [color "diff"]
-    meta = yellow bold
-    frag = magenta bold
-    old = red bold
-    new = green bold
+	meta = yellow bold
+	frag = magenta bold
+	old = red
+	new = cyan
   [color "status"]
-    added = yellow
-    changed = green
-    untracked = cyan
+	added = yellow
+	changed = green
+	untracked = cyan
   [color]
-    ui = true
+	ui = true
+	branch = true
+	diff = true
+	status = true
   [color "diff"]
     whitespace = red reverse
   [core]
-    whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
+	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
   [alias]
     st = status
     ci = commit
@@ -45,14 +48,23 @@
     # Show files ignored by git:
     ign = ls-files -o -i --exclude-standard
 [push]
-	default = matching
+	default = nothing
 [alias]
         cleanall = "!git clean -fd; rm -f `find . -name \\*.pyc -name \\*.bak -name \\*.old -name \\*.~ -name .DS_Store`"
         amend = "!git log -n 1 --pretty=tformat:%s%n%n%b | git commit -F - --amend"
         ignore="!([ ! -e .gitignore ] && touch .gitignore) | echo $1 >>.gitignore"
         master="checkout master"
         develop="checkout develop"
+	imp = !tools/git/gitflow/git-imp
 [credential]
 	helper = osxkeychain
 [commit]
 	template = tools/git/commit_message.txt
+[log]
+	decorate = full
+[branch "develop"]
+	rebase = true
+[branch "master"]
+	rebase = true
+[branch]
+	autosetuprebase = always
