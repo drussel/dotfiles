@@ -19,5 +19,5 @@ ln -s ~/src/dotfiles/Library/Preferences/Aquamacs\ Emacs/customizations.el
 rm -f andersl-cmake-font-lock.el
 ln -s ~/src/dotfiles/Library/Preferences/Aquamacs\ Emacs/andersl-cmake-font-lock.el
 cd
-rm .gitconfig
+rm -f .gitconfig
 ln -s src/dotfiles/gitconfig .gitconfig
