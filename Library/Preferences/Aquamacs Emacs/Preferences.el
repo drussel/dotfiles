@@ -170,3 +170,13 @@
   (global-set-key [mouse-5] '(lambda ()
                                (interactive)
                                (scroll-up 1))))
+
+(load "~/src/dotfiles/lib/clang-format.el")
+(global-set-key [C-M-tab] 'clang-format-region)
+(add-hook 'c++-mode-hook 'my-c++-bindings)
+(defun my-c++-bindings ()
+  (define-key c++-mode-map [tab] 'clang-format-region))
+
+(add-to-list 'load-path "~/src/dotfiles/lib/")
+    (require 'py-autopep8)
+    (add-hook 'before-save-hook 'python-fmt-before-save)
