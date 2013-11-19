@@ -10,6 +10,8 @@ rm -f .gdbinit
 ln -s src/dotfiles/gdbinit .gdbinit
 rm -rf .emacs
 ln -s src/dotfiles/emacs .emacs
+rm -rf .emacs
+ln -s src/dotfiles/liquidpromptrc .liquidpromptrc
 mkdir -p Library/Preferences/Aquamacs\ Emacs
 cd Library/Preferences/Aquamacs\ Emacs
 rm -f Preferences.el
