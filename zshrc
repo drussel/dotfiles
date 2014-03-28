@@ -150,3 +150,5 @@ precmd=promptFunc
 if [ -f $(brew --prefix)/bin/liquidprompt ]; then
     . $(brew --prefix)/bin/liquidprompt
 fi
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
