@@ -10,7 +10,7 @@ rm -f .gdbinit
 ln -s src/dotfiles/gdbinit .gdbinit
 rm -rf .emacs
 ln -s src/dotfiles/emacs .emacs
-rm -rf .emacs
+rm -rf .liquidpromptrc
 ln -s src/dotfiles/liquidpromptrc .liquidpromptrc
 mkdir -p Library/Preferences/Aquamacs\ Emacs
 cd Library/Preferences/Aquamacs\ Emacs
@@ -23,3 +23,11 @@ ln -s ~/src/dotfiles/Library/Preferences/Aquamacs\ Emacs/andersl-cmake-font-lock
 cd
 rm -f .gitconfig
 ln -s src/dotfiles/gitconfig .gitconfig
+
+rm -rf .launchd.conf
+ln -s src/dotfiles/launchd.conf .launchd.conf
+touch .launchd.local.conf
+
+mkdir -p Library/LaunchAgents/
+rm -f  Library/LaunchAgents/local.launchd.conf.plist
+ln -s src/dotfiles/Library/LaunchAgents/local.launchd.conf.plist Library/LaunchAgents/local.launchd.conf.plist

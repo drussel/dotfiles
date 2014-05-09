@@ -5,7 +5,7 @@
 	excludesfile = /Users/drussel/.gitignore_global
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
@@ -41,9 +41,15 @@
     df = diff
     dc = diff --cached
     lg = log -p
+    sbstatus = status -sb
     lol = log --graph --decorate --pretty=oneline --abbrev-commit
     lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+    lolc = log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
     ls = ls-files
+    branches = branch -a
+    remotes = remote -v
+    tags = tag -l
+
 
     # Show files ignored by git:
     ign = ls-files -o -i --exclude-standard
@@ -58,8 +64,6 @@
 	imp = !tools/git/gitflow/git-imp
 [credential]
 	helper = osxkeychain
-[commit]
-	template = tools/git/commit_message.txt
 [log]
 	decorate = full
 [branch "develop"]
@@ -68,3 +72,5 @@
 	rebase = true
 [branch]
 	autosetuprebase = always
+[help]
+	autocorrect = 1
