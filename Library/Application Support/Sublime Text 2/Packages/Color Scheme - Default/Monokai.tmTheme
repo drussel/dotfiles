@@ -31,14 +31,14 @@
 				<string>#9D550FB0</string>
 
 				<key>bracketsForeground</key>
-				<string>#F8F8F2A5</string>
+				<string>#FF8000</string>
 				<key>bracketsOptions</key>
-				<string>underline</string>
+				<string>foreground</string>
 
 				<key>bracketContentsForeground</key>
-				<string>#F8F8F2A5</string>
+				<string>#FF8000</string>
 				<key>bracketContentsOptions</key>
-				<string>underline</string>
+				<string>foreground</string>
 
 				<key>tagsOptions</key>
 				<string>stippled_underline</string>

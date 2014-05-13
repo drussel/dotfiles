@@ -1,3 +1,2 @@
-[
-{"keys": ["option+tab"], "command": "reindent" }
+[{ "keys": ["super+t"], "command": "reindent"}
 ]

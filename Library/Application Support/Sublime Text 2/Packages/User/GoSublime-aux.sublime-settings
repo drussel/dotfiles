@@ -1,0 +1,60 @@
+{
+	"9o.hist./Users/drussel/AltSchool/go":
+	[
+		"go get",
+		"echo $GOPATH"
+	],
+	"9o.hist./Users/drussel/AltSchool/go/src":
+	[
+		"go get",
+		"cd .."
+	],
+	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe":
+	[
+		"cd ..",
+		"go get",
+		"cd pipe"
+	],
+	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-add-tree":
+	[
+		"go get"
+	],
+	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-cat":
+	[
+		"go get"
+	],
+	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-id":
+	[
+		"go get"
+	],
+	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-ls":
+	[
+		"go get"
+	],
+	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-rm":
+	[
+		"go get"
+	],
+	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe/lib":
+	[
+		"go get"
+	],
+	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe/pipe":
+	[
+		"got go get",
+		"cd ..",
+		"go get"
+	],
+	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe/pipe-initialize":
+	[
+		"go get"
+	],
+	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe/pipelib":
+	[
+		"cd ..",
+		"go get"
+	],
+	"ann": "a14.02.25-1",
+	"install_version": "r13.12.26-3",
+	"version": "r13.12.26-3"
+}
