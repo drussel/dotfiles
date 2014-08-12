@@ -1,0 +1,13 @@
+{
+	"installed_packages":
+	[
+		"GoGdb",
+		"GoSublime",
+		"Javascript Beautify",
+		"Python PEP8 Autoformat",
+		"SublimeLinter",
+		"SublimeLinter-contrib-clang",
+		"SublimeLinter-contrib-jslint",
+		"SublimeLinter-jshint"
+	]
+}
