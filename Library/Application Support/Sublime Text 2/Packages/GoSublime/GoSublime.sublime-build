@@ -1,4 +1,6 @@
 {
-	"target": "gs9o_build",
-	"selector": "source.go"
+//"target": "gs9o_build",
+    "cmd": ["/usr/local/bin/go", "get", "-v", "./..."],
+	"selector": "source.go",
+    "file_regex": "^([^#:]+):([0-9]+):.*$"
 }

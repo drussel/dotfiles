@@ -2,24 +2,47 @@
 	"9o.hist./Users/drussel/AltSchool/go":
 	[
 		"go get",
-		"echo $GOPATH"
+		"echo $GOPATH",
+		"go get cd",
+		"cd share",
+		"cd src"
 	],
 	"9o.hist./Users/drussel/AltSchool/go/src":
 	[
 		"go get",
-		"cd .."
+		"go get ./...",
+		"cd ..",
+		"cd apollo",
+		"cd apollo*",
+		"cd apollo-trello-pipe"
 	],
 	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe":
 	[
 		"cd ..",
+		"cd pipe",
 		"go get",
-		"cd pipe"
+		"go install",
+		"go get all",
+		"go get apoll-trello-pipe",
+		"go",
+		"go get ./..."
 	],
-	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-add-tree":
+	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo":
 	[
 		"go get"
 	],
+	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-add-tree":
+	[
+		"go get",
+		"go build",
+		"cd .."
+	],
 	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-cat":
+	[
+		"go get",
+		"cd .."
+	],
+	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-create":
 	[
 		"go get"
 	],
@@ -29,21 +52,24 @@
 	],
 	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-ls":
 	[
-		"go get"
+		"go get",
+		"cd .."
 	],
 	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-rm":
 	[
-		"go get"
+		"go get",
+		"cd ../.."
 	],
 	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe/lib":
 	[
-		"go get"
+		"go get",
+		"cd .."
 	],
 	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe/pipe":
 	[
 		"got go get",
-		"cd ..",
-		"go get"
+		"go get",
+		"cd .."
 	],
 	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe/pipe-initialize":
 	[
@@ -52,6 +78,25 @@
 	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe/pipelib":
 	[
 		"cd ..",
+		"go get"
+	],
+	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking":
+	[
+		"go get",
+		"cd .."
+	],
+	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking-export":
+	[
+		"go get",
+		"cd .."
+	],
+	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking-import":
+	[
+		"cd ..",
+		"go get"
+	],
+	"9o.hist./Users/drussel/AltSchool/go/src/apollo-trello-pipe/utility":
+	[
 		"go get"
 	],
 	"ann": "a14.02.25-1",

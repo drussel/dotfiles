@@ -6,18 +6,18 @@
 	],
 	"installed_packages":
 	[
-		"AutoPEP8",
 		"CSSFormat",
 		"GitGutter",
-		"Go Build",
 		"GoSublime",
 		"Handlebars",
 		"HTML5",
 		"Javascript Beautify",
 		"JSHint Gutter",
+		"JSLint",
 		"MarkdownEditing",
 		"Package Control",
 		"Pretty YAML",
+		"Python PEP8 Autoformat",
 		"Sass",
 		"SCSS"
 	]

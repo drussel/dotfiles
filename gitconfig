@@ -2,7 +2,7 @@
 	name = Daniel Russel
 	email = drussel@gmail.com
 [core]
-	excludesfile = /Users/drussel/.gitignore_global
+	excludesfile = /Users/drussel/.gitignore
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path =
