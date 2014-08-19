@@ -3,17 +3,65 @@
 	[
 	],
 	"last_version": 3059,
-	"last_window_id": 3,
+	"last_window_id": 22,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 1070.0,
+		"new_window_height": 1006.0,
 		"new_window_settings":
 		{
 			"auto_complete":
 			{
 				"selected_items":
 				[
+					[
+						"isPlpgoa",
+						"isPlpgoalsActive"
+					],
+					[
+						"id",
+						"id"
+					],
+					[
+						"has",
+						"hasOwnProperty"
+					],
+					[
+						"expan",
+						"expandable"
+					],
+					[
+						"ok",
+						"ok"
+					],
+					[
+						"font",
+						"font-size"
+					],
+					[
+						"back",
+						"background-color"
+					],
+					[
+						"for",
+						"for	for (…) {…} (Improved Native For-Loop)"
+					],
+					[
+						"cross",
+						"crossfilterData"
+					],
+					[
+						"did",
+						"didInsertElement"
+					],
+					[
+						"chart",
+						"chart"
+					],
+					[
+						"g",
+						"g"
+					]
 				]
 			},
 			"build_system": "",
@@ -27,19 +75,51 @@
 						"Package Control: Install Package"
 					],
 					[
+						"pakc",
+						"Package Control: Install Package"
+					],
+					[
+						"package",
+						"Package Control: List Packages"
+					],
+					[
+						"packe",
+						"Package Control: Install Package"
+					],
+					[
 						"packa",
+						"Package Control: Install Package"
+					],
+					[
+						"css",
+						"Set Syntax: SCSS"
+					],
+					[
+						"p",
+						"Package Control: Install Package"
+					],
+					[
+						"sass",
+						"Set Syntax: Sass"
+					],
+					[
+						"instal",
 						"Package Control: Install Package"
 					],
 					[
 						"packag",
 						"Package Control: Install Package"
+					],
+					[
+						"package contro",
+						"Package Control: Install Package"
 					]
 				],
-				"width": 575.0
+				"width": 467.0
 			},
 			"console":
 			{
-				"height": 126.0,
+				"height": 125.0,
 				"history":
 				[
 					"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
@@ -56,19 +136,154 @@
 			},
 			"file_history":
 			[
-				"/Users/drussel/Library/Application Support/Sublime Text 3/Packages/User/JavascriptBeautify.sublime-settings",
-				"/Users/drussel/Library/Application Support/Sublime Text 3/Packages/Javascript Beautify/JavascriptBeautify.sublime-settings",
-				"/Users/drussel/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md"
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/BracketHighlighter/bh_core.sublime-settings",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/plp_goals/current/new.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/plp_goal/edit.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/card_tagger_component.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/styles/_propose_alo.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/styles/_plp.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/styles/components/_card_tagger.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/rich_content_editable_component.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/alo.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/components/card-tagger.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/lib/tag_spaces.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/config/settings.jsenv",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/alo_selector_component.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/services/tagger_space.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/config/router.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/components/alo-selector.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/styles/components/_alo_selector.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/select-2.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/application_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/vendor/styles/select2.css",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/styles/index.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/alos_tag_space.js",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/assets/select2.css",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/trello/card.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/tag_space.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/tagger_space.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/alo_node.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/styles/_tagger.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/card_tagger.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/components/tagger-alo-space.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/trello/tagger.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/stores/application_store.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/trello/authenticate.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/stores/trello.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/trello/authenticate.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/trello/loading.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/trello/loading.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/trello_card/tagger.hbs",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 2/Packages/Javascript Beautify/JavascriptBeautify.sublime-settings",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 2/Packages/User/JavascriptBeautify.sublime-settings",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 2/Packages/Javascript Beautify/Default (OSX).sublime-keymap",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/tagger_alo_space.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/apollo_document.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/trello_board.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/stores/trello/card.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/tag.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/stores/app_store.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/trello/board.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/trello/redirect.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/trello/board.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/styles/_trello_authenticate.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/trello/tagger.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/trello_board_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/trello/authenticate.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/README.md",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/config/env.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/trello_card.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/trello_authenticate.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/config/app.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/trello.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/trello/board.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/trello/board_card.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/utility_trello_tagger_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/utility/trello_tagger_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/utility_trello_tagger.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/trello/trello_board.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/trello_tagger_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/sandbox_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/utility.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/alo_selector_children.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/components/alo-selector-children.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/alo_selector.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/playlist/card.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/board.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/sandbox.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/media.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/alo_tree_node.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/tag_set.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/alo_tag_space.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/public/javascripts/app.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/styles/_tags.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/components/tagger-space.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/tagger_space.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/todo",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/alo_tree.js",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 2/Packages/JSLint/JSLint.sublime-settings",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 2/Packages/JSHint Gutter/.jshintrc",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 2/Packages/JSHint Gutter/JSHint.sublime-settings",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/plp_objective_view_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/lib/tag_spaces_data.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/board_tag_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/sandbox_board_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/sandbox_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/hideable_block.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/board/tag.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/sandbox/board_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/sandbox/tag_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/tagger.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/styles/_tag.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/tagger.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/components/tagger.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/card_edit_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/sandbox/tagger.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/sandbox/board.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/sandbox_board.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/sandbox_board_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/sandbox/tagger_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/sandbox_board_tagger_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/sandbox_card_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/sandbox/sandbox_card.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/sandbox/sandbox_card_tagger.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/components/select-2.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/select_2_component.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/public/stylesheets/app.css",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/sandbox_tagger_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/components/student-dashboard-badge.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/card/edit.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/tagger_menu.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/components/tagger-menu.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/playlist/check_list.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/test/integration/tagger_test.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/tag_check_boxes.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/reports.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/components/taxonomy-tree-branch.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/routes/sandbox_taxonomy_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/lib/taxonomy_tree.js"
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 23.0
 			},
 			"find_in_files":
 			{
-				"height": 0.0,
+				"height": 93.0,
 				"where_history":
 				[
+					"-public/*",
+					"-public",
+					" -public/* templates",
+					" -public templates",
+					" -public *.hbs",
+					" -public",
+					"/Users/drussel/AltSchool/vishnu-frontend, -public",
+					"/Users/drussel/AltSchool/vishnu-frontend",
+					"/Users/drussel/AltSchool/vishnu-frontend/app/models",
+					""
 				]
 			},
 			"find_state":
@@ -76,6 +291,134 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					".contenteditable",
+					"contenteditable",
+					"content-edi",
+					".input",
+					"rich-content-editable",
+					"$",
+					".then",
+					"console.lo",
+					"confo",
+					"onfailed",
+					"loading tags",
+					"onFail",
+					"isFailed",
+					"onsole.log",
+					"onfail",
+					"loading car",
+					"allPlpgoals",
+					".alo ",
+					"popover-con",
+					"Text is now empty",
+					"load_mask",
+					"console.log",
+					"label",
+					"console.lo",
+					"alias",
+					"airbrake",
+					"select2x2.png",
+					".png",
+					"select2-drop",
+					"height",
+					"padding",
+					"select2",
+					"current_user",
+					"width",
+					"createTag",
+					"textlp.'",
+					"text",
+					"bad tag name",
+					"sort",
+					"cleanvalues",
+					"warning",
+					"saveCount",
+					"incrementing",
+					"propname",
+					"tag_space",
+					"'tags.",
+					"tags",
+					"saveCount",
+					"updating tags",
+					"removing tags",
+					"then creating tag",
+					"findall",
+					"ready",
+					"trello auth",
+					"authorization checked",
+					"authorization",
+					"finding all tagspaces",
+					"<a class=\"trelloauth\" href=\"#/trello/authenticate\" target=\"_blank\">If content does not display",
+					"8a902",
+					"token",
+					"Cant find tag",
+					"006",
+					"$[^|]*\\|",
+					"$[^\\|]*\\|",
+					"[^\\|]*\\|",
+					"[^|]*|",
+					"authorization checked",
+					"authorization",
+					"trello auth",
+					"trello authorization checked",
+					"board",
+					"boards/",
+					"getCard",
+					"find('card'",
+					"bind-attr",
+					"bind-",
+					"searching for",
+					"'value'",
+					"alostree",
+					"CleanValue.@each",
+					"tag",
+					"filteredAlos",
+					"tag",
+					"match",
+					"selectedalo",
+					"value",
+					"ismy",
+					"adding tag",
+					"to space",
+					"adding tag",
+					"store",
+					"propname",
+					"tagSpaceProm",
+					"actualTags",
+					".get('space')",
+					".space",
+					"tag_space",
+					"no docs processed for",
+					"RSVP",
+					"api",
+					"api.trello.com",
+					"Trello",
+					"init:",
+					"init",
+					"trello",
+					"APOLLO_API",
+					"location",
+					"login",
+					"settings.",
+					"APOLLO",
+					"setupController",
+					"getplay",
+					"getPlaylist",
+					"UtilityTrelloTaggerController",
+					"queryParams",
+					"console.log",
+					"setting up",
+					"console.log",
+					"Index of",
+					"content is",
+					"own",
+					"ownproperty",
+					"ownkey",
+					"_blank",
+					"login",
+					"400",
+					"updateTags",
+					"tagSpacePromise"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -83,6 +426,31 @@
 				"regex": false,
 				"replace_history":
 				[
+					"\\n",
+					"",
+					".id",
+					"vishnu",
+					"apollo",
+					"tagSpace",
+					"text",
+					"\"",
+					"$scale",
+					"p",
+					"crossfilterData",
+					"rawData",
+					"model",
+					"get('tagPath')",
+					"get('tagGroup')",
+					"  ",
+					"'",
+					"_this",
+					"'",
+					"_this",
+					"'",
+					"Taxonomy",
+					"taxonomy",
+					"  ",
+					"    "
 				],
 				"reverse": false,
 				"show_context": true,
@@ -92,20 +460,28 @@
 			},
 			"incremental_find":
 			{
-				"height": 0.0
+				"height": 23.0
 			},
 			"input":
 			{
-				"height": 0.0
+				"height": 31.0
 			},
 			"menu_visible": true,
+			"output.autopep8":
+			{
+				"height": 100.0
+			},
+			"output.exec":
+			{
+				"height": 25.0
+			},
 			"output.find_results":
 			{
 				"height": 0.0
 			},
 			"replace":
 			{
-				"height": 0.0
+				"height": 42.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -113,16 +489,60 @@
 				"height": 0.0,
 				"selected_items":
 				[
+					[
+						"cardedhb",
+						"app/templates/card/edit.hbs"
+					],
+					[
+						"apphb",
+						"app/templates/application.hbs"
+					],
+					[
+						"playscs",
+						"app/styles/_playlist.scss"
+					],
+					[
+						"",
+						"app/templates/card/edit.hbs"
+					],
+					[
+						"cardedithb",
+						"app/templates/card/edit.hbs"
+					],
+					[
+						"cardedi",
+						"app/controllers/card_edit_controller.js"
+					],
+					[
+						"tagscon",
+						"app/controllers/tags_controller.js"
+					],
+					[
+						"api_url",
+						"node_modules/karma/node_modules/optimist/node_modules/minimist/.travis.yml"
+					],
+					[
+						"card",
+						"app/models/playlist/card.js"
+					],
+					[
+						"routplay",
+						"app/routes/playlist_route.js"
+					],
+					[
+						"modcar",
+						"app/models/playlist/card.js"
+					]
 				],
 				"width": 0.0
 			},
 			"select_project":
 			{
-				"height": 0.0,
+				"height": 500.0,
 				"selected_items":
 				[
 				],
-				"width": 0.0
+				"width": 380.0
 			},
 			"select_symbol":
 			{
@@ -136,13 +556,13 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 246.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			}
 		},
-		"new_window_width": 905.0
+		"new_window_width": 1373.0
 	},
 	"windows":
 	[
@@ -151,23 +571,92 @@
 			{
 				"selected_items":
 				[
+					[
+						"isPlpgoa",
+						"isPlpgoalsActive"
+					],
+					[
+						"id",
+						"id"
+					],
+					[
+						"has",
+						"hasOwnProperty"
+					],
+					[
+						"expan",
+						"expandable"
+					],
+					[
+						"ok",
+						"ok"
+					],
+					[
+						"font",
+						"font-size"
+					],
+					[
+						"back",
+						"background-color"
+					],
+					[
+						"for",
+						"for	for (…) {…} (Improved Native For-Loop)"
+					],
+					[
+						"cross",
+						"crossfilterData"
+					],
+					[
+						"did",
+						"didInsertElement"
+					],
+					[
+						"chart",
+						"chart"
+					],
+					[
+						"g",
+						"g"
+					]
 				]
 			},
 			"buffers":
 			[
 				{
-					"file": "/Users/drussel/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+					"file": "vishnu-frontend-tagger/app/services/tagger_space.js",
 					"settings":
 					{
-						"buffer_size": 964,
+						"buffer_size": 6583,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/Users/drussel/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+					"file": "vishnu-frontend-tagger/app/templates/components/card-tagger.hbs",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 5098,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "{\n    //Debug logging\n    \"debug_enable\": false,\n\n    // When only either the left or right bracket can be found\n    // this defines if the unmatched bracket should be shown.\n    \"show_unmatched\" : true,\n\n    // Do the opposite of \"show_unmatched\" for the languages listed below\n    \"show_unmatched_exceptions\": [],\n\n    // Enable high visibility by default when sublime starts up\n    // If sublime is already running and this gets changed,\n    // you will not see any changes (restart requrired to see change)\n    \"high_visibility_enabled_by_default\": false,\n\n    // Experimental: Creates a visible bar at the beginning of all lines between\n    // multiline bracket spans.\n    \"content_highlight_bar\": false,\n\n    // Experimental: Align the content highlight bar at the bracket indent level\n    \"align_content_highlight_bar\": false,\n\n    // High visibility style and color for high visibility mode\n    // (solid|outline|underline)\n    // ST3 has additional options of (thin_underline|squiggly|stippled)\n    \"high_visibility_style\": \"outline\",\n\n    // (scope|__default__|__bracket__)\n    \"high_visibility_color\": \"__bracket__\",\n\n    // Match brackets only when the cursor is touching the inside of the bracket\n    \"match_only_adjacent\": false,\n\n    // Character threshold to search\n    \"search_threshold\": 5000,\n\n    // Ignore threshold\n    \"ignore_threshold\": false,\n\n    // Set mode for string escapes to ignore (regex|string)\n    \"bracket_string_escape_mode\": \"string\",\n\n    // Set max number of multi-select brackets that will be searched automatically\n    \"auto_selection_threshold\" : 10,\n\n    // Enable this to completely kill highlighting if \"auto_selection_threshold\"\n    // is exceeded.  Default is to highlight up to the \"auto_selection_threshold\".\n    \"kill_highlight_on_threshold\": true,\n\n    // Disable gutter icons when doing multi-select\n    \"no_multi_select_icons\": false,\n\n    // Rules that define the finding and matching of brackets\n    // that are contained in a common scope.\n    // Useful for bracket pairs that are the same but\n    // share a common scope.  Brackets are found by\n    // Finding the extent of the scope and using regex\n    // to look at the beginning and end to identify bracket.\n    // Use only if they cannot be targeted with traditional bracket\n    // rules.\n    \"scope_brackets\": [\n        // Quotes\n        {\n            \"name\": \"py_single_quote\",\n            \"open\": \"u?r?((?:'')?')\",\n            \"close\": \"((?:'')?')\",\n            \"style\": \"single_quote\",\n            \"scopes\": [\"string\"],\n            \"language_filter\": \"whitelist\",\n            \"language_list\": [\"Python\"],\n            \"sub_bracket_search\": \"true\",\n            \"enabled\": true\n        },\n        {\n            \"name\": \"py_double_quote\",\n            \"open\": \"u?r?((?:\\\"\\\")?\\\")\",\n            \"close\": \"((?:\\\"\\\")?\\\")\",\n            \"style\": \"double_quote\",\n            \"scopes\": [\"string\"],\n            \"language_filter\": \"whitelist\",\n            \"language_list\": [\"Python\"],\n            \"sub_bracket_search\": \"true\",\n            \"enabled\": true\n        },\n        {\n            \"name\": \"single_quote\",\n            \"open\": \"(')\",\n            \"close\": \"(')\",\n            \"style\": \"single_quote\",\n            \"scopes\": [\"string\"],\n            \"language_filter\": \"blacklist\",\n            \"language_list\": [\"Plain text\", \"Hex\"],\n            \"sub_bracket_search\": \"true\",\n            \"enabled\": true\n        },\n        {\n            \"name\": \"double_quote\",\n            \"open\": \"(\\\")\",\n            \"close\": \"(\\\")\",\n            \"style\": \"double_quote\",\n            \"scopes\": [\"string\"],\n            \"language_filter\": \"blacklist\",\n            \"language_list\": [\"Plain text\", \"Hex\"],\n            \"sub_bracket_search\": \"true\",\n            \"enabled\": true\n        },\n        // Regex for different Languages\n        {\n            \"name\": \"jsregex\",\n            \"open\": \" *(/)\",\n            \"close\": \"(/)[igm]*\",\n            \"style\": \"regex\",\n            \"scopes\": [\"string\"],\n            \"language_filter\": \"whitelist\",\n            \"language_list\": [\"JavaScript\"],\n            \"sub_bracket_search\": \"true\",\n            \"enabled\": true\n        },\n        {\n            \"name\": \"perlregex\",\n            \"open\": \"(?:m|s|tr)(.|\\n)\",\n            \"close\": \"(.|\\n)(?:[igmos]*)\",\n            \"style\": \"regex\",\n            \"scopes\": [\"string.regexp\"],\n            \"language_filter\": \"whitelist\",\n            \"language_list\": [\"Perl\"],\n            \"sub_bracket_search\": \"true\",\n            \"enabled\": true\n        },\n        {\n            \"name\": \"rubyregex\",\n            \"open\": \" *(/)\",\n            \"close\": \"(/)[imxo]*\",\n            \"style\": \"regex\",\n            \"scopes\": [\"string\"],\n            \"language_filter\": \"whitelist\",\n            \"language_list\": [\"Ruby\", \"RSpec\"],\n            \"sub_bracket_search\": \"true\",\n            \"enabled\": true\n        },\n        // Markdown\n        {\n            \"name\": \"mditalic\",\n            \"open\": \"(\\\\*|_)\",\n            \"close\": \"(\\\\*|_)\",\n            \"style\": \"default\",\n            \"scopes\": [\"markup.italic\"],\n            \"language_filter\": \"whitelist\",\n            \"language_list\": [\"Markdown\"],\n            \"sub_bracket_search\": \"true\",\n            \"enabled\": true\n        },\n        {\n            \"name\": \"mdbold\",\n            \"open\": \"(\\\\*\\\\*|__)\",\n            \"close\": \"(\\\\*\\\\*|__)\",\n            \"style\": \"default\",\n            \"scopes\": [\"markup.bold\"],\n            \"language_filter\": \"whitelist\",\n            \"language_list\": [\"Markdown\"],\n            \"sub_bracket_search\": \"true\",\n            \"enabled\": true\n        }\n    ],\n\n    // Rule definitions for finding and matching brackets.\n    // Brackets are found by using regex and can use scope\n    // qualifiers exclude certain matches.\n    // Once all matches are found, the closest pair surrounding\n    // the cursor are selected.\n    \"brackets\": [\n        // Basic brackets\n        {\n            \"name\": \"curly\",\n            \"open\": \"(\\\\{)\",\n            \"close\": \"(\\\\})\",\n            \"style\": \"curly\",\n            \"scope_exclude\": [\"string\", \"comment\"],\n            \"scope_exclude_exceptions\": [\"text.tex string.other.math\"],\n            \"language_filter\": \"blacklist\",\n            \"language_list\": [\"Plain text\", \"Hex\"],\n            \"find_in_sub_search\": \"true\",\n            \"ignore_string_escape\": true,\n            \"enabled\": true\n        },\n        {\n            \"name\": \"round\",\n            \"open\": \"(\\\\()\",\n            \"close\": \"(\\\\))\",\n            \"style\": \"round\",\n            \"scope_exclude_exceptions\": [\"text.tex string.other.math\"],\n            \"scope_exclude\": [\"string\", \"comment\", \"punctuation.definition.case-pattern.shell\"],\n            \"language_filter\": \"blacklist\",\n            \"language_list\": [\"Plain text\", \"Hex\"],\n            \"find_in_sub_search\": \"true\",\n            \"ignore_string_escape\": true,\n            \"enabled\": true\n        },\n        {\n            \"name\": \"square\",\n            \"open\": \"(\\\\[)\",\n            \"close\": \"(\\\\])\",\n            \"style\": \"square\",\n            \"scope_exclude\": [\"string\", \"comment\"],\n            \"scope_exclude_exceptions\": [\"text.tex string.other.math\"],\n            \"language_filter\": \"blacklist\",\n            \"language_list\": [\"Plain text\", \"Hex\"],\n            \"find_in_sub_search\": \"true\",\n            \"ignore_string_escape\": true,\n            \"enabled\": true\n        },\n        // HTML\n        {\n            \"name\": \"html\",\n            \"open\": \"(<)(?=[\\\\w\\\\:\\\\-]+(?:(?:\\\\s+[\\\\w\\\\-:]+(?:\\\\s*=\\\\s*(?:\\\"[^\\\"]*\\\"|'[^']*'|[^>\\\\s]+))?)*)\\\\s*\\\\/?>|\\\\/[\\\\w\\\\:\\\\-]+[^>]*>)\",\n            \"close\": \"(?<=<)(?:[\\\\w\\\\:\\\\-]+(?:(?:\\\\s+[\\\\w\\\\-:]+(?:\\\\s*=\\\\s*(?:\\\"[^\\\"]*\\\"|'[^']*'|[^>\\\\s]+))?)*)\\\\s*\\\\/?|\\\\/[\\\\w\\\\:\\\\-]+[^>]*)(>)\",\n            \"style\": \"tag\",\n            \"scope_exclude\": [\"string\", \"comment\"],\n            \"language_filter\": \"whitelist\",\n            \"language_list\": [\"HTML\", \"HTML 5\", \"XML\", \"PHP\", \"Handlebars\"],\n            \"plugin_library\": \"bh_modules.tags\",\n            \"find_in_sub_search\": \"only\",\n            \"enabled\": false\n        },\n        // CFML\n        {\n            \"name\": \"cfml\",\n            \"open\": \"(<)(?=[\\\\w\\\\:\\\\-]+(?:(?:\\\\s+[\\\\w\\\\-\\\\.:]+(?:\\\\s*=\\\\s*(?:\\\"[^\\\"]*\\\"|'[^']*'|[^>\\\\s]+))?)*|(?:(?<=cfif)|(?<=cfelseif))[^>]+)\\\\s*\\\\/?>|\\\\/[\\\\w\\\\:\\\\-]+[^>]*>)\",\n            \"close\": \"(?<=<)(?:[\\\\w\\\\:\\\\-]+(?:(?:\\\\s+[\\\\w\\\\-\\\\.:]+(?:\\\\s*=\\\\s*(?:\\\"[^\\\"]*\\\"|'[^']*'|[^>\\\\s]+))?)*|(?:(?<=cfif)|(?<=cfelseif))[^>]+)\\\\s*\\\\/?|\\\\/[\\\\w\\\\:\\\\-]+[^>]*)(>)\",\n            \"style\": \"tag\",\n            \"scope_exclude\": [\"string\", \"comment\"],\n            \"language_filter\": \"whitelist\",\n            \"language_list\": [\"HTML+CFML\", \"ColdFusion\", \"ColdFusionCFC\"],\n            \"plugin_library\": \"bh_modules.tags\",\n            \"find_in_sub_search\": \"only\",\n            \"enabled\": false\n        },\n        // PHP Angle\n        {\n            \"name\": \"php_angle\",\n            \"open\": \"(<\\\\?)(?:php)?\",\n            \"close\": \"(\\\\?>)\",\n            \"style\": \"angle\",\n            \"scope_exclude\": [\"string\", \"comment\", \"keyword.operator\"],\n            \"language_filter\": \"whitelist\",\n            \"language_list\": [\"HTML\", \"HTML 5\", \"PHP\"],\n            \"enabled\": true\n        },\n        // Angle\n        {\n            \"name\": \"angle\",\n            \"open\": \"(<)(?!\\\\?)\",\n            \"close\": \"(?<!\\\\?)(>)\",\n            \"style\": \"angle\",\n            \"scope_exclude\": [\"string\", \"comment\", \"keyword.operator\", \"source.ruby.rails.embedded.html\", \"source.ruby.embedded.html\"],\n            \"language_filter\": \"whitelist\",\n            \"language_list\": [\"HTML\", \"HTML 5\", \"XML\", \"PHP\", \"HTML (Rails)\", \"HTML (Jinja Templates)\", \"HTML (Twig)\", \"HTML+CFML\", \"ColdFusion\", \"ColdFusionCFC\", \"laravel-blade\", \"Handlebars\", \"AngularJS\"],\n            \"plugin_library\": \"bh_modules.tags\",\n            \"enabled\": true\n        },\n        // CSSedit groups\n        {\n            \"name\": \"cssedit_groups\",\n            \"open\": \"(/\\\\* *@group .*\\\\*/)\",\n            \"close\": \"(/\\\\* *@end *\\\\*/)\",\n            \"style\": \"default\",\n            \"scope_exclude\": [],\n            \"language_filter\": \"whitelist\",\n            \"language_list\": [\"CSS\"],\n            \"enabled\": true\n        },\n        // Ruby embedded HTML\n        {\n            \"name\": \"ruby_embedded_html\",\n            \"open\": \"((?:(?<=<%)|(?<=^)|(?<==))\\\\s*\\\\b(?:if|begin|case)\\\\b|(?:(?<=<%)|(?<=^))\\\\s*\\\\b(?:for|until|unless|while|class|module|def\\\\b[\\\\p{Ll}\\\\p{Lu}]*)|\\\\bdo)\\\\b\",\n            \"close\": \"\\\\b(end)\\\\b\",\n            \"style\": \"default\",\n            \"scope_exclude\": [\"text.html\", \"source\", \"comment\", \"string\"],\n            \"scope_exclude_exceptions\": [\"source.ruby.rails.embedded.html\", \"source.ruby.embedded.html\"],\n            \"plugin_library\": \"bh_modules.rubykeywords\",\n            \"language_filter\": \"whitelist\",\n            \"language_list\": [\"HTML\", \"HTML 5\", \"PHP\", \"HTML (Rails)\"],\n            \"enabled\": true\n        },\n        // Ruby conditional statements\n        {\n            \"name\": \"ruby\",\n            \"open\": \"((?:(?<=^)|(?<==))\\\\s*\\\\b(?:if|begin|case)\\\\b|^\\\\s*\\\\b(?:for|until|unless|while|class|module|def\\\\b[\\\\p{Ll}\\\\p{Lu}]*)|\\\\bdo)\\\\b\",\n            \"close\": \"\\\\b(end)\\\\b\",\n            \"style\": \"default\",\n            \"scope_exclude\": [\"string\", \"comment\"],\n            \"plugin_library\": \"bh_modules.rubykeywords\",\n            \"language_filter\": \"whitelist\",\n            \"language_list\": [\"Ruby\", \"RSpec\", \"Ruby on Rails\"],\n            \"enabled\": true\n        },\n        // C/C++ compile switches\n        {\n            \"name\": \"c_compile_switch\",\n            \"open\": \"(\\\\#(?:if|ifdef|ifndef))\\\\b\",\n            \"close\": \"(\\\\#endif)\\\\b\",\n            \"style\": \"c_define\",\n            \"scope_exclude\": [\"string\", \"comment\"],\n            \"language_filter\": \"whitelist\",\n            \"language_list\": [\"C++\", \"C\", \"Objective-C\", \"CCpp\"],\n            \"enabled\": true\n        },\n        // PHP conditional keywords\n        {\n            \"name\": \"php_keywords\",\n            \"open\": \"(?:^\\\\s*|<\\\\?(?:php)?\\\\s*)?\\\\b(if|foreach|for|while|switch)\\\\b(?=.*:\\\\s*(?:\\\\?>\\\\s*)?$)\",\n            \"close\": \"(?:^\\\\s*|<\\\\?(?:php)?\\\\s*)?\\\\b(endif|endfor|endforeach|endwhile|endswitch)\\\\b(?=\\\\s*;\\\\s*(?:\\\\?>\\\\s*)?$)\",\n            \"style\": \"default\",\n            \"language_filter\": \"whitelist\",\n            \"scope_exclude\": [\"string\", \"comment\"],\n            \"plugin_library\": \"bh_modules.phpkeywords\",\n            \"language_list\": [\"HTML\", \"HTML 5\", \"XML\", \"PHP\", \"HTML+CFML\", \"ColdFusion\", \"ColdFusionCFC\"],\n            \"enabled\": true\n        },\n        // Erlang conditional statements\n        {\n            \"name\": \"erlang\",\n            \"open\": \"\\\\s*(\\\\b(?:if|case|begin|try|fun(?=\\\\s*\\\\()|receive)\\\\b)\",\n            \"close\": \"\\\\b(end)\\\\b\",\n            \"style\": \"default\",\n            \"scope_exclude\": [\"string\", \"comment\"],\n            \"language_filter\": \"whitelist\",\n            \"plugin_library\": \"bh_modules.erlangcase\",\n            \"language_list\": [\"Erlang\", \"HTML (Erlang)\"],\n            \"enabled\": true\n        },\n        //Bash\n        {\n            \"name\": \"bash\",\n            \"open\": \"(?:(?<!\\\\\\\\\\\\n)(?:;|^|&|\\\\|)\\\\s*)\\\\b(if|case|while|select|until|for)\\\\s\",\n            \"close\": \"(?:(?<!\\\\\\\\\\\\n)(?:;|^)\\\\s*)\\\\b(fi|esac|done)(?=;|\\\\s|$)\",\n            \"style\": \"default\",\n            \"scope_exclude\": [\"string\", \"comment\"],\n            \"plugin_library\": \"bh_modules.bashsupport\",\n            \"language_filter\": \"whitelist\",\n            \"language_list\": [\"Shell-Unix-Generic\"],\n            \"enabled\": true\n        },\n        //Fish shell\n        {\n            \"name\": \"fish\",\n            \"open\": \"(?:(?<!\\\\\\\\\\\\n)(?:;|^|&|\\\\||and|or|not)\\\\s*)\\\\b(begin|if|while|for|switch|function)(?:;|\\\\s)\",\n            \"close\": \"(?:(?<!\\\\\\\\\\\\n)(?:;|^)\\\\s*)\\\\b(end)(?=;|\\\\s|$)\",\n            \"style\": \"default\",\n            \"scope_exclude\": [\"string\", \"comment\"],\n            \"language_filter\": \"whitelist\",\n            \"language_list\": [\"fish\"],\n            \"enabled\": true\n        }\n    ],\n\n    // user_scope_brackets and user_brackets will be appended\n    // to the tail of scope_brackets and brackets respectively\n    // If you have custom rules that you don't want to commit to\n    // the offial list, and do not need to be inserted before\n    // one of the offical defintions, this is a good place to\n    // put yours rules and keep in sync with the defaults.\n    \"user_scope_brackets\": [],\n    \"user_brackets\": [],\n\n    // Define region highlight styles\n    \"bracket_styles\": {\n        // \"default\" and \"unmatched\" styles are special\n        // styles. If they are not defined here,\n        // they will be generated internally with\n        // internal defaults.\n\n        // \"default\" style defines attributes that\n        // will be used for any style that does not\n        // explicitly define that attribute.  So if\n        // a style does not define a color, it will\n        // use the color from the \"default\" style.\n        \"default\": {\n            \"icon\": \"dot\",\n            // BH1's original default color for reference\n            // \"color\": \"entity.name.class\",\n            \"color\": \"brackethighlighter.default\",\n            \"style\": \"underline\"\n        },\n\n        // This particular style is used to highlight\n        // unmatched bracekt pairs.  It is a special\n        // style.\n        \"unmatched\": {\n            \"icon\": \"question\",\n            // \"color\": \"brackethighlighter.unmatched\",\n            \"style\": \"outline\"\n        },\n        // User defined region styles\n        \"curly\": {\n            \"icon\": \"curly_bracket\"\n            // \"color\": \"brackethighlighter.curly\",\n            // \"style\": \"underline\"\n        },\n        \"round\": {\n            \"icon\": \"round_bracket\"\n            // \"color\": \"brackethighlighter.round\",\n            // \"style\": \"underline\"\n        },\n        \"square\": {\n            \"icon\": \"square_bracket\"\n            // \"color\": \"brackethighlighter.square\",\n            // \"style\": \"underline\"\n        },\n        \"angle\": {\n            \"icon\": \"angle_bracket\"\n            // \"color\": \"brackethighlighter.angle\",\n            // \"style\": \"underline\"\n        },\n        \"tag\": {\n            \"icon\": \"tag\",\n            // \"endpoints\": true,\n            // \"color\": \"brackethighlighter.tag\",\n            \"style\": \"outline\"\n        },\n        \"c_define\": {\n            \"icon\": \"hash\"\n            // \"color\": \"brackethighlighter.c_define\",\n            // \"style\": \"underline\"\n        },\n        \"single_quote\": {\n            \"icon\": \"single_quote\"\n            // \"color\": \"brackethighlighter.quote\",\n            // \"style\": \"underline\"\n        },\n        \"double_quote\": {\n            \"icon\": \"double_quote\"\n            // \"color\": \"brackethighlighter.quote\",\n            // \"style\": \"underline\"\n        },\n        \"regex\": {\n            \"icon\": \"regex\"\n            // \"color\": \"brackethighlighter.quote\",\n            // \"style\": \"underline\"\n        }\n    },\n\n    /* Plugin settings */\n\n    // Style to use for matched tags\n    \"tag_style\": \"tag\",\n\n    // Scopes to exclude from tag searches\n    \"tag_scope_exclude\": [\"string\", \"comment\"],\n\n    // Determine which style of tag-matching to use in which syntax\n    \"tag_mode\": {\n        \"xhtml\": [\"XML\"],\n        \"html\": [\"HTML\", \"HTML 5\", \"PHP\", \"HTML (Jinja Templates)\", \"HTML (Rails)\", \"HTML (Twig)\", \"laravel-blade\", \"Handlebars\", \"AngularJS\"],\n        \"cfml\": [\"HTML+CFML\", \"ColdFusion\", \"ColdFusionCFC\"]\n    }\n}\n",
+					"file": "/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/BracketHighlighter/bh_core.sublime-settings",
+					"file_size": -1,
+					"file_write_time": -1,
+					"settings":
+					{
+						"buffer_size": 17298,
+						"line_ending": "Unix",
+						"read_only": true,
+						"scratch": true
+					}
+				},
+				{
+					"file": "/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/User/bh_core.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 244,
 						"line_ending": "Unix"
 					}
 				}
@@ -183,11 +672,43 @@
 						"Package Control: Install Package"
 					],
 					[
+						"pakc",
+						"Package Control: Install Package"
+					],
+					[
+						"package",
+						"Package Control: List Packages"
+					],
+					[
+						"packe",
+						"Package Control: Install Package"
+					],
+					[
 						"packa",
 						"Package Control: Install Package"
 					],
 					[
+						"css",
+						"Set Syntax: SCSS"
+					],
+					[
+						"p",
+						"Package Control: Install Package"
+					],
+					[
+						"sass",
+						"Set Syntax: Sass"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
 						"packag",
+						"Package Control: Install Package"
+					],
+					[
+						"package contro",
 						"Package Control: Install Package"
 					]
 				],
@@ -195,7 +716,7 @@
 			},
 			"console":
 			{
-				"height": 126.0,
+				"height": 125.0,
 				"history":
 				[
 					"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
@@ -212,19 +733,154 @@
 			},
 			"file_history":
 			[
-				"/Users/drussel/Library/Application Support/Sublime Text 3/Packages/User/JavascriptBeautify.sublime-settings",
-				"/Users/drussel/Library/Application Support/Sublime Text 3/Packages/Javascript Beautify/JavascriptBeautify.sublime-settings",
-				"/Users/drussel/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md"
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/plp_goals/current/new.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/plp_goal/edit.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/card_tagger_component.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/styles/_propose_alo.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/styles/_plp.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/styles/components/_card_tagger.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/rich_content_editable_component.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/alo.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/components/card-tagger.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/lib/tag_spaces.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/config/settings.jsenv",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/alo_selector_component.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/services/tagger_space.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/config/router.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/components/alo-selector.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/styles/components/_alo_selector.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/select-2.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/application_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/vendor/styles/select2.css",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/styles/index.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/alos_tag_space.js",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/assets/select2.css",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/trello/card.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/tag_space.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/tagger_space.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/alo_node.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/styles/_tagger.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/card_tagger.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/components/tagger-alo-space.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/trello/tagger.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/stores/application_store.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/trello/authenticate.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/stores/trello.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/trello/authenticate.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/trello/loading.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/trello/loading.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/trello_card/tagger.hbs",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 2/Packages/Javascript Beautify/JavascriptBeautify.sublime-settings",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 2/Packages/User/JavascriptBeautify.sublime-settings",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 2/Packages/Javascript Beautify/Default (OSX).sublime-keymap",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/tagger_alo_space.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/apollo_document.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/trello_board.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/stores/trello/card.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/tag.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/stores/app_store.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/trello/board.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/trello/redirect.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/trello/board.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/styles/_trello_authenticate.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/trello/tagger.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/trello_board_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/trello/authenticate.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/README.md",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/config/env.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/trello_card.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/trello_authenticate.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/config/app.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/trello.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/trello/board.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/trello/board_card.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/utility_trello_tagger_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/utility/trello_tagger_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/utility_trello_tagger.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/trello/trello_board.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/trello_tagger_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/sandbox_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/utility.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/alo_selector_children.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/components/alo-selector-children.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/alo_selector.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/playlist/card.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/board.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/sandbox.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/media.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/alo_tree_node.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/tag_set.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/alo_tag_space.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/public/javascripts/app.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/styles/_tags.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/components/tagger-space.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/tagger_space.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/todo",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/alo_tree.js",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 2/Packages/JSLint/JSLint.sublime-settings",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 2/Packages/JSHint Gutter/.jshintrc",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 2/Packages/JSHint Gutter/JSHint.sublime-settings",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/plp_objective_view_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/lib/tag_spaces_data.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/board_tag_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/sandbox_board_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/sandbox_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/hideable_block.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/board/tag.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/sandbox/board_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/sandbox/tag_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/tagger.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/styles/_tag.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/tagger.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/components/tagger.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/card_edit_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/sandbox/tagger.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/sandbox/board.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/sandbox_board.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/sandbox_board_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/controllers/sandbox/tagger_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/sandbox_board_tagger_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/sandbox_card_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/sandbox/sandbox_card.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/sandbox/sandbox_card_tagger.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/components/select-2.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/select_2_component.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/public/stylesheets/app.css",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/routes/sandbox_tagger_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/components/student-dashboard-badge.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/card/edit.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/tagger_menu.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/components/tagger-menu.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/models/playlist/check_list.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/test/integration/tagger_test.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/components/tag_check_boxes.js",
+				"/Users/drussel/AltSchool/vishnu-frontend-tagger/app/templates/reports.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/components/taxonomy-tree-branch.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/routes/sandbox_taxonomy_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/lib/taxonomy_tree.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/taxonomy_tree_label.js"
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 35.0
 			},
 			"find_in_files":
 			{
-				"height": 0.0,
+				"height": 93.0,
 				"where_history":
 				[
+					"-public/*",
+					"-public",
+					" -public/* templates",
+					" -public templates",
+					" -public *.hbs",
+					" -public",
+					"/Users/drussel/AltSchool/vishnu-frontend, -public",
+					"/Users/drussel/AltSchool/vishnu-frontend",
+					"/Users/drussel/AltSchool/vishnu-frontend/app/models",
+					""
 				]
 			},
 			"find_state":
@@ -232,6 +888,134 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					".contenteditable",
+					"contenteditable",
+					"content-edi",
+					".input",
+					"rich-content-editable",
+					"$",
+					".then",
+					"console.lo",
+					"confo",
+					"onfailed",
+					"loading tags",
+					"onFail",
+					"isFailed",
+					"onsole.log",
+					"onfail",
+					"loading car",
+					"allPlpgoals",
+					".alo ",
+					"popover-con",
+					"Text is now empty",
+					"load_mask",
+					"console.log",
+					"label",
+					"console.lo",
+					"alias",
+					"airbrake",
+					"select2x2.png",
+					".png",
+					"select2-drop",
+					"height",
+					"padding",
+					"select2",
+					"current_user",
+					"width",
+					"createTag",
+					"textlp.'",
+					"text",
+					"bad tag name",
+					"sort",
+					"cleanvalues",
+					"warning",
+					"saveCount",
+					"incrementing",
+					"propname",
+					"tag_space",
+					"'tags.",
+					"tags",
+					"saveCount",
+					"updating tags",
+					"removing tags",
+					"then creating tag",
+					"findall",
+					"ready",
+					"trello auth",
+					"authorization checked",
+					"authorization",
+					"finding all tagspaces",
+					"<a class=\"trelloauth\" href=\"#/trello/authenticate\" target=\"_blank\">If content does not display",
+					"8a902",
+					"token",
+					"Cant find tag",
+					"006",
+					"$[^|]*\\|",
+					"$[^\\|]*\\|",
+					"[^\\|]*\\|",
+					"[^|]*|",
+					"authorization checked",
+					"authorization",
+					"trello auth",
+					"trello authorization checked",
+					"board",
+					"boards/",
+					"getCard",
+					"find('card'",
+					"bind-attr",
+					"bind-",
+					"searching for",
+					"'value'",
+					"alostree",
+					"CleanValue.@each",
+					"tag",
+					"filteredAlos",
+					"tag",
+					"match",
+					"selectedalo",
+					"value",
+					"ismy",
+					"adding tag",
+					"to space",
+					"adding tag",
+					"store",
+					"propname",
+					"tagSpaceProm",
+					"actualTags",
+					".get('space')",
+					".space",
+					"tag_space",
+					"no docs processed for",
+					"RSVP",
+					"api",
+					"api.trello.com",
+					"Trello",
+					"init:",
+					"init",
+					"trello",
+					"APOLLO_API",
+					"location",
+					"login",
+					"settings.",
+					"APOLLO",
+					"setupController",
+					"getplay",
+					"getPlaylist",
+					"UtilityTrelloTaggerController",
+					"queryParams",
+					"console.log",
+					"setting up",
+					"console.log",
+					"Index of",
+					"content is",
+					"own",
+					"ownproperty",
+					"ownkey",
+					"_blank",
+					"login",
+					"400",
+					"updateTags",
+					"tagSpacePromise"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -239,6 +1023,31 @@
 				"regex": false,
 				"replace_history":
 				[
+					"\\n",
+					"",
+					".id",
+					"vishnu",
+					"apollo",
+					"tagSpace",
+					"text",
+					"\"",
+					"$scale",
+					"p",
+					"crossfilterData",
+					"rawData",
+					"model",
+					"get('tagPath')",
+					"get('tagGroup')",
+					"  ",
+					"'",
+					"_this",
+					"'",
+					"_this",
+					"'",
+					"Taxonomy",
+					"taxonomy",
+					"  ",
+					"    "
 				],
 				"reverse": false,
 				"show_context": true,
@@ -249,59 +1058,504 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 3,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/Users/drussel/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+							"file": "vishnu-frontend-tagger/app/services/tagger_space.js",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 964,
+								"buffer_size": 6583,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										6502,
+										6502
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/JavaScript/JSON.tmLanguage",
-									"tab_size": 4,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 2,
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 2971.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "vishnu-frontend-tagger/app/templates/components/card-tagger.hbs",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5098,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4811,
+										4811
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content"
+									],
+									"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 961.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/BracketHighlighter/bh_core.sublime-settings",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 17298,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										753,
+										753
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content"
+									],
+									"codeintel": true,
+									"codeintel_config":
+									{
+										"JavaScript":
+										{
+											"codeintel_max_recursive_dir_depth": 2,
+											"codeintel_scan_files_in_project": false,
+											"javascriptExtraPaths":
+											[
+											]
+										},
+										"PHP":
+										{
+											"codeintel_max_recursive_dir_depth": 5,
+											"codeintel_scan_files_in_project": false,
+											"phpExtraPaths":
+											[
+											]
+										},
+										"Python":
+										{
+											"env":
+											{
+											}
+										}
+									},
+									"codeintel_enabled_languages":
+									[
+										"JavaScript",
+										"Mason",
+										"XBL",
+										"XUL",
+										"RHTML",
+										"SCSS",
+										"Python",
+										"HTML",
+										"Ruby",
+										"Python3",
+										"XML",
+										"Sass",
+										"XSLT",
+										"Django",
+										"HTML5",
+										"Perl",
+										"CSS",
+										"Twig",
+										"Less",
+										"Smarty",
+										"Node.js",
+										"Tcl",
+										"TemplateToolkit",
+										"PHP"
+									],
+									"codeintel_live": true,
+									"codeintel_live_enabled_languages":
+									[
+										"JavaScript",
+										"Mason",
+										"XBL",
+										"XUL",
+										"RHTML",
+										"SCSS",
+										"Python",
+										"HTML",
+										"Ruby",
+										"Python3",
+										"XML",
+										"Sass",
+										"XSLT",
+										"Django",
+										"HTML5",
+										"Perl",
+										"CSS",
+										"Twig",
+										"Less",
+										"Smarty",
+										"Node.js",
+										"Tcl",
+										"TemplateToolkit",
+										"PHP"
+									],
+									"codeintel_max_recursive_dir_depth": 10,
+									"codeintel_scan_exclude_dir":
+									{
+										"JavaScript":
+										[
+											"/build/",
+											"/min/"
+										]
+									},
+									"codeintel_scan_files_in_project": true,
+									"codeintel_selected_catalogs":
+									[
+										"PyWin32",
+										"jQuery",
+										"Rails"
+									],
+									"codeintel_snippets": true,
+									"codeintel_syntax_map":
+									{
+										"Python Django": "Python"
+									},
+									"codeintel_tooltips": "popup",
+									"sublime_auto_complete": true,
+									"syntax": "Packages/JavaScript/JSON.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 2023.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 1,
 							"type": "text"
 						},
 						{
-							"buffer": 1,
-							"file": "/Users/drussel/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+							"buffer": 3,
+							"file": "/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/User/bh_core.sublime-settings",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 0,
+								"buffer_size": 244,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										242,
+										242
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/JavaScript/JSON.tmLanguage"
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content"
+									],
+									"codeintel": true,
+									"codeintel_config":
+									{
+										"JavaScript":
+										{
+											"codeintel_max_recursive_dir_depth": 2,
+											"codeintel_scan_files_in_project": false,
+											"javascriptExtraPaths":
+											[
+											]
+										},
+										"PHP":
+										{
+											"codeintel_max_recursive_dir_depth": 5,
+											"codeintel_scan_files_in_project": false,
+											"phpExtraPaths":
+											[
+											]
+										},
+										"Python":
+										{
+											"env":
+											{
+											}
+										}
+									},
+									"codeintel_enabled_languages":
+									[
+										"JavaScript",
+										"Mason",
+										"XBL",
+										"XUL",
+										"RHTML",
+										"SCSS",
+										"Python",
+										"HTML",
+										"Ruby",
+										"Python3",
+										"XML",
+										"Sass",
+										"XSLT",
+										"Django",
+										"HTML5",
+										"Perl",
+										"CSS",
+										"Twig",
+										"Less",
+										"Smarty",
+										"Node.js",
+										"Tcl",
+										"TemplateToolkit",
+										"PHP"
+									],
+									"codeintel_live": true,
+									"codeintel_live_enabled_languages":
+									[
+										"JavaScript",
+										"Mason",
+										"XBL",
+										"XUL",
+										"RHTML",
+										"SCSS",
+										"Python",
+										"HTML",
+										"Ruby",
+										"Python3",
+										"XML",
+										"Sass",
+										"XSLT",
+										"Django",
+										"HTML5",
+										"Perl",
+										"CSS",
+										"Twig",
+										"Less",
+										"Smarty",
+										"Node.js",
+										"Tcl",
+										"TemplateToolkit",
+										"PHP"
+									],
+									"codeintel_max_recursive_dir_depth": 10,
+									"codeintel_scan_exclude_dir":
+									{
+										"JavaScript":
+										[
+											"/build/",
+											"/min/"
+										]
+									},
+									"codeintel_scan_files_in_project": true,
+									"codeintel_selected_catalogs":
+									[
+										"PyWin32",
+										"jQuery",
+										"Rails"
+									],
+									"codeintel_snippets": true,
+									"codeintel_syntax_map":
+									{
+										"Python Django": "Python"
+									},
+									"codeintel_tooltips": "popup",
+									"sublime_auto_complete": true,
+									"syntax": "Packages/JavaScript/JSON.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -319,7 +1573,7 @@
 			},
 			"input":
 			{
-				"height": 0.0
+				"height": 31.0
 			},
 			"layout":
 			{
@@ -344,15 +1598,23 @@
 				]
 			},
 			"menu_visible": true,
+			"output.autopep8":
+			{
+				"height": 100.0
+			},
+			"output.exec":
+			{
+				"height": 25.0
+			},
 			"output.find_results":
 			{
 				"height": 0.0
 			},
-			"position": "825 174 905 1092 0 0 2560 1418 ",
-			"project": "",
+			"position": "4 390 1373 1028 0 0 2560 1418 ",
+			"project": "vishnu-frontend-tagger.sublime-project",
 			"replace":
 			{
-				"height": 0.0
+				"height": 64.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -360,16 +1622,60 @@
 				"height": 0.0,
 				"selected_items":
 				[
+					[
+						"cardedhb",
+						"app/templates/card/edit.hbs"
+					],
+					[
+						"apphb",
+						"app/templates/application.hbs"
+					],
+					[
+						"playscs",
+						"app/styles/_playlist.scss"
+					],
+					[
+						"",
+						"app/templates/card/edit.hbs"
+					],
+					[
+						"cardedithb",
+						"app/templates/card/edit.hbs"
+					],
+					[
+						"cardedi",
+						"app/controllers/card_edit_controller.js"
+					],
+					[
+						"tagscon",
+						"app/controllers/tags_controller.js"
+					],
+					[
+						"api_url",
+						"node_modules/karma/node_modules/optimist/node_modules/minimist/.travis.yml"
+					],
+					[
+						"card",
+						"app/models/playlist/card.js"
+					],
+					[
+						"routplay",
+						"app/routes/playlist_route.js"
+					],
+					[
+						"modcar",
+						"app/models/playlist/card.js"
+					]
 				],
 				"width": 0.0
 			},
 			"select_project":
 			{
-				"height": 0.0,
+				"height": 500.0,
 				"selected_items":
 				[
 				],
-				"width": 0.0
+				"width": 380.0
 			},
 			"select_symbol":
 			{
@@ -386,19 +1692,25 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 246.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 3,
-			"workspace_name": ""
+			"window_id": 13,
+			"workspace_name": "/Users/drussel/AltSchool/vishnu-frontend-tagger.sublime-workspace"
 		}
 	],
 	"workspaces":
 	{
 		"recent_workspaces":
 		[
+			"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy.sublime-workspace",
+			"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools.sublime-workspace",
+			"/Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe.sublime-workspace",
+			"/Users/drussel/AltSchool/vishnu-frontend-alo-editor.sublime-workspace",
+			"/Users/drussel/AltSchool/vishnu-frontend-tagger.sublime-workspace",
+			"/Users/drussel/AltSchool/ChromeExtensionTrello.sublime-workspace"
 		]
 	}
 }

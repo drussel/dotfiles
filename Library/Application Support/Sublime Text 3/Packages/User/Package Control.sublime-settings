@@ -1,13 +1,27 @@
 {
 	"installed_packages":
 	[
+		"BracketHighlighter",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"Github Tools",
 		"GoGdb",
 		"GoSublime",
+		"Handlebars",
+		"HTML5",
 		"Javascript Beautify",
+		"JsFormat",
+		"MarkdownEditing",
 		"Python PEP8 Autoformat",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-contrib-clang",
 		"SublimeLinter-contrib-jslint",
-		"SublimeLinter-jshint"
+		"SublimeLinter-gjslint",
+		"SublimeLinter-jshint",
+		"Terminal"
 	]
 }

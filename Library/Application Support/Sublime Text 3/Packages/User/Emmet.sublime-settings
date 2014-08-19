@@ -1,0 +1,8 @@
+{
+	// Copy any modified settings to `User/Emmet.sublime-settings`
+	// otherwise modifications will not survive updates.
+
+	// Path to folder where Emmet should look for extensions
+	// http://docs.emmet.io/customization/
+	"extensions_path": "~/src/dotfiles/emmet"
+}
