@@ -48,3 +48,4 @@ setopt correctall
 #export CSHRCED=1
 
 #alias shfs='sudo shfsmount -s -vvv --persistent -s root@primal.stanford.edu:/ /mnt/primal -o preserve,rmode=755,cachesize=1000'
+alias ls='ls -G'
