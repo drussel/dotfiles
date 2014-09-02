@@ -1,5 +1,4 @@
 {
-	"licensed": true,
 	"packages":
 	[
 		"BracketHighlighter",
@@ -18,7 +17,6 @@
 		"SideBarEnhancements",
 		"SublimeLinter-contrib-jslint",
 		"SublimeLinter-gjslint",
-		"SublimeLinter-jshint",
 		"BracketHighlighter",
 		"Emmet",
 		"Git",
@@ -54,10 +52,5 @@
 		"SublimeLinter-gjslint",
 		"SublimeLinter-jshint"
 	],
-	"startup_sec": 0.361899,
-	"syntax":
-	{
-		"JSON": 2
-	},
-	"time": 1408459213
+	"time": 1408989424
 }

@@ -14,8 +14,8 @@
   (let* ((orig-windows (get-buffer-window-list (current-buffer)))
          (orig-window-starts (mapcar #'window-start orig-windows))
          (orig-point (point))
-         (binary "/usr/local/Cellar/llvm34/HEAD/bin/clang-format-3.4")
-         (style "Google"))
+         (binary "/usr/local/Cellar/llvm/3.4.2/bin/clang-format")
+         (style "llvm"))
     (if mark-active
         (setq beg (region-beginning)
               end (region-end))
