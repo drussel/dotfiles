@@ -225,3 +225,18 @@
   '(add-hook 'css-mode-hook
              (lambda ()
                (add-hook 'before-save-hook 'web-beautify-css-buffer t t))))
+
+; Add cmake listfile names to the mode list.
+(setq auto-mode-alist
+	  (append
+	   '(("CMakeLists\\.txt\\'" . cmake-mode))
+	   '(("\\.cmake\\'" . cmake-mode))
+	   auto-mode-alist))
+
+(autoload 'cmake-mode "~/src/dotfiles/lib/cmake-mode.el" t)
+
+(electric-pair-mode 1)
+
+(setq show-paren-style 'expression)
+(desktop-save-mode 1)
+(recentf-mode 1)
