@@ -301,7 +301,7 @@
 	// e.g. ["go", "build"]
 	// the 9o command ^1 recalls the last command you ran manually
 	// see 9o help(ctrl+9 "help") for more details about what commands are supported
-	"build_command": ["go get ./...; go test -c ./..."],
+	"build_command": ["^1"],
 
 	"auto_complete_triggers": [ {"selector": "source.go", "characters": "."} ],
 

@@ -2,6 +2,8 @@
 	"ignored_packages":
 	[
 		"Vintage",
-		"Markdown"
+		"Markdown",
+		"HTML5",
+		"JSLint"
 	]
 }

@@ -1286,3 +1286,489 @@ created by main.(*Broker).Loop
 ** 2014-08-26 14:50:43.662688 **:
 GsComplete: broker: gocode_complete#mg9.autoken.fbb918fe-315f-439f-8706-d9bfc7a1178a PANIC
 --------------------------------
+
+** 2014-09-10 15:35:04.023642 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+margo: 2014/09/19 07:50:30 broker.go:105: gocode_complete#mg9.autoken.ae4140ba-228a-41dd-90d1-16214c7f0ea4 PANIC: runtime error: slice bounds out of range
+goroutine 53 [running]:
+main.func·001()
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:104 +0xc6
+runtime.panic(0x46f8c0, 0x73200f)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/runtime/panic.c:248 +0x18d
+gosubli.me/something-borrowed/gocode.path_and_alias(0xc208b159b0, 0x1ac22d0, 0xc208b159b0, 0xc208b159b0, 0xc208041740)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/declcache.go:191 +0xb8
+gosubli.me/something-borrowed/gocode.collect_package_imports(0xc208f7bd40, 0x55, 0xc208d3ff00, 0x1, 0x1, 0xc208041740, 0x0, 0x0, 0x0)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/declcache.go:55 +0x1f6
+gosubli.me/something-borrowed/gocode.(*auto_complete_file).process_data(0xc20800ea80, 0xc209136780, 0x269, 0x280)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/autocompletefile.go:60 +0x201
+gosubli.me/something-borrowed/gocode.(*auto_complete_context).apropos(0xc208041d00, 0xc209136780, 0x269, 0x280, 0xc208f7bd40, 0x55, 0xbe, 0x0, 0x0, 0x0, ...)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/autocompletecontext.go:241 +0xaf
+gosubli.me/something-borrowed/gocode.(*margoState).Complete(0xc20805adb0, 0x0, 0x0, 0x0, 0xc208b79d70, 0x22, 0xc208d3f710, 0x1, 0x1, 0xc209136780, ...)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/gosublime_gocode_bridge.go:52 +0x121
+main.(*mGocode).completions(0xc208bb1d00, 0xc209136780, 0x269, 0x280, 0xc208f7bd40, 0x55, 0xbe, 0x0, 0x0, 0x0)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/m_gocode.go:95 +0x14a
+main.(*mGocode).Call(0xc208bb1d00, 0x0, 0x0, 0x0, 0x0)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/m_gocode.go:76 +0x5df
+main.(*Broker).call(0xc20800e150, 0xc208c406c0, 0x1ac2220, 0xc208bb1d00)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:113 +0xbb
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:188 +0xbf
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 16 [syscall]:
+syscall.Syscall(0x3, 0x0, 0xc2080ae000, 0x1000, 0x0, 0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/syscall/asm_darwin_amd64.s:20 +0x5
+syscall.read(0x0, 0xc2080ae000, 0x1000, 0x1000, 0x1, 0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/syscall/zsyscall_darwin_amd64.go:952 +0x75
+syscall.Read(0x0, 0xc2080ae000, 0x1000, 0x1000, 0xc208bb1d00, 0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/syscall/syscall_unix.go:136 +0x5c
+os.(*File).read(0xc208042000, 0xc2080ae000, 0x1000, 0x1000, 0xc208d3f480, 0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/os/file_unix.go:190 +0x89
+os.(*File).Read(0xc208042000, 0xc2080ae000, 0x1000, 0x1000, 0x55a79, 0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/os/file.go:95 +0x98
+bufio.(*Reader).fill(0xc208004240)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/bufio/bufio.go:97 +0x1b3
+bufio.(*Reader).ReadSlice(0xc208004240, 0x2d80a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/bufio/bufio.go:298 +0x22c
+bufio.(*Reader).ReadBytes(0xc208004240, 0xc2081c600a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/bufio/bufio.go:376 +0xe3
+main.(*Broker).accept(0xc20800e150, 0xc2081c6000, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:128 +0x46
+main.(*Broker).Loop(0xc20800e150, 0xc208000001)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:213 +0x27c
+main.main()
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/main.go:140 +0xa84
+
+goroutine 19 [finalizer wait, 1320 minutes]:
+runtime.park(0x32f20, 0x736158, 0x734c09)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/runtime/proc.c:1369 +0x89
+runtime.parkunlock(0x736158, 0x734c09)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/runtime/proc.c:1385 +0x3b
+runfinq()
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/runtime/mgc0.c:2644 +0xcf
+runtime.goexit()
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/runtime/proc.c:1445
+
+goroutine 21 [chan receive, 833 minutes]:
+gosubli.me/something-borrowed/gocode.func·021()
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/utils.go:112 +0x6a
+created by gosubli.me/something-borrowed/gocode.new_file_reader
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/utils.go:116 +0x9e
+
+goroutine 22 [chan receive]:
+main.func·003()
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/g_autoinst.go:114 +0x6a
+created by main.init·2
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/g_autoinst.go:117 +0x22
+
+goroutine 23 [sleep]:
+time.Sleep(0x77359400)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/runtime/time.goc:39 +0x31
+main.func·037()
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/oom.go:31 +0x270
+created by main.startOomKiller
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/oom.go:33 +0x63
+
+goroutine 24 [sleep]:
+time.Sleep(0x6fc23ac00)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/runtime/time.goc:39 +0x31
+main.func·033()
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/main.go:122 +0x50
+created by main.main
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/main.go:131 +0xa07
+
+goroutine 25 [chan receive, 4214 minutes]:
+main.func·034()
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/main.go:135 +0x6a
+created by main.main
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/main.go:138 +0xa37
+
+goroutine 34 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 35 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 36 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 37 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 38 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 39 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 40 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 41 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 42 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 43 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 44 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 45 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 46 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 47 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 48 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 49 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 50 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 51 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 52 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+
+
+** 2014-09-19 07:50:30.661423 **:
+GsComplete: broker: gocode_complete#mg9.autoken.ae4140ba-228a-41dd-90d1-16214c7f0ea4 PANIC
+--------------------------------
+margo: 2014/09/19 07:50:30 broker.go:105: gocode_complete#mg9.autoken.1d8f669a-34e9-43ac-8522-c550aa61cd07 PANIC: runtime error: slice bounds out of range
+goroutine 35 [running]:
+main.func·001()
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:104 +0xc6
+runtime.panic(0x46f8c0, 0x73200f)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/runtime/panic.c:248 +0x18d
+gosubli.me/something-borrowed/gocode.path_and_alias(0xc208ec8720, 0x1ac22d0, 0xc208ec8720, 0xc208ec8720, 0xc208041740)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/declcache.go:191 +0xb8
+gosubli.me/something-borrowed/gocode.collect_package_imports(0xc2090620c0, 0x55, 0xc208d5a510, 0x1, 0x1, 0xc208041740, 0x0, 0x0, 0x0)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/declcache.go:55 +0x1f6
+gosubli.me/something-borrowed/gocode.(*auto_complete_file).process_data(0xc20800ea80, 0xc208069180, 0x26a, 0x280)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/autocompletefile.go:60 +0x201
+gosubli.me/something-borrowed/gocode.(*auto_complete_context).apropos(0xc208041d00, 0xc208069180, 0x26a, 0x280, 0xc2090620c0, 0x55, 0xbe, 0x0, 0x0, 0x0, ...)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/autocompletecontext.go:241 +0xaf
+gosubli.me/something-borrowed/gocode.(*margoState).Complete(0xc20805adb0, 0x0, 0x0, 0x0, 0xc208ec82a0, 0x22, 0xc208d5a100, 0x1, 0x1, 0xc208069180, ...)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/gosublime_gocode_bridge.go:52 +0x121
+main.(*mGocode).completions(0xc208d5e080, 0xc208069180, 0x26a, 0x280, 0xc2090620c0, 0x55, 0xbe, 0x0, 0x0, 0x0)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/m_gocode.go:95 +0x14a
+main.(*mGocode).Call(0xc208d5e080, 0x0, 0x0, 0x0, 0x0)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/m_gocode.go:76 +0x5df
+main.(*Broker).call(0xc20800e150, 0xc208db4020, 0x1ac2220, 0xc208d5e080)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:113 +0xbb
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:188 +0xbf
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 16 [syscall]:
+syscall.Syscall(0x3, 0x0, 0xc2080ae000, 0x1000, 0x23, 0x2cc73f0, 0x2536c)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/syscall/asm_darwin_amd64.s:20 +0x5
+syscall.read(0x0, 0xc2080ae000, 0x1000, 0x1000, 0x1, 0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/syscall/zsyscall_darwin_amd64.go:952 +0x75
+syscall.Read(0x0, 0xc2080ae000, 0x1000, 0x1000, 0xc208d5e080, 0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/syscall/syscall_unix.go:136 +0x5c
+os.(*File).read(0xc208042000, 0xc2080ae000, 0x1000, 0x1000, 0xc208d5a018, 0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/os/file_unix.go:190 +0x89
+os.(*File).Read(0xc208042000, 0xc2080ae000, 0x1000, 0x1000, 0x55a79, 0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/os/file.go:95 +0x98
+bufio.(*Reader).fill(0xc208004240)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/bufio/bufio.go:97 +0x1b3
+bufio.(*Reader).ReadSlice(0xc208004240, 0x2d80a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/bufio/bufio.go:298 +0x22c
+bufio.(*Reader).ReadBytes(0xc208004240, 0xc2081c600a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/bufio/bufio.go:376 +0xe3
+main.(*Broker).accept(0xc20800e150, 0xc2081c6000, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:128 +0x46
+main.(*Broker).Loop(0xc20800e150, 0xc208000001)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:213 +0x27c
+main.main()
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/main.go:140 +0xa84
+
+goroutine 19 [finalizer wait, 1320 minutes]:
+runtime.park(0x32f20, 0x736158, 0x734c09)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/runtime/proc.c:1369 +0x89
+runtime.parkunlock(0x736158, 0x734c09)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/runtime/proc.c:1385 +0x3b
+runfinq()
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/runtime/mgc0.c:2644 +0xcf
+runtime.goexit()
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/runtime/proc.c:1445
+
+goroutine 21 [chan receive, 833 minutes]:
+gosubli.me/something-borrowed/gocode.func·021()
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/utils.go:112 +0x6a
+created by gosubli.me/something-borrowed/gocode.new_file_reader
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/something-borrowed/gocode/utils.go:116 +0x9e
+
+goroutine 22 [syscall]:
+syscall.Syscall6(0x7, 0x52e5, 0x1d77a5c, 0x0, 0xc208b9cc60, 0x0, 0x0, 0xc208081e60, 0x2971fa0, 0xc208b9cc60)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/syscall/asm_darwin_amd64.s:44 +0x5
+syscall.wait4(0x52e5, 0x1d77a5c, 0x0, 0xc208b9cc60, 0x43c9b, 0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/syscall/zsyscall_darwin_amd64.go:32 +0x7d
+syscall.Wait4(0x52e5, 0x1d77aa4, 0x0, 0xc208b9cc60, 0xc208de6ee0, 0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/syscall/syscall_bsd.go:129 +0x64
+os.(*Process).wait(0xc208de6ee0, 0x0, 0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/os/exec_unix.go:22 +0xfe
+os.(*Process).Wait(0xc208de6ee0, 0x0, 0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/os/doc.go:45 +0x39
+os/exec.(*Cmd).Wait(0xc208059040, 0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/os/exec/exec.go:357 +0x1db
+os/exec.(*Cmd).Run(0xc208059040, 0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/os/exec/exec.go:239 +0x70
+main.(*AutoInstOptions).install(0xc208076000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/g_autoinst.go:99 +0x824
+main.func·003()
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/g_autoinst.go:115 +0x96
+created by main.init·2
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/g_autoinst.go:117 +0x22
+
+goroutine 23 [sleep]:
+time.Sleep(0x77359400)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/runtime/time.goc:39 +0x31
+main.func·037()
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/oom.go:31 +0x270
+created by main.startOomKiller
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/oom.go:33 +0x63
+
+goroutine 24 [sleep]:
+time.Sleep(0x6fc23ac00)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/runtime/time.goc:39 +0x31
+main.func·033()
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/main.go:122 +0x50
+created by main.main
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/main.go:131 +0xa07
+
+goroutine 25 [chan receive, 4214 minutes]:
+main.func·034()
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/main.go:135 +0x6a
+created by main.main
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/main.go:138 +0xa37
+
+goroutine 34 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 36 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 37 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 38 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 39 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 40 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 41 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 42 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 43 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 44 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 45 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 46 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 47 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 48 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 49 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 50 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 51 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 52 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 53 [chan receive]:
+main.(*Broker).worker(0xc20800e150, 0xc208056d20, 0xc2081c6000)
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:187 +0x72
+created by main.(*Broker).Loop
+	/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosubli.me/margo/broker.go:209 +0x24c
+
+goroutine 130939 [syscall]:
+syscall.Syscall(0x3, 0x4, 0xc208876000, 0x2000, 0x54137404, 0x43c9b, 0x50)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/syscall/asm_darwin_amd64.s:20 +0x5
+syscall.read(0x4, 0xc208876000, 0x2000, 0x2000, 0x737f80, 0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/syscall/zsyscall_darwin_amd64.go:952 +0x75
+syscall.Read(0x4, 0xc208876000, 0x2000, 0x2000, 0x3, 0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/syscall/syscall_unix.go:136 +0x5c
+os.(*File).read(0xc208c4a9c8, 0xc208876000, 0x2000, 0x2000, 0xc208055910, 0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/os/file_unix.go:190 +0x89
+os.(*File).Read(0xc208c4a9c8, 0xc208876000, 0x2000, 0x2000, 0x3303, 0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/os/file.go:95 +0x98
+io/ioutil.devNull.ReadFrom(0x0, 0x1ac2088, 0xc208c4a9c8, 0x0, 0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/io/ioutil/ioutil.go:151 +0xb1
+io.Copy(0x1abd340, 0x0, 0x1ac2088, 0xc208c4a9c8, 0x0, 0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/io/io.go:349 +0x13d
+os/exec.func·003(0x0, 0x0)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/os/exec/exec.go:214 +0x7e
+os/exec.func·004(0xc208de6c20)
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/os/exec/exec.go:321 +0x2c
+created by os/exec.(*Cmd).Start
+	/usr/local/Cellar/go/1.3.1/libexec/src/pkg/os/exec/exec.go:322 +0x931
+
+
+
+** 2014-09-19 07:50:30.855360 **:
+GsComplete: broker: gocode_complete#mg9.autoken.1d8f669a-34e9-43ac-8522-c550aa61cd07 PANIC
+--------------------------------
+
+** 2014-09-21 07:56:54.630355 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+
+** 2014-09-22 17:02:02.637680 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+
+** 2014-10-09 12:16:01.679800 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
