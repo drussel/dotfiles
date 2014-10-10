@@ -935,10 +935,13 @@
 			"buffers":
 			[
 				{
+					"contents": "'use strict';\n\nvar settings = require('config/env').settings;\n\nvar NUM_SEARCH_RESULTS = 10;\n\nmodule.exports = App.AloSelectorComponent = Ember.Component.extend({\n  searchText: '',\n  classNames: ['alo-selector'],\n  isSearching: false,\n  pathFilter: undefined, // strings\n  mode: 'search',\n  searchResults: undefined,\n  hasMoreSearchResults: false,\n  searchFrom: 0,\n  curNodeChildren: undefined,\n  loadingCount: 0,\n\n  init: function() {\n    this._super.apply(this, arguments);\n\n    this.setProperties({\n      rawSearchResults: [],\n      curNodeChildren: [],\n      pathFilter: [Ember.Object.create({\n        text: 'All',\n        apolloId: settings.ALO_ROOT\n      })]\n    });\n  },\n\n  didInsertElement: function() {\n    var self = this;\n    console.log('did insert');\n    $('.next-box').bind('scroll', function() {\n      console.log('scroll');\n      var scrollPosition = $(this).scrollTop() + $(this).outerHeight();\n      var divTotalHeight = $(this)[0].scrollHeight + parseInt($(this).css('padding-top'), 10) + parseInt($(this).css('padding-bottom'), 10) + parseInt($(this).css('border-top-width'), 10) + parseInt($(this).css('border-bottom-width'), 10);\n\n      if (scrollPosition === divTotalHeight && self.get('hasMoreSearchResults')) {\n        self.doAddMoreSearchResults();\n      }\n    });\n  },\n\n  space: function() {\n    return App.AlosTagSpace.create({\n      store: this.get('store')\n    });\n  }.property('store'),\n\n  doAddMoreSearchResults: function() {\n    var searchText = this.get('searchText');\n\n    this.performSearch(searchText, this.get('searchResults.length')).then(function(searchResults) {\n      this.set('message', searchResults.length ? '' : 'No results found');\n      if (searchResults.length > NUM_SEARCH_RESULTS) {\n        this.set('hasMoreSearchResults', true);\n        this.get('searchResults').pushObjects(searchResults.slice(0, NUM_SEARCH_RESULTS));\n      } else {\n        this.set('hasMoreSearchResults', false);\n        this.get('searchResults').pushObjects(searchResults.slice(0));\n      }\n    }.bind(this)).catch(function(reason) {\n      this.set('message', 'Search failed. Please reload page.');\n      return Ember.RSVP.Promise.reject(reason ? reason : new Error('RPC search failed'));\n    }.bind(this));\n  },\n\n  doUpdateSearchResults: function() {\n    var searchText = this.get('searchText');\n\n    if (!searchText) {\n      this.set('message', 'No query entered.');\n      return;\n    }\n\n    if (searchText.length < 2) {\n      this.set('message', 'Please enter at least two characters to search.');\n      return;\n    }\n\n    this.set('message', 'Searching...');\n\n    this.performSearch(searchText, 0).then(function(searchResults) {\n      this.set('message', searchResults.length ? '' : 'No results found');\n      if (searchResults.length > NUM_SEARCH_RESULTS) {\n        this.set('hasMoreSearchResults', true);\n        this.set('searchResults', searchResults.slice(0, NUM_SEARCH_RESULTS));\n      } else {\n        this.set('hasMoreSearchResults', false);\n        this.set('searchResults', searchResults.slice(0));\n      }\n      this.doResetScroll();\n    }.bind(this)).catch(function(reason) {\n      this.set('message', 'Search failed. Please reload page.');\n      return Ember.RSVP.Promise.reject(reason ? reason : new Error('RPC search failed'));\n    }.bind(this));\n  },\n\n  performSearch: function(queryText, from) {\n    var self = this,\n      query = {\n        query: queryText,\n        filters: {\n          ancestor_id: settings.ALO_ROOT,\n          types: ['alo']\n        },\n        options: {\n          fetch_optional: true,\n          from: from,\n          size: NUM_SEARCH_RESULTS + 1\n        }\n      };\n    console.log(\"Sarching from\", this.get('searchFrom'));\n\n    return this.performRpcWithResults('ApolloSearcher.Search', query).then(function(results) {\n      var tagSpace = self.get('space'),\n        selected = self.get('values'),\n        tagsAndResults = tagSpace.getTagsFromResults(results, false);\n      return tagsAndResults.map(function(tagAndResult) {\n        return SearchResult.create({\n          result: tagAndResult.result,\n          selected: selected,\n          tag: tagAndResult.tag\n        });\n      });\n    });\n  },\n\n  addCurNodeChildren: function(id, contextId) {\n    this.incrementProperty('loadingCount');\n\n    this.performDrillDown(id, contextId).then(function(searchResults) {\n      searchResults.forEach(function(searchResult) {\n        if (searchResult.get('result.is_crosslink')) {\n          this.addCurNodeChildren(searchResult.get('result.id'), id);\n        } else if (searchResult.get('isVisible')) {\n          this.get('nextNodeChildren').pushObject(searchResult);\n        }\n      }.bind(this));\n\n      this.decrementProperty('loadingCount');\n    }.bind(this)).catch(function(reason) {\n      this.set('message', 'Exploration failed. Please reload page.');\n      return Ember.RSVP.Promise.reject(reason || new Error('RPC exploration failed'));\n    }.bind(this));\n  },\n\n  performDrillDown: function(id, contextId) {\n    var self = this,\n      query = {\n        id: id,\n        options: {\n          fetch_optional: true\n        },\n        filters: {\n          type: 'alo'\n        }\n      };\n\n    if (contextId) {\n      query.filters.context_id = contextId;\n    }\n\n    return this.performRpcWithResults('ApolloDrillDowner.DrillDown', query).then(function(results) {\n      var tagSpace = self.get('space'),\n        selected = self.get('values'),\n        tagsAndResults = tagSpace.getTagsFromResults(results, true);\n      return tagsAndResults.map(function(tagAndResult) {\n        return ExploreResult.create({\n          result: tagAndResult.result,\n          selected: selected,\n          tag: tagAndResult.tag,\n          contextId: contextId\n        });\n      });\n    });\n  },\n\n  performRpcWithResults: function(procedure, options) {\n    var self = this;\n    this.set('isSearching', true);\n    return Ember.RSVP.Promise.cast(this.get('searchClient').call(procedure, [options]).then(function(payload) {\n      self.set('isSearching', false);\n      return payload.results || [];\n    }));\n  },\n\n  doUpdateCurNodeChildren: function() {\n    var pf = this.get('pathFilter'),\n      pfl = pf[pf.length - 1];\n    this.set('nextNodeChildren', []);\n    this.addCurNodeChildren(pfl.get('apolloId'), pfl.get('contextId'));\n    this.doResetScroll();\n  },\n\n  onDoneLoading: function() {\n    if (this.get('loadingCount') === 0 && this.get('nextNodeChildren')) {\n      this.set('curNodeChildren', _.sortBy(this.get('nextNodeChildren'), function(t) {\n        return t.get('text');\n      }));\n      this.set('message', '');\n    }\n  }.observes('loadingCount'),\n\n  updateCurNodeChildren: function() {\n    if (this.get('space') && this.get('mode') === 'explore') {\n      Ember.run.once(this, 'doUpdateCurNodeChildren');\n    }\n  }.observes('pathFilter.@each', 'mode', 'space'),\n\n  isSearch: Ember.computed.equal('mode', 'search'),\n\n  isExplore: Ember.computed.equal('mode', 'explore'),\n\n  onSearchTextChanged: function() {\n    this.set('searchFrom', 0);\n    this.set('rawSearchResults', []);\n    Ember.run.debounce(this, this.doUpdateSearchResults, 300);\n  }.observes('searchText'),\n\n  clearIsNew: function() {\n    this.get('pathFilter').setEach('isNew', false);\n  },\n\n  modeDidChange: function() {\n    if (this.get('mode') === 'explore') {\n      this.set('message', 'Loading...');\n      this.clearIsNew();\n    } else {\n      this.set('message', 'Please enter a search query');\n      this.doUpdateSearchResults();\n    }\n  }.observes('mode').on('init'),\n\n  doResetScroll: function() {\n    this.$('.next-box').scrollTop(0);\n  },\n\n  actions: {\n    unfilterPath: function(p) {\n      var i;\n      for (i = 0; i < this.get('pathFilter.length'); ++i) {\n        if (this.get('pathFilter')[i] === p) {\n          this.set('pathFilter', this.get('pathFilter').slice(0, i + 1));\n          return;\n        }\n      }\n    },\n\n    filterPath: function(p) {\n      if (!p.get('isExpandable')) return;\n      this.clearIsNew();\n      p.set('isNew', true);\n      this.get('pathFilter').pushObject(p);\n    },\n\n    selectAlo: function(tag) {\n      var id = tag.get('tagId');\n\n      if (!tag.get('isTagable')) return;\n\n      if (this.get('values').indexOf(id) === -1) {\n        this.get('values').pushObject(id);\n      }\n    },\n\n    setMode: function(mode) {\n      this.set('mode', mode);\n    }\n  }\n});\n\n\n// Base search/explore service result object\nvar Result = Ember.Object.extend({\n  tag: undefined,\n  result: undefined,\n  selected: undefined,\n\n  fullDescription: Ember.computed.alias('tag.fullDescription'),\n\n  isTagable: function() {\n    var selected = this.get('selected') || [];\n\n    return this.get('tag') && selected.indexOf(this.get('tag.id')) === -1;\n  }.property('tag', 'selected.@each', 'tag.id'),\n\n  tagId: Ember.computed.alias('tag.id'),\n  text: Ember.computed.alias('result.title')\n});\n\n\n// Results for explore queries\nvar ExploreResult = Result.extend({\n  count: function() {\n    if (this.get('tag')) {\n      return this.get('result.count') - 1;\n    } else {\n      return this.get('result.count');\n    }\n  }.property('result.count', 'tag'),\n\n  isExpandable: Ember.computed.gt('count', 0),\n\n  description: Ember.computed.alias('result.optional.content'),\n\n  apolloId: Ember.computed.alias('result.id'),\n\n  isVisible: function() {\n    return !this.get('tag') && this.get('count') || this.get('tag') && this.get('count') >= 0;\n  }.property('count', 'tag')\n});\n\n// Results for search queries\nvar SearchResult = Result.extend({\n  description: function() {\n    // I'm sure there is a better way, but it doesn't seem worth the time\n    var raw = this.get('result.summary'),\n      escaped0 = (raw || '').replace(/<em>/g, 'QQQemQQQ'),\n      escaped1 = escaped0.replace(/<\\/em>/g, 'QQQ/emQQQ'),\n      cleaned = escaped1.replace(/<[^>]*>/g, ''),\n      unescaped0 = cleaned.replace(/QQQemQQQ/g, '<em>'),\n      unescaped1 = unescaped0.replace(/QQQ\\/emQQQ/g, '</em>');\n    return unescaped1;\n  }.property('result.summary')\n});",
 					"file": "vishnu-frontend/app/components/alo_selector_component.js",
+					"file_size": 9939,
+					"file_write_time": 130573743100000000,
 					"settings":
 					{
-						"buffer_size": 9939,
+						"buffer_size": 9938,
 						"line_ending": "Unix"
 					}
 				},
@@ -948,32 +951,6 @@
 					{
 						"buffer_size": 8622,
 						"line_ending": "Unix"
-					}
-				},
-				{
-					"contents": "[\n    {\n        \"keys\": [\"ctrl+alt+f\"], \"command\": \"js_format\",\n        \"context\": [{\"key\": \"selector\", \"operator\": \"equal\", \"operand\": \"source.js,source.json\"}]\n    }\n]",
-					"file": "/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/JsFormat/Default (OSX).sublime-keymap",
-					"file_size": -1,
-					"file_write_time": -1,
-					"settings":
-					{
-						"buffer_size": 169,
-						"line_ending": "Unix",
-						"read_only": true,
-						"scratch": true
-					}
-				},
-				{
-					"contents": "[{\n    \"keys\": [\"ctrl+alt+f\"],\n    \"command\": \"jsbeautify\",\n    \"context\": [{\n        \"key\": \"selector\",\n        \"operator\": \"equal\",\n        \"operand\": \"source.js,source.json,source.jade\"\n      }\n    ]\n  }\n]",
-					"file": "/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/Javascript Beautify/Default (OSX).sublime-keymap",
-					"file_size": -1,
-					"file_write_time": -1,
-					"settings":
-					{
-						"buffer_size": 208,
-						"line_ending": "Unix",
-						"read_only": true,
-						"scratch": true
 					}
 				},
 				{
@@ -1020,16 +997,16 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 267.0,
+				"height": 392.0,
 				"selected_items":
 				[
 					[
-						"js",
-						"Format: Javascript"
+						"pack",
+						"Package Control: Remove Package"
 					],
 					[
-						"pack",
-						"Package Control: Install Package"
+						"js",
+						"Format: Javascript"
 					],
 					[
 						"packa",
@@ -1109,6 +1086,8 @@
 			],
 			"file_history":
 			[
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/Javascript Beautify/Default (OSX).sublime-keymap",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/JsFormat/Default (OSX).sublime-keymap",
 				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
 				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 				"/Users/drussel/AltSchool/vishnu-frontend/app/components/card_tagger_component.js",
@@ -1234,9 +1213,7 @@
 				"/Users/drussel/AltSchool/vishnu-frontend/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/config-chain/node_modules/proto-list/package.json",
 				"/Users/drussel/AltSchool/vishnu-frontend/app/lib/assert.js",
 				"/Users/drussel/AltSchool/vishnu-frontend/app/components/dc_pie_chart.js",
-				"/Users/drussel/AltSchool/vishnu-frontend/app/components/dc_stacked_bar_chart.js",
-				"/Users/drussel/Downloads/Robot Movement Matrix/generate.py",
-				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/components/tag-color.hbs"
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/dc_stacked_bar_chart.js"
 			],
 			"find":
 			{
@@ -1434,15 +1411,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 9939,
+								"buffer_size": 9938,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										3052,
-										3052
+										1451,
+										1451
 									]
 								],
 								"settings":
@@ -1450,61 +1427,61 @@
 									"BracketHighlighterBusy": false,
 									"bh_regions":
 									[
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
 										"bh_c_define",
 										"bh_c_define_center",
 										"bh_c_define_open",
 										"bh_c_define_close",
 										"bh_c_define_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
 										"bh_square",
 										"bh_square_center",
 										"bh_square_open",
 										"bh_square_close",
 										"bh_square_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
 										"bh_regex",
 										"bh_regex_center",
 										"bh_regex_open",
 										"bh_regex_close",
-										"bh_regex_content"
+										"bh_regex_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content"
 									],
 									"codeintel": true,
 									"codeintel_config":
@@ -1615,7 +1592,7 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 945.0,
+								"translation.y": 60.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -1816,388 +1793,6 @@
 						},
 						{
 							"buffer": 2,
-							"file": "/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/JsFormat/Default (OSX).sublime-keymap",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 169,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										169,
-										169
-									]
-								],
-								"settings":
-								{
-									"BracketHighlighterBusy": false,
-									"bh_regions":
-									[
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content"
-									],
-									"codeintel": true,
-									"codeintel_config":
-									{
-										"JavaScript":
-										{
-											"codeintel_max_recursive_dir_depth": 2,
-											"codeintel_scan_files_in_project": false,
-											"javascriptExtraPaths":
-											[
-											]
-										},
-										"PHP":
-										{
-											"codeintel_max_recursive_dir_depth": 5,
-											"codeintel_scan_files_in_project": false,
-											"phpExtraPaths":
-											[
-											]
-										},
-										"Python":
-										{
-											"env":
-											{
-											}
-										}
-									},
-									"codeintel_enabled_languages":
-									[
-										"JavaScript",
-										"Mason",
-										"XBL",
-										"XUL",
-										"RHTML",
-										"SCSS",
-										"Python",
-										"HTML",
-										"Ruby",
-										"Python3",
-										"XML",
-										"Sass",
-										"XSLT",
-										"Django",
-										"HTML5",
-										"Perl",
-										"CSS",
-										"Twig",
-										"Less",
-										"Smarty",
-										"Node.js",
-										"Tcl",
-										"TemplateToolkit",
-										"PHP"
-									],
-									"codeintel_live": true,
-									"codeintel_live_enabled_languages":
-									[
-										"JavaScript",
-										"Mason",
-										"XBL",
-										"XUL",
-										"RHTML",
-										"SCSS",
-										"Python",
-										"HTML",
-										"Ruby",
-										"Python3",
-										"XML",
-										"Sass",
-										"XSLT",
-										"Django",
-										"HTML5",
-										"Perl",
-										"CSS",
-										"Twig",
-										"Less",
-										"Smarty",
-										"Node.js",
-										"Tcl",
-										"TemplateToolkit",
-										"PHP"
-									],
-									"codeintel_max_recursive_dir_depth": 10,
-									"codeintel_scan_exclude_dir":
-									{
-										"JavaScript":
-										[
-											"/build/",
-											"/min/"
-										]
-									},
-									"codeintel_scan_files_in_project": true,
-									"codeintel_selected_catalogs":
-									[
-										"PyWin32",
-										"jQuery",
-										"Rails"
-									],
-									"codeintel_snippets": true,
-									"codeintel_syntax_map":
-									{
-										"Python Django": "Python"
-									},
-									"codeintel_tooltips": "popup",
-									"sublime_auto_complete": true,
-									"syntax": "Packages/JavaScript/JSON.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/Javascript Beautify/Default (OSX).sublime-keymap",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 208,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										208,
-										208
-									]
-								],
-								"settings":
-								{
-									"BracketHighlighterBusy": false,
-									"bh_regions":
-									[
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content"
-									],
-									"codeintel": true,
-									"codeintel_config":
-									{
-										"JavaScript":
-										{
-											"codeintel_max_recursive_dir_depth": 2,
-											"codeintel_scan_files_in_project": false,
-											"javascriptExtraPaths":
-											[
-											]
-										},
-										"PHP":
-										{
-											"codeintel_max_recursive_dir_depth": 5,
-											"codeintel_scan_files_in_project": false,
-											"phpExtraPaths":
-											[
-											]
-										},
-										"Python":
-										{
-											"env":
-											{
-											}
-										}
-									},
-									"codeintel_enabled_languages":
-									[
-										"JavaScript",
-										"Mason",
-										"XBL",
-										"XUL",
-										"RHTML",
-										"SCSS",
-										"Python",
-										"HTML",
-										"Ruby",
-										"Python3",
-										"XML",
-										"Sass",
-										"XSLT",
-										"Django",
-										"HTML5",
-										"Perl",
-										"CSS",
-										"Twig",
-										"Less",
-										"Smarty",
-										"Node.js",
-										"Tcl",
-										"TemplateToolkit",
-										"PHP"
-									],
-									"codeintel_live": true,
-									"codeintel_live_enabled_languages":
-									[
-										"JavaScript",
-										"Mason",
-										"XBL",
-										"XUL",
-										"RHTML",
-										"SCSS",
-										"Python",
-										"HTML",
-										"Ruby",
-										"Python3",
-										"XML",
-										"Sass",
-										"XSLT",
-										"Django",
-										"HTML5",
-										"Perl",
-										"CSS",
-										"Twig",
-										"Less",
-										"Smarty",
-										"Node.js",
-										"Tcl",
-										"TemplateToolkit",
-										"PHP"
-									],
-									"codeintel_max_recursive_dir_depth": 10,
-									"codeintel_scan_exclude_dir":
-									{
-										"JavaScript":
-										[
-											"/build/",
-											"/min/"
-										]
-									},
-									"codeintel_scan_files_in_project": true,
-									"codeintel_selected_catalogs":
-									[
-										"PyWin32",
-										"jQuery",
-										"Rails"
-									],
-									"codeintel_snippets": true,
-									"codeintel_syntax_map":
-									{
-										"Python Django": "Python"
-									},
-									"codeintel_tooltips": "popup",
-									"sublime_auto_complete": true,
-									"syntax": "Packages/JavaScript/JSON.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 4,
 							"file": "/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 							"semi_transient": false,
 							"settings":
@@ -2385,11 +1980,11 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 8,
+							"stack_index": 6,
 							"type": "text"
 						},
 						{
-							"buffer": 5,
+							"buffer": 3,
 							"file": "vishnu-frontend/app/models/tag_space.js",
 							"semi_transient": false,
 							"settings":
@@ -2578,11 +2173,11 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 7,
+							"stack_index": 5,
 							"type": "text"
 						},
 						{
-							"buffer": 6,
+							"buffer": 4,
 							"file": "vishnu-frontend/app/templates/components/alo-selector.hbs",
 							"semi_transient": false,
 							"settings":
@@ -2771,11 +2366,11 @@
 								"translation.y": 121.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 4,
+							"stack_index": 2,
 							"type": "text"
 						},
 						{
-							"buffer": 7,
+							"buffer": 5,
 							"file": "vishnu-frontend/app/templates/components/card-tagger.hbs",
 							"semi_transient": false,
 							"settings":
@@ -2964,11 +2559,11 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 6,
+							"stack_index": 4,
 							"type": "text"
 						},
 						{
-							"buffer": 8,
+							"buffer": 6,
 							"file": "vishnu-frontend/app/styles/components/_alo_selector.scss",
 							"semi_transient": false,
 							"settings":
@@ -3157,7 +2752,7 @@
 								"translation.y": 148.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 5,
+							"stack_index": 3,
 							"type": "text"
 						}
 					]
