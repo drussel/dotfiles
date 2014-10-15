@@ -3,7 +3,7 @@
 	[
 	],
 	"last_version": 3065,
-	"last_window_id": 101,
+	"last_window_id": 110,
 	"log_indexing": false,
 	"settings":
 	{
@@ -14,6 +14,562 @@
 			{
 				"selected_items":
 				[
+					[
+						"inline",
+						"inline-block"
+					],
+					[
+						"back",
+						"background-color"
+					],
+					[
+						"doc",
+						"doc"
+					],
+					[
+						"inli",
+						"inline-block"
+					],
+					[
+						"for",
+						"for	for (…) {…} (Improved Native For-Loop)"
+					],
+					[
+						"id",
+						"id"
+					],
+					[
+						"font",
+						"font-size"
+					],
+					[
+						"cross",
+						"crossfilterData"
+					],
+					[
+						"did",
+						"didInsertElement"
+					],
+					[
+						"chart",
+						"chart"
+					],
+					[
+						"g",
+						"g"
+					]
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 392.0,
+				"selected_items":
+				[
+					[
+						"pack",
+						"Package Control: Install Package"
+					],
+					[
+						"js",
+						"Format: Javascript"
+					],
+					[
+						"packa",
+						"Package Control: Install Package"
+					],
+					[
+						"css",
+						"Set Syntax: SCSS"
+					],
+					[
+						"package",
+						"Package Control: Install Package"
+					],
+					[
+						"p",
+						"Package Control: Install Package"
+					],
+					[
+						"sass",
+						"Set Syntax: Sass"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"packag",
+						"Package Control: Install Package"
+					],
+					[
+						"package contro",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 602.0
+			},
+			"console":
+			{
+				"height": 126.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/drussel/AltSchool/vishnu-frontend/app/styles/components/_alo_selector.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/components/card-tagger.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/components/alo-selector.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/models/tag_space.js",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/card_tagger_component.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/alo_selector_component.js",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/Javascript Beautify/Default (OSX).sublime-keymap",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/JsFormat/Default (OSX).sublime-keymap",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/controllers/plp_goals/current/select_alo_modal_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/styles/components/_select_alo_modal.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/styles/components/_card_tagger.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/plp_goals/current/select_alo_modal.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/styles/_plp.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/controllers/plp_goals/current/new_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/routes/plp_goals_current_new_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/grade_selector_component.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/styles/common/_buttons.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/alo_selector_component.js.orig",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/models/alos_tag_space.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/models/card.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/models/apollo_edge_document.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/vendor/scripts/development/ember-data.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/models/apollo/base_adapter.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/models/apollo/base_serializer.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/models/apollo_edge.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/routes/propose_alo_index_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/services/tagger_space.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/stores/rpc.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/rich_content_editable_component.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/styles/index.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/config/router.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/manage_tags.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/styles/_off_canvas_menu.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/manage_alos.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/controllers/manage_alos_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/routes/manage_alos_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/styles/_manage_alos.scss",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/User/JavascriptBeautify.sublime-settings",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/Javascript Beautify/JavascriptBeautify.sublime-settings",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/styles/_manage_tags.scss",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/controllers/manage_tags_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/routes/manage_tags_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/controllers/student_card_edit_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/student_reflection_component.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/student_card/edit.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/config/settings.jsenv",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/lib/taxonomy_tree.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/tag_tree_node.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/taxonomy_tree.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/taxonomy_tree_branch.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/taxonomy_tree_label.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/taxonomy_tree_link.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/taxonomy_tree_node.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/components/taxonomy-tree-link.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/components/taxonomy-tree-node.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/styles/_taxonomy.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/hideable_block.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/sandbox/taxonomy.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/components/taxonomy-tree.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/components/hideable-block.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/components/taxonomy-tree-branch.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/routes/sandbox_taxonomy_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/components/taxonomy-tree-label.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/controllers/sandbox/taxonomy_controller.js",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 2/Packages/JSHint Gutter/JSHint.sublime-settings",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/sandbox.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/routes/sandbox_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/controllers/sandbox_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/controllers/sandbox_taxonomy_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/lib/tag_taxonomy.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/tag_stacked_bar_chart.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/tag_tree.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/profile_playlist.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/playlist.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/components/student-reflection-item.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/controllers/playlist_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/styles/_playlist.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/models/playlist/check_item.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/student_reflection_item_component.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/controllers/card_edit_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/card/edit.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/README.md",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/student.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/application.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/serializers/tagged_card_serializer.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/tags.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/styles/_tags.scss",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/views/page_loading_view.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/tag_pie_chart.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/pie_chart.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/routes/tags_route.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/components/tag-tree-branch.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/controllers/tags_controller.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/models/tagged_card.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/components/tag-tree-node.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/styles/_links.scss",
+				"/Users/drussel/Library/Application Support/Sublime Text 2/Packages/JSHint Gutter/JSHint.sublime-settings",
+				"/Users/drussel/Library/Application Support/Sublime Text 2/Packages/JSHint Gutter/.jshintrc",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/tag_tree_branch.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/components/tag-pie-chart.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/components/tag-stacked-bar-chart.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/components/tag-tree.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/models/student.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/models/playlist/list.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/playlist/activity.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/views/playlist_activity_view.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/models/playlist.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/modal_component.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/components/modal-dialog.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/initialize.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/todo",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/config/app.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/vendor/scripts/development/ember.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/components/card-link.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/card_link.js",
+				"/Users/drussel/Library/Application Support/Sublime Text 2/Packages/Javascript Beautify/JavascriptBeautify.sublime-settings",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/tag_color.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/templates/components/tags-pie-chart.hbs",
+				"/Users/drussel/AltSchool/vishnu-frontend/node_modules/karma/node_modules/optimist/node_modules/minimist/.travis.yml",
+				"/Users/drussel/AltSchool/vishnu-frontend/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/config-chain/node_modules/proto-list/package.json",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/lib/assert.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/dc_pie_chart.js",
+				"/Users/drussel/AltSchool/vishnu-frontend/app/components/dc_stacked_bar_chart.js"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 93.0,
+				"where_history":
+				[
+					"-public/*,-node_modules/*",
+					"-public/*",
+					" -public",
+					"/Users/drussel/AltSchool/vishnu-frontend, -public",
+					"/Users/drussel/AltSchool/vishnu-frontend",
+					"/Users/drussel/AltSchool/vishnu-frontend/app/models",
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"checklists",
+					"checklist.get('isTags')",
+					"_.find(",
+					"rawsear",
+					"doreset",
+					"sort",
+					"optional",
+					"trim",
+					" == ",
+					"== 'Grade Level'",
+					"this.get('mode') == 'search'",
+					"addGrade",
+					"console.lo",
+					"console.oog",
+					"grade",
+					"gradeIds",
+					"this._result = {};",
+					"tagSets",
+					"select-alo-modal",
+					"gradeIds",
+					"isusing",
+					"searchResults",
+					"RSVP.all",
+					"inverseFor",
+					"resolve",
+					"fetch",
+					"fetchta",
+					"forward_reference",
+					"to_document",
+					"from_document",
+					"backward_reference",
+					"forward_reference",
+					"foward_references",
+					"apollo_edge",
+					"apollo_document",
+					"Lengths differ after save",
+					"apollo_edge_document",
+					"apollo_d",
+					"apollo_document",
+					"record to this relationship",
+					"apollo_edge_document",
+					"apollo_edge",
+					"types",
+					"isFilter",
+					"color_change",
+					"load_mask",
+					"load",
+					"hasInputedDescription",
+					"hasInputtedDescription",
+					"ember.computed.alias",
+					"getTagsFromResults",
+					"causes error",
+					"isDestroyed",
+					"RPC",
+					"searchclient",
+					"optional",
+					"getTagsFromResults",
+					"Results",
+					"Resuults",
+					"getTagsFromResults",
+					"gettagand",
+					"off",
+					"nth-child",
+					"always",
+					"index",
+					"rpcclient",
+					"isFilteringFromExplore",
+					"descript",
+					"store",
+					"debounce",
+					"proxy",
+					"PromiseArray",
+					"studentreflection",
+					"reflectionChanges",
+					"submitReflectionsAndMarkAsDone",
+					"created_at",
+					"alo-selector",
+					"color",
+					"console.log",
+					"extractTagsFromList",
+					"nextNodeCh",
+					"natural",
+					"\n<",
+					"NodeTaxonomyNodeTaxonomyNode",
+					"Node",
+					"new ",
+					"print",
+					"brew install",
+					"console.log",
+					"scale",
+					"transform",
+					"'",
+					"console.log",
+					"toggleStep",
+					".button",
+					"card",
+					".button",
+					"transform",
+					"upper",
+					"2",
+					"fa-smile-o",
+					"fa",
+					"smile",
+					"$margin",
+					"isChecked",
+					"radio",
+					"viewport",
+					"elem",
+					"transform",
+					"height",
+					"label",
+					".card",
+					"console.lo",
+					"console",
+					"onsole.log",
+					".tag",
+					"data",
+					"console",
+					"', ",
+					"groupand",
+					"split",
+					"ID",
+					"before",
+					"input",
+					"scroll",
+					"modal",
+					"is-checked",
+					"check"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"apollo_document",
+					"\"",
+					"$scale",
+					"p",
+					"crossfilterData",
+					"rawData",
+					"model",
+					"get('tagPath')",
+					"get('tagGroup')",
+					"  ",
+					"'",
+					"_this",
+					"'",
+					"_this",
+					"'",
+					"Taxonomy",
+					"taxonomy",
+					"  ",
+					"    "
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 31.0
+			},
+			"menu_visible": true,
+			"output.autopep8":
+			{
+				"height": 100.0
+			},
+			"output.exec":
+			{
+				"height": 309.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"cardedhb",
+						"app/templates/card/edit.hbs"
+					],
+					[
+						"apphb",
+						"app/templates/application.hbs"
+					],
+					[
+						"playscs",
+						"app/styles/_playlist.scss"
+					],
+					[
+						"",
+						"app/templates/card/edit.hbs"
+					],
+					[
+						"cardedithb",
+						"app/templates/card/edit.hbs"
+					],
+					[
+						"cardedi",
+						"app/controllers/card_edit_controller.js"
+					],
+					[
+						"tagscon",
+						"app/controllers/tags_controller.js"
+					],
+					[
+						"api_url",
+						"node_modules/karma/node_modules/optimist/node_modules/minimist/.travis.yml"
+					],
+					[
+						"card",
+						"app/models/playlist/card.js"
+					],
+					[
+						"routplay",
+						"app/routes/playlist_route.js"
+					],
+					[
+						"modcar",
+						"app/models/playlist/card.js"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 343.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1676.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"Gra",
+						"IdToGrade	map[string]int ƒ"
+					],
+					[
+						"G",
+						"GradeToId	map[int]string ƒ"
+					],
+					[
+						"votes",
+						"gatherVotes	int ƒ"
+					],
+					[
+						"Is",
+						"IsSummaryAlo	bool ƒ"
+					],
 					[
 						"Std",
 						"Stdout	*os.File ν"
@@ -119,10 +675,6 @@
 						"MarshalIndentJson	string ƒ"
 					],
 					[
-						"Gra",
-						"GraphFileName	*string ν"
-					],
-					[
 						"Upd",
 						"UpdateDocAlwaysFromPath	error ƒ"
 					],
@@ -216,6 +768,20 @@
 					]
 				]
 			},
+			"buffers":
+			[
+				{
+					"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Slate Test</title>\n  <link rel=\"stylesheet\" href=\"main.css\">\n  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>\n  <link href=\"http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css\" rel=\"stylesheet\">\n</head>\n<body>\n\n	<header class=\"site-header bg-brand-primary\">\n		<div class=\"layout-row\">\n			<div class=\"layout-col fixed-mediumn no-padding\">\n			  <a href=\"http://bit.ly/1m188yA\" class=\"site-logo\"></a>\n			</div>\n			<div class=\"layout-col full-width\">\n			  <nav class=\"inline-nav inverted inline-nav-logo-align\">\n				  <a href=\"http://bit.ly/1m188yA\">Igneous</a>\n				  <a href=\"http://bit.ly/1m188yA\" class=\"active\">Metamorphic</a>\n				  <a href=\"http://bit.ly/1m188yA\">Sedimentary</a>\n				</nav>\n			</div>\n		</div>\n	</header>\n	<div class=\"layout-row height-minus-header\">\n		<div class=\"layout-col bg-gray fixed-medium\">\n			<ul class=\"nav-list nav-list-dark\">\n			  <li>\n			    <a href=\"http://bit.ly/1m188yA\" class=\"nav-list-item\">\n			      <i class=\"fa fa-plane\"></i>\n			      Airplane\n			    </a>\n			  </li>\n			  <li>\n			    <a href=\"http://bit.ly/1m188yA\" class=\"nav-list-item active\">\n			      <i class=\"fa fa-flask\"></i>\n			      Teleportation\n			    </a>\n			    <ul>\n			      <li>\n			        <a href=\"http://bit.ly/1m188yA\" class=\"nav-list-item\">\n			         Transporter\n			        </a>\n			      </li>\n			      <li>\n			        <a href=\"http://bit.ly/1m188yA\" class=\"nav-list-item\">\n			         Quantum Leap\n			        </a>\n			      </li>\n			    </ul>\n			  </li>\n			  <li>\n			    <a href=\"http://bit.ly/1m188yA\" class=\"nav-list-item\">\n			      <i class=\"fa fa-bus\"></i>\n			      Charabanc\n			    </a>\n			  </li>\n			</ul>\n		</div>\n		<div class=\"layout-col full-width\">\n		  <header class=\"layout-banner\">\n		  	<h1> Slate </h1>\n		  </header>\n		  \n		</div>\n	</div>\n</body>\n</html>\n",
+					"file": "/Users/drussel/AltSchool/slate-bug-bash/index.html",
+					"file_size": 1988,
+					"file_write_time": 130578761450000000,
+					"settings":
+					{
+						"buffer_size": 1993,
+						"line_ending": "Unix"
+					}
+				}
+			],
 			"build_system": "Packages/GoSublime/GoSublime.sublime-build",
 			"command_palette":
 			{
@@ -292,14 +858,15 @@
 			},
 			"file_history":
 			[
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-merge-trees/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-rm/main.go",
 				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-update/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/graph.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/tax_test.go",
 				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-import/main.go",
 				"/Users/drussel/AltSchool/apollo-backend.sublime-project",
-				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/tax_test.go",
 				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy.json",
 				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-export/main.go",
-				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-rm/main.go",
-				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/graph.go",
 				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/README.md",
 				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/USAGE.md",
 				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-remap-tag/main.go",
@@ -319,7 +886,6 @@
 				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/deletions.txt",
 				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-rebuild-tree/main.go",
-				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-merge-trees/main.go",
 				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/fixed.go",
 				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/tax.json",
 				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/graph3.go",
@@ -423,7 +989,7 @@
 			],
 			"find":
 			{
-				"height": 35.0
+				"height": 23.0
 			},
 			"find_in_files":
 			{
@@ -445,6 +1011,20 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"Communities",
+					"Knowledge and voc",
+					"Language",
+					"2879e276-2722-46d1-6e2d-e928051dc8aa",
+					"trying to",
+					"ways of inter",
+					"Emotional Awareness\"",
+					"Grades",
+					"Under- Stand ",
+					"HSF-BF",
+					".BF",
+					"463df826-e7ba-46ce-9ff4-6c671a2bb0e5",
+					"f2b14291-fa2b-471e-6b57-64d00f7377d8",
+					"7a76ca8f-3481-4e6e-6e53-dc4411cf9b7a",
 					"eadb0973-c3c1-4708-be60-ce0717d62cee",
 					"4ddc9cdf-4aab-4540-b607-aa6c6b7b58f9",
 					"Sort",
@@ -558,21 +1138,7 @@
 					"created_at\": \"\"",
 					"null",
 					"5436bd0b-ae3e-431a-62d1-70872bf3f9dd",
-					"15d85596-6c93-424f-51a9-bf948b0ccb07",
-					"f6280fcb-fffe-413d-5e67-8897761f6b0a",
-					"7450cf32-a33d-4e38-4e85-4378a8796d6d",
-					"\"ALOs\"",
-					"\"complete_title\": \"Tags\",",
-					"\"Tags\"",
-					"8dcb6cde-a5c7-4a8d-52dc-05d2acbcc7ff",
-					"ab4c5bff-4d9d-4fdd-8a78-015770dcd3ce",
-					"\"parent\": \"0290188d-9b3e-4740-7692-e438f457",
-					"ac0f317e-ee85-4e77-a74d-82a66e94a3df",
-					"to_document\": \"\"",
-					"Social Relationships",
-					"social rel",
-					"relationships ",
-					"relationships with other"
+					"15d85596-6c93-424f-51a9-bf948b0ccb07"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -580,6 +1146,7 @@
 				"regex": false,
 				"replace_history":
 				[
+					"Understand ",
 					"  ",
 					"b5d50df3-f72e-4789-a8f4-73929c037e8b",
 					"Subjective Evaluation",
@@ -705,13 +1272,235 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/drussel/AltSchool/slate-bug-bash/index.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1993,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1959,
+										1959
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content"
+									],
+									"codeintel": true,
+									"codeintel_config":
+									{
+										"JavaScript":
+										{
+											"codeintel_max_recursive_dir_depth": 2,
+											"codeintel_scan_files_in_project": false,
+											"javascriptExtraPaths":
+											[
+											]
+										},
+										"PHP":
+										{
+											"codeintel_max_recursive_dir_depth": 5,
+											"codeintel_scan_files_in_project": false,
+											"phpExtraPaths":
+											[
+											]
+										},
+										"Python":
+										{
+											"env":
+											{
+											}
+										}
+									},
+									"codeintel_enabled_languages":
+									[
+										"JavaScript",
+										"Mason",
+										"XBL",
+										"XUL",
+										"RHTML",
+										"SCSS",
+										"Python",
+										"HTML",
+										"Ruby",
+										"Python3",
+										"XML",
+										"Sass",
+										"XSLT",
+										"Django",
+										"HTML5",
+										"Perl",
+										"CSS",
+										"Twig",
+										"Less",
+										"Smarty",
+										"Node.js",
+										"Tcl",
+										"TemplateToolkit",
+										"PHP"
+									],
+									"codeintel_live": true,
+									"codeintel_live_enabled_languages":
+									[
+										"JavaScript",
+										"Mason",
+										"XBL",
+										"XUL",
+										"RHTML",
+										"SCSS",
+										"Python",
+										"HTML",
+										"Ruby",
+										"Python3",
+										"XML",
+										"Sass",
+										"XSLT",
+										"Django",
+										"HTML5",
+										"Perl",
+										"CSS",
+										"Twig",
+										"Less",
+										"Smarty",
+										"Node.js",
+										"Tcl",
+										"TemplateToolkit",
+										"PHP"
+									],
+									"codeintel_max_recursive_dir_depth": 10,
+									"codeintel_scan_exclude_dir":
+									{
+										"JavaScript":
+										[
+											"/build/",
+											"/min/"
+										]
+									},
+									"codeintel_scan_files_in_project": true,
+									"codeintel_selected_catalogs":
+									[
+										"PyWin32",
+										"jQuery",
+										"Rails"
+									],
+									"codeintel_snippets": true,
+									"codeintel_syntax_map":
+									{
+										"Python Django": "Python"
+									},
+									"codeintel_tooltips": "popup",
+									"sublime_auto_complete": true,
+									"syntax": "Packages/HTML/HTML.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 86.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
 			"incremental_find":
 			{
-				"height": 0.0
+				"height": 23.0
 			},
 			"input":
 			{
 				"height": 31.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
 			},
 			"menu_visible": true,
 			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe":
@@ -794,9 +1583,11 @@
 			{
 				"height": 0.0
 			},
+			"position": "0 4 0 1676 1028 0 0 1680 1028 ",
+			"project": "",
 			"replace":
 			{
-				"height": 64.0
+				"height": 42.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -867,6 +1658,10 @@
 				],
 				"width": 0.0
 			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
 			"show_minimap": true,
 			"show_open_files": false,
 			"show_tabs": true,
@@ -875,12 +1670,10 @@
 			"status_bar_visible": true,
 			"template_settings":
 			{
-			}
+			},
+			"window_id": 107,
+			"workspace_name": ""
 		},
-		"new_window_width": 1676.0
-	},
-	"windows":
-	[
 		{
 			"auto_complete":
 			{
@@ -934,6 +1727,32 @@
 			},
 			"buffers":
 			[
+				{
+					"contents": "Searching 625 files for \"_.find(\"\n\n/Users/drussel/AltSchool/vishnu-frontend/app/models/playlist.js:\n   13  var listWithName = function(listName) {\n   14    return Ember.computed('lists.@each', function() {\n   15:     return _.find(this.get('lists'), function(list) {\n   16        return list.get('name') === listName;\n   17      });\n\n/Users/drussel/AltSchool/vishnu-frontend/app/models/playlist/card.js:\n   18  \n   19    createdAt: function() {\n   20:     var createdAction = _.find(this.get('actions'), function(action) {\n   21        return action.type === 'createCard';\n   22      });\n   ..\n   76  \n   77    steps: function() {\n   78:     return _.find(this.get('checklists'), function(checklist) {\n   79        return checklist.get('isSteps');\n   80      });\n   ..\n  106  \n  107    tagsChecklist: function() {\n  108:     return _.find(this.get('checklists'), function(checklist) {\n  109        return checklist.get('isTags');\n  110      });\n\n/Users/drussel/AltSchool/vishnu-frontend/app/routes/students_route.js:\n   32      var routeName = this.get('routeName'),\n   33          currentHandlerInfos = this.router.router.currentHandlerInfos,\n   34:         studentsRouteInfo = _.find(currentHandlerInfos, function(handlerInfo) {\n   35            return handlerInfo.name === routeName;\n   36          }),\n\n/Users/drussel/AltSchool/vishnu-frontend/app/services/student_realtime_updater.js:\n   51  \n   52  var getExistingCard = function(activity, board) {\n   53:   return _.find(board.get('cards'), function(card) {\n   54      return card.get('id') === activity.get('action.data.card.id');\n   55    });\n\n/Users/drussel/AltSchool/vishnu-frontend/vendor/scripts/common/lodash.js:\n 3126       * ];\n 3127       *\n 3128:      * _.find(characters, function(chr) {\n 3129       *   return chr.age < 40;\n 3130       * });\n ....\n 3132       *\n 3133       * // using \"_.where\" callback shorthand\n 3134:      * _.find(characters, { 'age': 1 });\n 3135       * // =>  { 'name': 'pebbles', 'age': 1, 'blocked': false }\n 3136       *\n 3137       * // using \"_.pluck\" callback shorthand\n 3138:      * _.find(characters, 'blocked');\n 3139       * // => { 'name': 'fred', 'age': 40, 'blocked': true }\n 3140       */\n\n9 matches across 5 files\n\n\nSearching 625 files for \"checklist.get('isTags')\"\n\n/Users/drussel/AltSchool/vishnu-frontend/app/models/playlist/card.js:\n  107    tagsChecklist: function() {\n  108      return _.find(this.get('checklists'), function(checklist) {\n  109:       return checklist.get('isTags');\n  110      });\n  111    }.property('checklists.@each.isTags'),\n\n1 match in 1 file\n",
+					"settings":
+					{
+						"buffer_size": 2580,
+						"line_ending": "Unix",
+						"name": "Find Results",
+						"scratch": true
+					}
+				},
+				{
+					"file": "vishnu-frontend/app/models/playlist/card.js",
+					"settings":
+					{
+						"buffer_size": 4147,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "vishnu-frontend/app/templates/components/card-tagger.hbs",
+					"settings":
+					{
+						"buffer_size": 5044,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"command_palette":
@@ -1179,6 +1998,9 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"checklists",
+					"checklist.get('isTags')",
+					"_.find(",
 					"rawsear",
 					"doreset",
 					"sort",
@@ -1303,10 +2125,7 @@
 					"scroll",
 					"modal",
 					"is-checked",
-					"check",
-					"font",
-					"countCards",
-					"crossfilter"
+					"check"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -1343,8 +2162,432 @@
 			"groups":
 			[
 				{
+					"selected": 2,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2580,
+								"regions":
+								{
+									"match":
+									{
+										"flags": 112,
+										"regions":
+										[
+											[
+												224,
+												231
+											],
+											[
+												476,
+												483
+											],
+											[
+												649,
+												656
+											],
+											[
+												832,
+												839
+											],
+											[
+												1179,
+												1186
+											],
+											[
+												1471,
+												1478
+											],
+											[
+												1722,
+												1729
+											],
+											[
+												1898,
+												1905
+											],
+											[
+												2083,
+												2090
+											],
+											[
+												2473,
+												2496
+											]
+										],
+										"scope": ""
+									}
+								},
+								"selection":
+								[
+									[
+										2328,
+										2328
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content"
+									],
+									"codeintel": true,
+									"codeintel_config":
+									{
+										"JavaScript":
+										{
+											"codeintel_max_recursive_dir_depth": 2,
+											"codeintel_scan_files_in_project": false,
+											"javascriptExtraPaths":
+											[
+											]
+										},
+										"PHP":
+										{
+											"codeintel_max_recursive_dir_depth": 5,
+											"codeintel_scan_files_in_project": false,
+											"phpExtraPaths":
+											[
+											]
+										},
+										"Python":
+										{
+											"env":
+											{
+											}
+										}
+									},
+									"codeintel_enabled_languages":
+									[
+										"JavaScript",
+										"Mason",
+										"XBL",
+										"XUL",
+										"RHTML",
+										"SCSS",
+										"Python",
+										"HTML",
+										"Ruby",
+										"Python3",
+										"XML",
+										"Sass",
+										"XSLT",
+										"Django",
+										"HTML5",
+										"Perl",
+										"CSS",
+										"Twig",
+										"Less",
+										"Smarty",
+										"Node.js",
+										"Tcl",
+										"TemplateToolkit",
+										"PHP"
+									],
+									"codeintel_live": true,
+									"codeintel_live_enabled_languages":
+									[
+										"JavaScript",
+										"Mason",
+										"XBL",
+										"XUL",
+										"RHTML",
+										"SCSS",
+										"Python",
+										"HTML",
+										"Ruby",
+										"Python3",
+										"XML",
+										"Sass",
+										"XSLT",
+										"Django",
+										"HTML5",
+										"Perl",
+										"CSS",
+										"Twig",
+										"Less",
+										"Smarty",
+										"Node.js",
+										"Tcl",
+										"TemplateToolkit",
+										"PHP"
+									],
+									"codeintel_max_recursive_dir_depth": 10,
+									"codeintel_scan_exclude_dir":
+									{
+										"JavaScript":
+										[
+											"/build/",
+											"/min/"
+										]
+									},
+									"codeintel_scan_files_in_project": true,
+									"codeintel_selected_catalogs":
+									[
+										"PyWin32",
+										"jQuery",
+										"Rails"
+									],
+									"codeintel_snippets": true,
+									"codeintel_syntax_map":
+									{
+										"Python Django": "Python"
+									},
+									"codeintel_tooltips": "popup",
+									"detect_indentation": false,
+									"line_numbers": false,
+									"output_tag": 2,
+									"result_base_dir": "",
+									"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+									"result_line_regex": "^ +([0-9]+):",
+									"scroll_past_end": true,
+									"sublime_auto_complete": true,
+									"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 915.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "vishnu-frontend/app/models/playlist/card.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4147,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1760,
+										1760
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content"
+									],
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 358.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "vishnu-frontend/app/templates/components/card-tagger.hbs",
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 5044,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content"
+									],
+									"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -1391,7 +2634,7 @@
 			{
 				"height": 0.0
 			},
-			"position": "0 4 390 1676 1028 0 0 2560 1418 ",
+			"position": "0 4 0 1676 1028 0 0 1680 1028 ",
 			"project": "vishnu-frontend.sublime-project",
 			"replace":
 			{
@@ -1479,8 +2722,2544 @@
 			"template_settings":
 			{
 			},
-			"window_id": 100,
+			"window_id": 109,
 			"workspace_name": "/Users/drussel/AltSchool/vishnu-frontend.sublime-workspace"
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"Gra",
+						"IdToGrade	map[string]int ƒ"
+					],
+					[
+						"G",
+						"GradeToId	map[int]string ƒ"
+					],
+					[
+						"votes",
+						"gatherVotes	int ƒ"
+					],
+					[
+						"Is",
+						"IsSummaryAlo	bool ƒ"
+					],
+					[
+						"Std",
+						"Stdout	*os.File ν"
+					],
+					[
+						"Re",
+						"ReadAll	records [][]string, err error ƒ"
+					],
+					[
+						"Car",
+						"CardFromIdOrDie	ret trello.Card ƒ"
+					],
+					[
+						"Ma",
+						"MarshalIndentJson	string ƒ"
+					],
+					[
+						"Mar",
+						"MarshalJson	string ƒ"
+					],
+					[
+						"doc",
+						"DocFields	struct ʈ"
+					],
+					[
+						"T",
+						"TempFile	f *os.File, err error ƒ"
+					],
+					[
+						"ReplaceAll",
+						"ReplaceAllString	string ƒ"
+					],
+					[
+						"De",
+						"DefaultOptions	levenshtein.Options ν"
+					],
+					[
+						"D",
+						"DistanceForStrings	int ƒ"
+					],
+					[
+						"Add",
+						"AddEdge	 ƒ"
+					],
+					[
+						"Mark",
+						"MarkdownCommon	[]byte ƒ"
+					],
+					[
+						"New",
+						"NewV4	u *uuid.UUID, err error ƒ"
+					],
+					[
+						"Doc",
+						"DocWithEdges	struct ʈ"
+					],
+					[
+						"grade",
+						"gradeLevelId	 ν"
+					],
+					[
+						"Load",
+						"LoadGraph2	Graph2 ƒ"
+					],
+					[
+						"Ap",
+						"ApolloId	string ν"
+					],
+					[
+						"json",
+						"jsonOutRecord	struct ʈ"
+					],
+					[
+						"id",
+						"id	string ν"
+					],
+					[
+						"Apo",
+						"ApolloDocType	string ν"
+					],
+					[
+						"a",
+						"a	int64 ν"
+					],
+					[
+						"HT",
+						"HTMLEscapeString	string ƒ"
+					],
+					[
+						"Up",
+						"UpdateDoc	apollo.Document, error ƒ"
+					],
+					[
+						"Cre",
+						"CreateDoc	apollo.Document, error ƒ"
+					],
+					[
+						"MarshalJ",
+						"MarshalIndentJson	string ƒ"
+					],
+					[
+						"M",
+						"MarshalIndentJson	string ƒ"
+					],
+					[
+						"Upd",
+						"UpdateDocAlwaysFromPath	error ƒ"
+					],
+					[
+						"Update",
+						"UpdateDocument	struct ʈ"
+					],
+					[
+						"Handle",
+						"HandleErrorPage	 ƒ"
+					],
+					[
+						"Read",
+						"ReadFileOrDie	string ƒ"
+					],
+					[
+						"u",
+						"u"
+					],
+					[
+						"Int",
+						"Int64	*int64 ƒ"
+					],
+					[
+						"Node",
+						"Node	struct ʈ"
+					],
+					[
+						"Find",
+						"FindNodeId	tracking.NodeId ƒ"
+					],
+					[
+						"O_W",
+						"O_WRONLY	 Ɩ"
+					],
+					[
+						"n",
+						"n	 ν"
+					],
+					[
+						"func",
+						"func (*Node)	func (...) {...} ʂ"
+					],
+					[
+						"Grade",
+						"GradeLevelUb	int ν"
+					],
+					[
+						"UpdateDoc",
+						"UpdateDocFromId	 ƒ"
+					],
+					[
+						"in",
+						"in	string ν"
+					],
+					[
+						"Nil",
+						"NilOrDieMessage	 ƒ"
+					],
+					[
+						"In",
+						"Int64	*int64 ƒ"
+					],
+					[
+						"ret",
+						"ret	string ν"
+					],
+					[
+						"Un",
+						"UnmarshalJsonOrDie	 ƒ"
+					],
+					[
+						"font",
+						"font-size"
+					],
+					[
+						"cross",
+						"crossfilterData"
+					],
+					[
+						"did",
+						"didInsertElement"
+					],
+					[
+						"chart",
+						"chart"
+					],
+					[
+						"g",
+						"g"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "taxonomy/taxonomy.json",
+					"settings":
+					{
+						"buffer_size": 4633260,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "taxonomy/taxonomy-update/main.go",
+					"settings":
+					{
+						"buffer_size": 420,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "taxonomy/taxonomy-show/main.go",
+					"settings":
+					{
+						"buffer_size": 1235,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "taxonomy/taxonomy-apollo/main.go",
+					"settings":
+					{
+						"buffer_size": 4815,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "taxonomy/taxonomy-import/main.go",
+					"settings":
+					{
+						"buffer_size": 5383,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "taxonomy/graph.go",
+					"settings":
+					{
+						"buffer_size": 8561,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "taxonomy/tax_test.go",
+					"settings":
+					{
+						"buffer_size": 7352,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "taxonomy/taxonomy-export/main.go",
+					"settings":
+					{
+						"buffer_size": 2530,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "Packages/GoSublime/GoSublime.sublime-build",
+			"command_palette":
+			{
+				"height": 392.0,
+				"selected_items":
+				[
+					[
+						"pack",
+						"Package Control: Install Package"
+					],
+					[
+						"packa",
+						"Package Control: Install Package"
+					],
+					[
+						"package",
+						"Package Control: List Packages"
+					],
+					[
+						"go",
+						"GoSublime: Fmt and save"
+					],
+					[
+						"pac",
+						"Package Control: Install Package"
+					],
+					[
+						"pa",
+						"Package Control: Install Package"
+					],
+					[
+						"css",
+						"Set Syntax: SCSS"
+					],
+					[
+						"p",
+						"Package Control: Install Package"
+					],
+					[
+						"sass",
+						"Set Syntax: Sass"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"packag",
+						"Package Control: Install Package"
+					],
+					[
+						"package contro",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 521.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-apollo",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-export",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-import",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-merge-trees",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-remap-tag",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-rm",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-show",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-update"
+			],
+			"file_history":
+			[
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-merge-trees/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-rm/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-update/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/graph.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/tax_test.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-import/main.go",
+				"/Users/drussel/AltSchool/apollo-backend.sublime-project",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy.json",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-export/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/README.md",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/USAGE.md",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-remap-tag/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-apollo/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/out.csv",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-subtree/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-upload/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-to-fixture/main.go",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/Javascript Beautify/JavascriptBeautify.sublime-settings",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/fixture.json",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/update.sh",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-deploy/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/deploy.sh",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/data/summary-alos.csv",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-add/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/data/sel.csv",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/deletions.txt",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-rebuild-tree/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/fixed.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/tax.json",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/graph3.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-to-django/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/sel.csv",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-import/main.go.orig",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-update/main.go.orig",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-tagspaces/fixed.yaml",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/circle.yml",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/types.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/alos.json",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/query.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-tagspaces/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-tagspaces/todo",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/out.json",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-tagspaces/apollo.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/data/001.math.csv",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-update-math/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy.yaml",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-tagspaces/alos.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/graph2.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-update-math/graph.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-import/commonCore.go",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/taxonomy.yaml",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/taxonomy-tagspaces/alos.go",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/tracking-merge-equal/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/tracking-import/commonCore.go",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/tracking-import/tree.go",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/graph.go",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/README.md",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/tracking-tagspaces/single.yaml",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/tracking-tagspaces/alos.go",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/tracking-tagspaces/apollo.go",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/tracking-tagspaces/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/tracking-tagspaces/fixed.yaml",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/tracking-import/ngss.go",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/taxonomy-tagspaces/apollo.go",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/gotools/apollo/actions.go",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/log",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/tracking-import/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/query.go",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/search.go",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/types.go",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/tracking-sequence/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/tracking-export-tree/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/tracking-export-list/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/tracking-export/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/tracking-dot/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/tracking-clean-cc/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/tracking-audit/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/altschool/taxonomy/tracking-add-node/main.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/gopollo/types.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/trello-apollo-pipe/errors.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/patch",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking/graph.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking/types.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking/tracking-add-node/main.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking/tracking-audit/main.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking/tracking-clean-cc/main.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking/tracking-dot/main.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking/tracking-export/main.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking/tracking-export-list/main.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking/tracking-export-tree/main.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking/tracking-import/main.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking/tracking-import/ngss.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking/tracking-import/tree.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking/tracking-merge-equal/main.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking/tracking-sequence/main.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking/tracking-tagspaces/alos.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking/tracking-tagspaces/apollo.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking/tracking-tagspaces/main.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/trello-apollo-pipe/config.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/trello-apollo-pipe/main.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/trello-apollo-pipe/pipe.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/trello-apollo-pipe/trello.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/trello-apollo-pipe-config/main.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/gopollo/actions.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/gopollo/documents.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/gopollo/apollo-cat/main.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/trello-apollo-pipe/README.md",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking/tracking-tagspaces/fixed.yaml",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/config/apollo-acceptance.json",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/config/apollo-prod.json",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/gopollo/utility.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking/tracking.yaml",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/gotility/ordie.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/gotility/log.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/gopollo/apollo-create/main.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/gotility/async.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/gotility/config.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/gopollo/apollo-metadata/main.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/gotility/utility.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/gopollo/apollo-id/main.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/gopollo/apollo-ls/main.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/gopollo/apollo-rm/main.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking/tracking-import/commonCore.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/gopollo/apollo-dump/main.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/gopollo/data.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/Godeps/_workspace/src/github.com/kr/pretty/pretty.go",
+				"/Users/drussel/AltSchool/go/src/apollo-trello-pipe/Godeps/_workspace/src/labix.org/v2/mgo/log.go"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 93.0,
+				"where_history":
+				[
+					"-Godeps",
+					" -Godeps",
+					" -public lib",
+					" -public",
+					"/Users/drussel/AltSchool/vishnu-frontend, -public",
+					"/Users/drussel/AltSchool/vishnu-frontend",
+					"/Users/drussel/AltSchool/vishnu-frontend/app/models",
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"Communities",
+					"Knowledge and voc",
+					"Language",
+					"2879e276-2722-46d1-6e2d-e928051dc8aa",
+					"trying to",
+					"ways of inter",
+					"Emotional Awareness\"",
+					"Grades",
+					"Under- Stand ",
+					"HSF-BF",
+					".BF",
+					"463df826-e7ba-46ce-9ff4-6c671a2bb0e5",
+					"f2b14291-fa2b-471e-6b57-64d00f7377d8",
+					"7a76ca8f-3481-4e6e-6e53-dc4411cf9b7a",
+					"eadb0973-c3c1-4708-be60-ce0717d62cee",
+					"4ddc9cdf-4aab-4540-b607-aa6c6b7b58f9",
+					"Sort",
+					"sortId",
+					"1bc74e70-9eb4-46ec-9a81-727702d140d6",
+					"\\n\"",
+					"-2\"",
+					"Emerging",
+					"li\\u003e1 (Emerging):\\u003c/li",
+					"03de6725-a540-4f63-af5a-12316f0519a6",
+					"-2\"",
+					"\"pk\": \"4e22a3f8-6043-48e8-6dea-80f59df3b9c8",
+					"html",
+					"Math.",
+					"Practice 3 ",
+					"K.CC.A",
+					"K.CC.A.1",
+					"\"title\": \"......\"",
+					"568ab067-58ab-429c-7c48-462f488d45dd",
+					"4e22a3f8-6043-48e8-6dea-80f59df3b9c8",
+					"FLL ",
+					"FLL",
+					"AltSchool FLL Standards",
+					"e90effa4-2ae7-4a80-a219-6417a496cfa4",
+					"parent\": \"e90effa4-2ae7-4a80-a219-6417a496cfa4",
+					"parent\": \"3a7a1e73-9a5e-4ab1-bc22-204e88709f11",
+					"N.Q ",
+					"N.Q .1",
+					"6a28c3d5-c355-4938-4661-184ad454b1af",
+					"    ",
+					"b5d50df3-f72e-4789-a8f4-73929c037e8b\\n",
+					"\\n\",",
+					"tree_id",
+					"creator",
+					"createdat",
+					"Reasoning/Subjective Evaluation",
+					"Relationships with Others/Social Relationships",
+					"Relationships with Others/Bridging Differences",
+					"Self-management",
+					"Self-regulation/Goal setting",
+					"Self-awareness",
+					"Self-awareness/Emotional awareness",
+					"Self-awareness/Physical awareness",
+					"Relationships with Others/Influence",
+					"Relationships with Others/Collaboration",
+					"Relationships with Others/Social Relationships/Peer Relationships",
+					"Self-regulation/Impulse Control",
+					"Relationships with Others/Conflict Resolution",
+					"Cognitive Procedures/Planning",
+					"Objective Judgement",
+					"Objective Ju",
+					"Reasoning/Objective Judgment",
+					"KnE/",
+					"WoB/",
+					"WoT/",
+					"WoI/",
+					"plan and conduct an investigation collaboratively to prod",
+					"plan and conduct an investigation",
+					"plan and conduct",
+					"Path(",
+					"collaboration",
+					"401b57cc-6a9c-4263-912b-e9cfcd444f65",
+					"Collaboration",
+					"Collaboration\"",
+					"delete(",
+					"sortId",
+					"\"Physical-Awareness",
+					"\"Self-Awareness",
+					"Graph2",
+					"rune",
+					"5436bd0b-ae3e-431a-62d1-70872bf3f9dd",
+					":  ",
+					"652f733b-b321-4ae6-43b4-cb7ddc67245d",
+					"Ecosystems:  Interactions, Energy, and Dynamics",
+					"9783a47d-a052-49a5-53d3-3b12f68e4ca8",
+					"Ecosystems:  Interactions, Energy, and Dynamics",
+					"ECOSYSTEMS:",
+					"Science and Engi",
+					"\"ALOs/Next Generation Science/Performance Expectations/From Molecules to Organisms: Structures and Processes\"",
+					"From Molecules to Organisms",
+					"Communication and social skills ",
+					"Cultural Com",
+					"d08bad8d-6f5c-4401-5ced-953eb069f153",
+					"andards/Relationship Skills/Communication and social skills",
+					"ALOs/AltSchool SEL Standards/Social Awareness/Cultural Competency",
+					"ALOs/AltSchool SEL Standards/Relationship Skills/Communication and s",
+					"AltSchool SEL Standards/Relationship Skills/Communication and s",
+					"ALOs/AltSchool SEL Standards/Relationship Skills/Communication and s",
+					" ,",
+					" /",
+					"a2e82ff9-c29c-4989-a128-c720cea2d32d",
+					"c7972053-9893-44d8-858d-25b2f043044b",
+					"ALOs/AltSchool Learner Objectives",
+					"prefix",
+					"updateGraph",
+					"b84a5453-7ea4-417c-6454-74df1e4bed4d",
+					"external support \"",
+					"\"-\"",
+					"isNull",
+					"external support /",
+					" /",
+					"Parent",
+					"\"Tags\"",
+					"8dcb6cde-a5c7-4a8d-52dc-05d2acbcc7ff",
+					"tree_id\": 0",
+					"\"LE.SEL.Goal-Setting",
+					"\"last_updated_at\": \"2014-08-20 00:00\"",
+					"\"created_at\": \"2014-08-20 00:00\"",
+					"\"created_at\": \"[^\"]*\",",
+					"\"last_updated_at\": \"[^\"]*\",",
+					"created_at\": \"\"",
+					"null",
+					"5436bd0b-ae3e-431a-62d1-70872bf3f9dd",
+					"15d85596-6c93-424f-51a9-bf948b0ccb07"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"Understand ",
+					"  ",
+					"b5d50df3-f72e-4789-a8f4-73929c037e8b",
+					"Subjective Evaluation",
+					"Social Relationships",
+					"Bridging Differences",
+					"Self-Management",
+					"Goal Setting",
+					"Self-Awareness",
+					"Emotional Awareness",
+					"Physical Awareness",
+					"Influence",
+					"Collaboration",
+					"Peer Relationships",
+					"Impulse Control",
+					"Conflict Resolution",
+					"Planning",
+					"Objective Judgment",
+					"Objective Judgement",
+					"",
+					"Graph",
+					"652f733b-b321-4ae6-43b4-cb7ddc67245d",
+					"Ecosystems: Interactions, Energy, and Dynamics",
+					",",
+					"/",
+					"external support\"",
+					"external support/",
+					"ec71d375-e847-4716-afa7-2f19c3654452",
+					"\"last_updated_at\": \"2014-08-20 00:00\",",
+					"\"created_at\": \"2014-08-20 00:00\",",
+					"\"created_at\": \"2014-08-20 00:00\"",
+					"\"last_updated_at\": \"2014-08-20 00:00\"",
+					"e9b752c7-4520-45c3-b774-f9d6f2171e18",
+					"\"model\": \"server.document\",",
+					"e11c8e9d-e24b-4537-b0bb-194516850d66",
+					"gradelevel: \"\\1\"",
+					"AltSchool",
+					"text: ",
+					"text: '",
+					"Next Generation Science/",
+					"Common Core/",
+					"apolloId:",
+					"tags:",
+					"apolloId:",
+					"taxonomy.",
+					"github.com/altschool/taxonomy",
+					"trello",
+					"github.com/altschool/gotools/trello",
+					"utility",
+					"github.com/altschool/gotools/utility",
+					"apollo.",
+					"github.com/altschool/gotools/apollo",
+					"- Altschool Learner Objective",
+					"Next Generation Science/",
+					"Common Core/",
+					"Altschool Learner Objective/",
+					"gotility.Setup",
+					"log.Println",
+					"ALO",
+					" json",
+					"and Computational",
+					"Using Mathematics and Computational Thinking",
+					"Interpreting Data",
+					"from Evidence",
+					"Designing Solutions",
+					"\"",
+					"\"\"\\1\"\":",
+					"gopollo.",
+					"gopollo",
+					"gotility.",
+					",",
+					" ",
+					"\\1,",
+					"\\1",
+					"",
+					"Acquisition and Use",
+					"",
+					"\":true,",
+					"\"\\1\", ",
+					"\"contributesto\"",
+					"  ",
+					"\\1title: ",
+					"\\1title:",
+					"\\1title:\\2",
+					"\\1title: ",
+					"\\1",
+					"\\1 title:",
+					"\\1title: ",
+					" ",
+					"\\t",
+					"utility.",
+					"docType",
+					",omitempty\"`",
+					"Trello Cards",
+					"[]},",
+					"{\"title\"",
+					"[],",
+					"\"title\"",
+					"text",
+					"Logln",
+					"",
+					"lib",
+					"$scale",
+					"p",
+					"crossfilterData",
+					"rawData",
+					"model",
+					"get('tagPath')",
+					"get('tagGroup')",
+					"  ",
+					"'",
+					"_this",
+					"'",
+					"_this",
+					"'",
+					"Taxonomy",
+					"taxonomy",
+					"  ",
+					"    "
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "taxonomy/taxonomy.json",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4633260,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										227657,
+										227657
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content"
+									],
+									"codeintel": true,
+									"codeintel_config":
+									{
+										"JavaScript":
+										{
+											"codeintel_max_recursive_dir_depth": 2,
+											"codeintel_scan_files_in_project": false,
+											"javascriptExtraPaths":
+											[
+											]
+										},
+										"PHP":
+										{
+											"codeintel_max_recursive_dir_depth": 5,
+											"codeintel_scan_files_in_project": false,
+											"phpExtraPaths":
+											[
+											]
+										},
+										"Python":
+										{
+											"env":
+											{
+											}
+										}
+									},
+									"codeintel_enabled_languages":
+									[
+										"JavaScript",
+										"Mason",
+										"XBL",
+										"XUL",
+										"RHTML",
+										"SCSS",
+										"Python",
+										"HTML",
+										"Ruby",
+										"Python3",
+										"XML",
+										"Sass",
+										"XSLT",
+										"Django",
+										"HTML5",
+										"Perl",
+										"CSS",
+										"Twig",
+										"Less",
+										"Smarty",
+										"Node.js",
+										"Tcl",
+										"TemplateToolkit",
+										"PHP"
+									],
+									"codeintel_live": true,
+									"codeintel_live_enabled_languages":
+									[
+										"JavaScript",
+										"Mason",
+										"XBL",
+										"XUL",
+										"RHTML",
+										"SCSS",
+										"Python",
+										"HTML",
+										"Ruby",
+										"Python3",
+										"XML",
+										"Sass",
+										"XSLT",
+										"Django",
+										"HTML5",
+										"Perl",
+										"CSS",
+										"Twig",
+										"Less",
+										"Smarty",
+										"Node.js",
+										"Tcl",
+										"TemplateToolkit",
+										"PHP"
+									],
+									"codeintel_max_recursive_dir_depth": 10,
+									"codeintel_scan_exclude_dir":
+									{
+										"JavaScript":
+										[
+											"/build/",
+											"/min/"
+										]
+									},
+									"codeintel_scan_files_in_project": true,
+									"codeintel_selected_catalogs":
+									[
+										"PyWin32",
+										"jQuery",
+										"Rails"
+									],
+									"codeintel_snippets": true,
+									"codeintel_syntax_map":
+									{
+										"Python Django": "Python"
+									},
+									"codeintel_tooltips": "popup",
+									"sublime_auto_complete": true,
+									"syntax": "Packages/JavaScript/JSON.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 4.0,
+								"translation.y": 80790.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "taxonomy/taxonomy-update/main.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 420,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										277,
+										277
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content"
+									],
+									"codeintel": true,
+									"codeintel_config":
+									{
+										"JavaScript":
+										{
+											"codeintel_max_recursive_dir_depth": 2,
+											"codeintel_scan_files_in_project": false,
+											"javascriptExtraPaths":
+											[
+											]
+										},
+										"PHP":
+										{
+											"codeintel_max_recursive_dir_depth": 5,
+											"codeintel_scan_files_in_project": false,
+											"phpExtraPaths":
+											[
+											]
+										},
+										"Python":
+										{
+											"env":
+											{
+											}
+										}
+									},
+									"codeintel_enabled_languages":
+									[
+										"JavaScript",
+										"Mason",
+										"XBL",
+										"XUL",
+										"RHTML",
+										"SCSS",
+										"Python",
+										"HTML",
+										"Ruby",
+										"Python3",
+										"XML",
+										"Sass",
+										"XSLT",
+										"Django",
+										"HTML5",
+										"Perl",
+										"CSS",
+										"Twig",
+										"Less",
+										"Smarty",
+										"Node.js",
+										"Tcl",
+										"TemplateToolkit",
+										"PHP"
+									],
+									"codeintel_live": true,
+									"codeintel_live_enabled_languages":
+									[
+										"JavaScript",
+										"Mason",
+										"XBL",
+										"XUL",
+										"RHTML",
+										"SCSS",
+										"Python",
+										"HTML",
+										"Ruby",
+										"Python3",
+										"XML",
+										"Sass",
+										"XSLT",
+										"Django",
+										"HTML5",
+										"Perl",
+										"CSS",
+										"Twig",
+										"Less",
+										"Smarty",
+										"Node.js",
+										"Tcl",
+										"TemplateToolkit",
+										"PHP"
+									],
+									"codeintel_max_recursive_dir_depth": 10,
+									"codeintel_scan_exclude_dir":
+									{
+										"JavaScript":
+										[
+											"/build/",
+											"/min/"
+										]
+									},
+									"codeintel_scan_files_in_project": true,
+									"codeintel_selected_catalogs":
+									[
+										"PyWin32",
+										"jQuery",
+										"Rails"
+									],
+									"codeintel_snippets": true,
+									"codeintel_syntax_map":
+									{
+										"Python Django": "Python"
+									},
+									"codeintel_tooltips": "popup",
+									"sublime_auto_complete": true,
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "taxonomy/taxonomy-show/main.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1235,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1223,
+										1223
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content"
+									],
+									"codeintel": true,
+									"codeintel_config":
+									{
+										"JavaScript":
+										{
+											"codeintel_max_recursive_dir_depth": 2,
+											"codeintel_scan_files_in_project": false,
+											"javascriptExtraPaths":
+											[
+											]
+										},
+										"PHP":
+										{
+											"codeintel_max_recursive_dir_depth": 5,
+											"codeintel_scan_files_in_project": false,
+											"phpExtraPaths":
+											[
+											]
+										},
+										"Python":
+										{
+											"env":
+											{
+											}
+										}
+									},
+									"codeintel_enabled_languages":
+									[
+										"JavaScript",
+										"Mason",
+										"XBL",
+										"XUL",
+										"RHTML",
+										"SCSS",
+										"Python",
+										"HTML",
+										"Ruby",
+										"Python3",
+										"XML",
+										"Sass",
+										"XSLT",
+										"Django",
+										"HTML5",
+										"Perl",
+										"CSS",
+										"Twig",
+										"Less",
+										"Smarty",
+										"Node.js",
+										"Tcl",
+										"TemplateToolkit",
+										"PHP"
+									],
+									"codeintel_live": true,
+									"codeintel_live_enabled_languages":
+									[
+										"JavaScript",
+										"Mason",
+										"XBL",
+										"XUL",
+										"RHTML",
+										"SCSS",
+										"Python",
+										"HTML",
+										"Ruby",
+										"Python3",
+										"XML",
+										"Sass",
+										"XSLT",
+										"Django",
+										"HTML5",
+										"Perl",
+										"CSS",
+										"Twig",
+										"Less",
+										"Smarty",
+										"Node.js",
+										"Tcl",
+										"TemplateToolkit",
+										"PHP"
+									],
+									"codeintel_max_recursive_dir_depth": 10,
+									"codeintel_scan_exclude_dir":
+									{
+										"JavaScript":
+										[
+											"/build/",
+											"/min/"
+										]
+									},
+									"codeintel_scan_files_in_project": true,
+									"codeintel_selected_catalogs":
+									[
+										"PyWin32",
+										"jQuery",
+										"Rails"
+									],
+									"codeintel_snippets": true,
+									"codeintel_syntax_map":
+									{
+										"Python Django": "Python"
+									},
+									"codeintel_tooltips": "popup",
+									"sublime_auto_complete": true,
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 2.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "taxonomy/taxonomy-apollo/main.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4815,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4094,
+										4094
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content"
+									],
+									"codeintel": true,
+									"codeintel_config":
+									{
+										"JavaScript":
+										{
+											"codeintel_max_recursive_dir_depth": 2,
+											"codeintel_scan_files_in_project": false,
+											"javascriptExtraPaths":
+											[
+											]
+										},
+										"PHP":
+										{
+											"codeintel_max_recursive_dir_depth": 5,
+											"codeintel_scan_files_in_project": false,
+											"phpExtraPaths":
+											[
+											]
+										},
+										"Python":
+										{
+											"env":
+											{
+											}
+										}
+									},
+									"codeintel_enabled_languages":
+									[
+										"JavaScript",
+										"Mason",
+										"XBL",
+										"XUL",
+										"RHTML",
+										"SCSS",
+										"Python",
+										"HTML",
+										"Ruby",
+										"Python3",
+										"XML",
+										"Sass",
+										"XSLT",
+										"Django",
+										"HTML5",
+										"Perl",
+										"CSS",
+										"Twig",
+										"Less",
+										"Smarty",
+										"Node.js",
+										"Tcl",
+										"TemplateToolkit",
+										"PHP"
+									],
+									"codeintel_live": true,
+									"codeintel_live_enabled_languages":
+									[
+										"JavaScript",
+										"Mason",
+										"XBL",
+										"XUL",
+										"RHTML",
+										"SCSS",
+										"Python",
+										"HTML",
+										"Ruby",
+										"Python3",
+										"XML",
+										"Sass",
+										"XSLT",
+										"Django",
+										"HTML5",
+										"Perl",
+										"CSS",
+										"Twig",
+										"Less",
+										"Smarty",
+										"Node.js",
+										"Tcl",
+										"TemplateToolkit",
+										"PHP"
+									],
+									"codeintel_max_recursive_dir_depth": 10,
+									"codeintel_scan_exclude_dir":
+									{
+										"JavaScript":
+										[
+											"/build/",
+											"/min/"
+										]
+									},
+									"codeintel_scan_files_in_project": true,
+									"codeintel_selected_catalogs":
+									[
+										"PyWin32",
+										"jQuery",
+										"Rails"
+									],
+									"codeintel_snippets": true,
+									"codeintel_syntax_map":
+									{
+										"Python Django": "Python"
+									},
+									"codeintel_tooltips": "popup",
+									"sublime_auto_complete": true,
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 1601.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "taxonomy/taxonomy-import/main.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5383,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4262,
+										4262
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content"
+									],
+									"codeintel": true,
+									"codeintel_config":
+									{
+										"JavaScript":
+										{
+											"codeintel_max_recursive_dir_depth": 2,
+											"codeintel_scan_files_in_project": false,
+											"javascriptExtraPaths":
+											[
+											]
+										},
+										"PHP":
+										{
+											"codeintel_max_recursive_dir_depth": 5,
+											"codeintel_scan_files_in_project": false,
+											"phpExtraPaths":
+											[
+											]
+										},
+										"Python":
+										{
+											"env":
+											{
+											}
+										}
+									},
+									"codeintel_enabled_languages":
+									[
+										"JavaScript",
+										"Mason",
+										"XBL",
+										"XUL",
+										"RHTML",
+										"SCSS",
+										"Python",
+										"HTML",
+										"Ruby",
+										"Python3",
+										"XML",
+										"Sass",
+										"XSLT",
+										"Django",
+										"HTML5",
+										"Perl",
+										"CSS",
+										"Twig",
+										"Less",
+										"Smarty",
+										"Node.js",
+										"Tcl",
+										"TemplateToolkit",
+										"PHP"
+									],
+									"codeintel_live": true,
+									"codeintel_live_enabled_languages":
+									[
+										"JavaScript",
+										"Mason",
+										"XBL",
+										"XUL",
+										"RHTML",
+										"SCSS",
+										"Python",
+										"HTML",
+										"Ruby",
+										"Python3",
+										"XML",
+										"Sass",
+										"XSLT",
+										"Django",
+										"HTML5",
+										"Perl",
+										"CSS",
+										"Twig",
+										"Less",
+										"Smarty",
+										"Node.js",
+										"Tcl",
+										"TemplateToolkit",
+										"PHP"
+									],
+									"codeintel_max_recursive_dir_depth": 10,
+									"codeintel_scan_exclude_dir":
+									{
+										"JavaScript":
+										[
+											"/build/",
+											"/min/"
+										]
+									},
+									"codeintel_scan_files_in_project": true,
+									"codeintel_selected_catalogs":
+									[
+										"PyWin32",
+										"jQuery",
+										"Rails"
+									],
+									"codeintel_snippets": true,
+									"codeintel_syntax_map":
+									{
+										"Python Django": "Python"
+									},
+									"codeintel_tooltips": "popup",
+									"sublime_auto_complete": true,
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 2102.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "taxonomy/graph.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 8561,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										5832,
+										5832
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content"
+									],
+									"codeintel": true,
+									"codeintel_config":
+									{
+										"JavaScript":
+										{
+											"codeintel_max_recursive_dir_depth": 2,
+											"codeintel_scan_files_in_project": false,
+											"javascriptExtraPaths":
+											[
+											]
+										},
+										"PHP":
+										{
+											"codeintel_max_recursive_dir_depth": 5,
+											"codeintel_scan_files_in_project": false,
+											"phpExtraPaths":
+											[
+											]
+										},
+										"Python":
+										{
+											"env":
+											{
+											}
+										}
+									},
+									"codeintel_enabled_languages":
+									[
+										"JavaScript",
+										"Mason",
+										"XBL",
+										"XUL",
+										"RHTML",
+										"SCSS",
+										"Python",
+										"HTML",
+										"Ruby",
+										"Python3",
+										"XML",
+										"Sass",
+										"XSLT",
+										"Django",
+										"HTML5",
+										"Perl",
+										"CSS",
+										"Twig",
+										"Less",
+										"Smarty",
+										"Node.js",
+										"Tcl",
+										"TemplateToolkit",
+										"PHP"
+									],
+									"codeintel_live": true,
+									"codeintel_live_enabled_languages":
+									[
+										"JavaScript",
+										"Mason",
+										"XBL",
+										"XUL",
+										"RHTML",
+										"SCSS",
+										"Python",
+										"HTML",
+										"Ruby",
+										"Python3",
+										"XML",
+										"Sass",
+										"XSLT",
+										"Django",
+										"HTML5",
+										"Perl",
+										"CSS",
+										"Twig",
+										"Less",
+										"Smarty",
+										"Node.js",
+										"Tcl",
+										"TemplateToolkit",
+										"PHP"
+									],
+									"codeintel_max_recursive_dir_depth": 10,
+									"codeintel_scan_exclude_dir":
+									{
+										"JavaScript":
+										[
+											"/build/",
+											"/min/"
+										]
+									},
+									"codeintel_scan_files_in_project": true,
+									"codeintel_selected_catalogs":
+									[
+										"PyWin32",
+										"jQuery",
+										"Rails"
+									],
+									"codeintel_snippets": true,
+									"codeintel_syntax_map":
+									{
+										"Python Django": "Python"
+									},
+									"codeintel_tooltips": "popup",
+									"sublime_auto_complete": true,
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 3345.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 7,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "taxonomy/tax_test.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 7352,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										5186,
+										5186
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content"
+									],
+									"codeintel": true,
+									"codeintel_config":
+									{
+										"JavaScript":
+										{
+											"codeintel_max_recursive_dir_depth": 2,
+											"codeintel_scan_files_in_project": false,
+											"javascriptExtraPaths":
+											[
+											]
+										},
+										"PHP":
+										{
+											"codeintel_max_recursive_dir_depth": 5,
+											"codeintel_scan_files_in_project": false,
+											"phpExtraPaths":
+											[
+											]
+										},
+										"Python":
+										{
+											"env":
+											{
+											}
+										}
+									},
+									"codeintel_enabled_languages":
+									[
+										"JavaScript",
+										"Mason",
+										"XBL",
+										"XUL",
+										"RHTML",
+										"SCSS",
+										"Python",
+										"HTML",
+										"Ruby",
+										"Python3",
+										"XML",
+										"Sass",
+										"XSLT",
+										"Django",
+										"HTML5",
+										"Perl",
+										"CSS",
+										"Twig",
+										"Less",
+										"Smarty",
+										"Node.js",
+										"Tcl",
+										"TemplateToolkit",
+										"PHP"
+									],
+									"codeintel_live": true,
+									"codeintel_live_enabled_languages":
+									[
+										"JavaScript",
+										"Mason",
+										"XBL",
+										"XUL",
+										"RHTML",
+										"SCSS",
+										"Python",
+										"HTML",
+										"Ruby",
+										"Python3",
+										"XML",
+										"Sass",
+										"XSLT",
+										"Django",
+										"HTML5",
+										"Perl",
+										"CSS",
+										"Twig",
+										"Less",
+										"Smarty",
+										"Node.js",
+										"Tcl",
+										"TemplateToolkit",
+										"PHP"
+									],
+									"codeintel_max_recursive_dir_depth": 10,
+									"codeintel_scan_exclude_dir":
+									{
+										"JavaScript":
+										[
+											"/build/",
+											"/min/"
+										]
+									},
+									"codeintel_scan_files_in_project": true,
+									"codeintel_selected_catalogs":
+									[
+										"PyWin32",
+										"jQuery",
+										"Rails"
+									],
+									"codeintel_snippets": true,
+									"codeintel_syntax_map":
+									{
+										"Python Django": "Python"
+									},
+									"codeintel_tooltips": "popup",
+									"sublime_auto_complete": true,
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 3113.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "taxonomy/taxonomy-export/main.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2530,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1169,
+										1169
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content"
+									],
+									"codeintel": true,
+									"codeintel_config":
+									{
+										"JavaScript":
+										{
+											"codeintel_max_recursive_dir_depth": 2,
+											"codeintel_scan_files_in_project": false,
+											"javascriptExtraPaths":
+											[
+											]
+										},
+										"PHP":
+										{
+											"codeintel_max_recursive_dir_depth": 5,
+											"codeintel_scan_files_in_project": false,
+											"phpExtraPaths":
+											[
+											]
+										},
+										"Python":
+										{
+											"env":
+											{
+											}
+										}
+									},
+									"codeintel_enabled_languages":
+									[
+										"JavaScript",
+										"Mason",
+										"XBL",
+										"XUL",
+										"RHTML",
+										"SCSS",
+										"Python",
+										"HTML",
+										"Ruby",
+										"Python3",
+										"XML",
+										"Sass",
+										"XSLT",
+										"Django",
+										"HTML5",
+										"Perl",
+										"CSS",
+										"Twig",
+										"Less",
+										"Smarty",
+										"Node.js",
+										"Tcl",
+										"TemplateToolkit",
+										"PHP"
+									],
+									"codeintel_live": true,
+									"codeintel_live_enabled_languages":
+									[
+										"JavaScript",
+										"Mason",
+										"XBL",
+										"XUL",
+										"RHTML",
+										"SCSS",
+										"Python",
+										"HTML",
+										"Ruby",
+										"Python3",
+										"XML",
+										"Sass",
+										"XSLT",
+										"Django",
+										"HTML5",
+										"Perl",
+										"CSS",
+										"Twig",
+										"Less",
+										"Smarty",
+										"Node.js",
+										"Tcl",
+										"TemplateToolkit",
+										"PHP"
+									],
+									"codeintel_max_recursive_dir_depth": 10,
+									"codeintel_scan_exclude_dir":
+									{
+										"JavaScript":
+										[
+											"/build/",
+											"/min/"
+										]
+									},
+									"codeintel_scan_files_in_project": true,
+									"codeintel_selected_catalogs":
+									[
+										"PyWin32",
+										"jQuery",
+										"Rails"
+									],
+									"codeintel_snippets": true,
+									"codeintel_syntax_map":
+									{
+										"Python Django": "Python"
+									},
+									"codeintel_tooltips": "popup",
+									"sublime_auto_complete": true,
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 616.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 31.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe":
+			{
+				"height": 100.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo":
+			{
+				"height": 160.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-add-tree":
+			{
+				"height": 165.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-cat":
+			{
+				"height": 217.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-create":
+			{
+				"height": 100.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-id":
+			{
+				"height": 100.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-ls":
+			{
+				"height": 100.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-rm":
+			{
+				"height": 100.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/lib":
+			{
+				"height": 247.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/pipe":
+			{
+				"height": 258.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/pipe-initialize":
+			{
+				"height": 100.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/pipelib":
+			{
+				"height": 200.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking":
+			{
+				"height": 272.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking-export":
+			{
+				"height": 100.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking-import":
+			{
+				"height": 256.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/utility":
+			{
+				"height": 100.0
+			},
+			"output.MarGo-output":
+			{
+				"height": 100.0
+			},
+			"output.autopep8":
+			{
+				"height": 100.0
+			},
+			"output.exec":
+			{
+				"height": 155.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"position": "0 0 0 1676 1028 0 0 1680 1028 ",
+			"project": "taxonomy.sublime-project",
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"cardedhb",
+						"app/templates/card/edit.hbs"
+					],
+					[
+						"apphb",
+						"app/templates/application.hbs"
+					],
+					[
+						"playscs",
+						"app/styles/_playlist.scss"
+					],
+					[
+						"",
+						"app/templates/card/edit.hbs"
+					],
+					[
+						"cardedithb",
+						"app/templates/card/edit.hbs"
+					],
+					[
+						"cardedi",
+						"app/controllers/card_edit_controller.js"
+					],
+					[
+						"tagscon",
+						"app/controllers/tags_controller.js"
+					],
+					[
+						"api_url",
+						"node_modules/karma/node_modules/optimist/node_modules/minimist/.travis.yml"
+					],
+					[
+						"card",
+						"app/models/playlist/card.js"
+					],
+					[
+						"routplay",
+						"app/routes/playlist_route.js"
+					],
+					[
+						"modcar",
+						"app/models/playlist/card.js"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 336.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 110,
+			"workspace_name": "/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy.sublime-workspace"
 		}
 	],
 	"workspaces":
@@ -1489,8 +5268,8 @@
 		[
 			"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy.sublime-workspace",
 			"/Users/drussel/AltSchool/vishnu-frontend.sublime-workspace",
-			"/Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe.sublime-workspace",
 			"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools.sublime-workspace",
+			"/Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe.sublime-workspace",
 			"/Users/drussel/AltSchool/apollo-backend.sublime-workspace",
 			"/Users/drussel/AltSchool/ChromeExtensionTrello.sublime-workspace",
 			"/Users/drussel/AltSchool/cheapseats-research.sublime-workspace",
