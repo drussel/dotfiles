@@ -25,10 +25,18 @@ ST_VERSION = 3000 if sublime.version() == '' else int(sublime.version())
 PLUGIN_NAME = "Python PEP8 Autoformat"
 SETTINGS_FILE = 'pep8_autoformat.sublime-settings'
 
+#-- Cannot use sublime.packages_path() with ST3 because of inconsistency
+#-- of returned path between bootstap time vs running time.
+#pkg_path = os.path.join(sublime.packages_path(), PLUGIN_NAME)
 pkg_path = os.path.abspath(os.path.dirname(__file__))
-PPA_PATH.append(os.path.join(pkg_path, 'libs'))
-if PYMAMI != '26':
-    PPA_PATH.append(os.path.join(pkg_path, 'libs', 'py' + PYMAMI))
+libs_path = os.path.join(pkg_path, 'libs')
+PPA_PATH.append(libs_path)
+
+versionlibs_path = os.path.join(pkg_path, 'libs', 'py' + PYMAMI)
+if os.path.exists(versionlibs_path):
+    PPA_PATH.append(versionlibs_path)
+
+print('Included directory to sys.path :', PPA_PATH)
 [sys.path.insert(0, p) for p in PPA_PATH if p not in sys.path]
 
 try:
@@ -59,6 +67,9 @@ class PythonPEP8Autoformat(object):
         if self.settings.get('max-line-length', False):
             cmd_args.append('--max-line-length={0}'.format(
                 self.settings.get('max-line-length')))
+        if self.settings.get('indent-size', False):
+            cmd_args.append('--indent-size={0}'.format(
+                self.settings.get('indent-size')))
         #-- We must give a filename to pass the parse_args() tests
         cmd_args.append('filename')
         options = autopep8.parse_args(cmd_args)

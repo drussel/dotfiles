@@ -142,13 +142,14 @@ bindkey '^F' forward-char
 
 source ~/.zshrc.local
 
-function precmd      {
-          echo `date +%Y-%m-%d--%H-%M-%S` $HOST $PWD `history -1` >> ~/.full_history
-}
-precmd=promptFunc
+#function precmd      {
+#          echo `date +%Y-%m-%d--%H-%M-%S` $HOST $PWD `history -1` >> ~/.full_history
+#}
+#precmd=promptFunc
 
-if [ -f $(brew --prefix)/bin/liquidprompt ]; then
-    . $(brew --prefix)/bin/liquidprompt
+if [ -f /usr/local/share/liquidprompt ]; then
+    . /usr/local/share/liquidprompt
 fi
+
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
