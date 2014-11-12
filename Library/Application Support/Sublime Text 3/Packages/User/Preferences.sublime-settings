@@ -2,12 +2,12 @@
 	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
 	"ignored_packages":
 	[
-		"SublimeLinter-jshint",
-		"Markdown",
-		"SublimeLinter",
 		"Python PEP8 Autoformat",
+		"SublimeLinter",
 		"Vintage",
-		"SublimeLinter-gjslint"
+		"SublimeLinter-gjslint",
+		"SublimeLinter-jshint",
+		"Markdown"
 	],
 	"tab_size": 2,
 	"trim_trailing_white_space_on_save": true

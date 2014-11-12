@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
+		"AutoPEP8",
 		"BracketHighlighter",
 		"Emmet",
 		"Git",
@@ -15,6 +16,7 @@
 		"Python PEP8 Autoformat",
 		"SCSS",
 		"SideBarEnhancements",
+		"Sourcegraph",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-contrib-clang",
