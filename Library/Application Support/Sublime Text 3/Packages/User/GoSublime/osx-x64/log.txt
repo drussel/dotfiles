@@ -8879,3 +8879,23 @@ created by main.(*Broker).Loop
 ** 2014-11-07 08:24:09.352425 **:
 GsComplete: broker: gocode_complete#mg9.autoken.c1dff9c4-4cca-41a8-b4ba-3a686cc8204c PANIC
 --------------------------------
+
+** 2014-11-14 11:34:57.922688 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+
+** 2014-11-18 22:09:38.505596 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+
+** 2014-11-19 08:42:49.837503 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+
+** 2014-11-20 13:34:32.882340 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
