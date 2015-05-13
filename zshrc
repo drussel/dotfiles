@@ -151,5 +151,7 @@ if [ -f /usr/local/share/liquidprompt ]; then
     . /usr/local/share/liquidprompt
 fi
 
+export GOROOT=`go env GOROOT`
+
 ### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+export PATH="$GOROOT/bin:/usr/local/heroku/bin:$PATH"

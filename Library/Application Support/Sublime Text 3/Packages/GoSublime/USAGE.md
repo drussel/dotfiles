@@ -13,7 +13,7 @@ Settings
 
 You may customize GoSublime's behaviour by (creating and) customizing the file `Packages/User/GoSublime.sublime-settings`. Default settings are documented in `Packages/GoSublime/GoSublime.sublime-settings`. **WARNING** Do not edit any package file outside of `Packages/User/`, including files inside `Packages/GoSublime/` unless you have a reason to. These files are subject to being overwritten on update of the respective package and/or Sublime Text itself. You may also inadvertently prevent the respective package from being able to update via git etc.
 
-zQuirks
+Quirks
 ------
 
 This section assumes you know what `GOPATH` is and how to set it. If you don't, please see http://golang.org/doc/code.html

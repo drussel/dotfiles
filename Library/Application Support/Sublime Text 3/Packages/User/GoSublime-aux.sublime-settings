@@ -1,4 +1,21 @@
 {
+	"9o.hist./Users/drussel/AltSchool/go/src/github.com/AltSchool/alcexport":
+	[
+		"go get ./..."
+	],
+	"9o.hist./Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state":
+	[
+		"go get ./..."
+	],
+	"9o.hist./Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe/pipetools":
+	[
+		"go get ./...",
+		"clear"
+	],
+	"9o.hist./Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe/trello-apollo-pipe":
+	[
+		"go get ./..."
+	],
 	"9o.hist./Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/apollo/apollo-metadata":
 	[
 		"go get ./..."
@@ -8,6 +25,6 @@
 		"go get ./..."
 	],
 	"ann": "a14.02.25-1",
-	"install_version": "r13.12.26-3",
-	"version": "r13.12.26-3"
+	"install_version": "r14.12.06-1",
+	"version": "r14.12.06-1"
 }

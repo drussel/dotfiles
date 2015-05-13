@@ -49,3 +49,8 @@ setopt correctall
 
 #alias shfs='sudo shfsmount -s -vvv --persistent -s root@primal.stanford.edu:/ /mnt/primal -o preserve,rmode=755,cachesize=1000'
 alias ls='ls -G'
+
+HISTSIZE=3000
+HISTFILE=~/.history
+SAVEHIST=3000
+setopt SHARE_HISTORY
