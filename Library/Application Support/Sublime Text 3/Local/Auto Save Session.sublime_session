@@ -1,0 +1,5729 @@
+{
+	"folder_history":
+	[
+		"/Users/drussel/AltSchool/models",
+		"/Users/drussel/AltSchool/configs",
+		"/Users/drussel/AltSchool/config-files",
+		"/Users/drussel/AltSchool/vishnu-backend",
+		"/Users/drussel/AltSchool/go/src/github.com/drussel/gounion",
+		"/Users/drussel/AltSchool/khan-learning-updates",
+		"/Users/drussel/AltSchool/apollo-backend",
+		"/Users/drussel/AltSchool/cheap-seats-research",
+		"/Users/drussel/AltSchool/ivona",
+		"/Users/drussel/AltSchool/pythontools",
+		"/Users/drussel/AltSchool/go/src/github.com/AltSchool",
+		"/Users/drussel/AltSchool/go/src/github.com/AltSchool/alcexport",
+		"/Users/drussel/AltSchool/go/src/github.com/AltSchool/service-proxy"
+	],
+	"last_version": 3083,
+	"last_window_id": 302,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 755.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"getComm",
+						"getCommentTitle	csvkey.KeyItem ƒ"
+					],
+					[
+						"export",
+						"exportComment	err error ƒ"
+					],
+					[
+						"Che",
+						"Checklist	struct ʈ"
+					],
+					[
+						"out",
+						"outputFilename	*string ν"
+					],
+					[
+						"board",
+						"boardIdMessage	struct ʈ"
+					],
+					[
+						"member",
+						"memberResponse	struct ʈ"
+					],
+					[
+						"Add",
+						"AddMemberToOrganization	trello2.MemberId, error ƒ"
+					],
+					[
+						"addMe",
+						"addMemberOrg	struct ʈ"
+					],
+					[
+						"alt",
+						"altrollbar	 package ρ"
+					],
+					[
+						"GetStu",
+						"GetNamesToStudentsMap	ret vishnu2.NamesToStudentMap, err error ƒ"
+					],
+					[
+						"Get",
+						"GetBoardIdsFromOrganization	[]trello2.BoardId, error ƒ"
+					],
+					[
+						"Read",
+						"ReadAll	[]csvkey.Line, error ƒ"
+					],
+					[
+						"St",
+						"StdDev	float64 ν"
+					],
+					[
+						"RFC",
+						"RFC1123	 Ɩ"
+					],
+					[
+						"al",
+						"altrollbar	 package ρ"
+					],
+					[
+						"D",
+						"DescriptionHtml	string ν"
+					],
+					[
+						"Exer",
+						"ExerciseId	string ʈ"
+					],
+					[
+						"Sta",
+						"StandardIdMetadataField	 Ɩ"
+					],
+					[
+						"GetGra",
+						"GetGradeToIdMap	map[int]apollo2.DocumentId ƒ"
+					],
+					[
+						"GetPa",
+						"GetPathIds	ret []apollo2.DocumentId ƒ"
+					],
+					[
+						"Co",
+						"CommonCoreMathId	 Ɩ"
+					],
+					[
+						"Key",
+						"KeyItem	string ʈ"
+					],
+					[
+						"Test",
+						"TestPercentileKeyItem	 Ɩ"
+					],
+					[
+						"TestSt",
+						"TestStartDateKeyItem	 Ɩ"
+					],
+					[
+						"A",
+						"Args	[]string ƒ"
+					],
+					[
+						"Alt",
+						"AltSchoolPlaylistOrganizationId	 Ɩ"
+					],
+					[
+						"Pri",
+						"PrintError	 ƒ"
+					],
+					[
+						"Orga",
+						"OrganizationId	string ʈ"
+					],
+					[
+						"GetAss",
+						"GetAssessmentFromExternalId	Assessment, error ƒ"
+					],
+					[
+						"Delete",
+						"DeleteAssessment	error ƒ"
+					],
+					[
+						"P",
+						"PracticingLevel	 Ɩ"
+					],
+					[
+						"Ma",
+						"Mastered3Level	 Ɩ"
+					],
+					[
+						"Ext",
+						"ExternalId	*string ν"
+					],
+					[
+						"Ass",
+						"Assessment	struct ʈ"
+					],
+					[
+						"GetS",
+						"GetExerciseToCommonCoreMapping	ret map[khan.ExerciseId][]taxonomy.StandardId, err error ƒ"
+					],
+					[
+						"Ex",
+						"Exercise	struct ʈ"
+					],
+					[
+						"GetPLP",
+						"GetAllPLPGoalsForStudent	[]apollo2.PLPGoal, error ƒ"
+					],
+					[
+						"GetSt",
+						"GetStudentsMap	ret vishnu2.StudentsMap, err error ƒ"
+					],
+					[
+						"Asse",
+						"AssessmentDate	*time.Time ν"
+					],
+					[
+						"Pr",
+						"PrintError	 ƒ"
+					],
+					[
+						"R",
+						"RFC1123	 Ɩ"
+					],
+					[
+						"GetA",
+						"GetAssessmentsForStudentByType	[]apollo2.Assessment, error ƒ"
+					],
+					[
+						"N",
+						"NameToTaxonomyIdMap	map[string]apollo2.DocumentId ʈ"
+					],
+					[
+						"Cre",
+						"CreateProgressChangeAssessments	ret []apollo2.Assessment ƒ"
+					],
+					[
+						"E",
+						"ExerciseModel	khan.Exercise ν"
+					],
+					[
+						"De",
+						"DeleteAssessment	error ƒ"
+					],
+					[
+						"Crea",
+						"CreateAssessment	apollo2.Assessment, error ƒ"
+					],
+					[
+						"En",
+						"EnqueueOneOffTask	 ƒ"
+					],
+					[
+						"Id",
+						"IdMemberCreator	string ν"
+					],
+					[
+						"student",
+						"studentTrelloIds	map[trello2.UserId]bool ν"
+					],
+					[
+						"Mar",
+						"MarshalIndentJson	string ƒ"
+					],
+					[
+						"Cache",
+						"CacheKey	struct ʈ"
+					],
+					[
+						"Cach",
+						"CacheItem	struct ʈ"
+					],
+					[
+						"is",
+						"isSafeFromAsteroids	bool ƒ"
+					],
+					[
+						"compu",
+						"computeMaximumVelocity	Velocity ƒ"
+					],
+					[
+						"compute",
+						"computeMaximumVelocity	Velocity ƒ"
+					],
+					[
+						"class",
+						"classFolder	struct ʈ"
+					],
+					[
+						"Dele",
+						"DeleteObject	*s3.DeleteObjectOutput, error ƒ"
+					],
+					[
+						"GetAll",
+						"GetAllStudents	[]vishnu2.Student, error ƒ"
+					],
+					[
+						"S",
+						"ShareHTML	altdrive.Id, error ƒ"
+					],
+					[
+						"guard",
+						"guardianFamilies	map[vishnu2.GuardianId]int ν"
+					],
+					[
+						"Student",
+						"StudentsMap	map[vishnu2.StudentId]vishnu2.Student ʈ"
+					],
+					[
+						"Dum",
+						"DumpType	 Ɩ"
+					],
+					[
+						"_get_grad",
+						"_get_grade_range"
+					],
+					[
+						"get",
+						"getGoalKStdErrKeyItem	csvkey.KeyItem ƒ"
+					],
+					[
+						"Stude",
+						"StudentIdKeyItem	 Ɩ"
+					],
+					[
+						"First",
+						"StudentFirstNameKeyItem	 Ɩ"
+					],
+					[
+						"Enq",
+						"EnqueueDeleteCard	 ƒ"
+					],
+					[
+						"ID",
+						"IdBoard	*trello2.BoardId ν"
+					],
+					[
+						"GetTa",
+						"GetTaxonomyNamesMap	taxonomy.NameToTaxonomyIdMap ƒ"
+					],
+					[
+						"clea",
+						"cleanupOnly	*bool ν"
+					],
+					[
+						"GetT",
+						"GetTaxonomyNamesMap	taxonomy.NameToTaxonomyIdMap ƒ"
+					],
+					[
+						"Clas",
+						"ClassroomId	int ʈ"
+					],
+					[
+						"New",
+						"NewCaching	v vishnu2.API, err error ƒ"
+					],
+					[
+						"Ge",
+						"GetURL	ret string ƒ"
+					],
+					[
+						"Progress",
+						"ProgressChange	struct ʈ"
+					],
+					[
+						"Assessment",
+						"AssessmentBase	struct ʈ"
+					],
+					[
+						"Acti",
+						"ActivityRecord	struct ʈ"
+					],
+					[
+						"Ceh",
+						"CheckItem	struct ʈ"
+					],
+					[
+						"GetCar",
+						"GetCardIdFromURL	trello2.CardId, error ƒ"
+					],
+					[
+						"GetCl",
+						"GetClassroomsMap	ret vishnu2.ClassroomsMap, err error ƒ"
+					],
+					[
+						"Class",
+						"ClassroomsMap	map[vishnu2.ClassroomId]vishnu2.Classroom ʈ"
+					],
+					[
+						"GetRe",
+						"GetReportSubsectionMarkdown	string ƒ"
+					],
+					[
+						"GetDa",
+						"GetDateRangeQuery	bson.M ƒ"
+					],
+					[
+						"Week",
+						"WeeklyTargetMinutes	float64 ν"
+					],
+					[
+						"T",
+						"Today	time.Duration ν"
+					],
+					[
+						"G",
+						"GetDateRange	start time.Time, end time.Time ƒ"
+					],
+					[
+						"GetBoard",
+						"GetCardIdsFromBoard	[]trello2.CardId, error ƒ"
+					],
+					[
+						"testing",
+						"testingListId	trello2.ListId ν"
+					],
+					[
+						"testCard",
+						"testCardStudentId2	vishnu2.StudentId ν"
+					],
+					[
+						"testStu",
+						"testCardStudentId2	vishnu2.StudentId ν"
+					],
+					[
+						"or",
+						"originalCard	apollo2.Card ν"
+					],
+					[
+						"origi",
+						"GetOrganizationIds	ret []trello2.OrganizationId ƒ"
+					],
+					[
+						"Create",
+						"CreateCard	Card, error ƒ"
+					],
+					[
+						"I",
+						"IdBoard	*trello2.BoardId ν"
+					],
+					[
+						"brd",
+						"bridgenewsela	 package ρ"
+					],
+					[
+						"bridge",
+						"bridgenewsela	 package ρ"
+					],
+					[
+						"brid",
+						"bridgenewsela	 package ρ"
+					],
+					[
+						"Par",
+						"ParseFloat	f float64, err error ƒ"
+					],
+					[
+						"Er",
+						"ErrNotFound	error ν"
+					],
+					[
+						"Progr",
+						"ProgressChange	struct ʈ"
+					],
+					[
+						"time",
+						"timeFieldName	string ν"
+					],
+					[
+						"Dail",
+						"DailyRecord	struct ʈ"
+					],
+					[
+						"start",
+						"StartDate	*string ν"
+					],
+					[
+						"Ensu",
+						"EnsureList	ret trello2.List, err error ƒ"
+					],
+					[
+						"GetStude",
+						"GetStudentsMap	ret vishnu2.StudentsMap, err error ƒ"
+					],
+					[
+						"k",
+						"bridgekhan	 package ρ"
+					],
+					[
+						"progressCha",
+						"progressChangeTask	 Ɩ"
+					],
+					[
+						"Pro",
+						"ProgressChange	struct ʈ"
+					],
+					[
+						"khan",
+						"bridgekhan	 package ρ"
+					],
+					[
+						"KhanS",
+						"KhanStrugglingCollection	 Ɩ"
+					],
+					[
+						"KhanPro",
+						"KhanProgressCollection	 Ɩ"
+					],
+					[
+						"Cass",
+						"ClassroomId	int ʈ"
+					],
+					[
+						"Load",
+						"LoadFromApollo	graph taxonomy.Graph, err error ƒ"
+					],
+					[
+						"test",
+						"testStudentEmail	vishnu2.EmailAddress ν"
+					],
+					[
+						"GetAl",
+						"GetAllExposure	[]Exposure, error ƒ"
+					],
+					[
+						"acces",
+						"accessToken	*oauth.Credentials ν"
+					],
+					[
+						"Guar",
+						"GuardianId	string ʈ"
+					],
+					[
+						"F",
+						"FirstName	string ν"
+					],
+					[
+						"Up",
+						"UpdateCard	trello2.CardId, error ƒ"
+					],
+					[
+						"for",
+						"forkedFromURLTitle	 Ɩ"
+					],
+					[
+						"GetCh",
+						"GetCheckItem	CheckItem, error ƒ"
+					],
+					[
+						"Update",
+						"UpdateCheckItemState	error ƒ"
+					],
+					[
+						"check",
+						"checkListId	 Ɩ"
+					],
+					[
+						"Upda",
+						"UpdateCheckItem	error ƒ"
+					],
+					[
+						"Err",
+						"ErrorIfNotNil	 ƒ"
+					],
+					[
+						"re",
+						"recurCardsAction	err error ƒ"
+					],
+					[
+						"ver",
+						"copyDocVerb	 Ɩ"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 392.0,
+				"last_filter": "pep",
+				"selected_items":
+				[
+					[
+						"pep",
+						"AutoPEP8: Format Code"
+					],
+					[
+						"package",
+						"Package Control: Install Package"
+					],
+					[
+						"packcontr",
+						"Package Control: Install Package"
+					],
+					[
+						"pac",
+						"Package Control: Remove Package"
+					],
+					[
+						"pack",
+						"Package Control: Remove Repository"
+					],
+					[
+						"packa",
+						"Package Control: Remove Package"
+					],
+					[
+						"source",
+						"Sourcegraph: Search From Selection"
+					],
+					[
+						"go",
+						"GoSublime: Fmt and save"
+					],
+					[
+						"pa",
+						"Package Control: Install Package"
+					],
+					[
+						"css",
+						"Set Syntax: SCSS"
+					],
+					[
+						"p",
+						"Package Control: Install Package"
+					],
+					[
+						"sass",
+						"Set Syntax: Sass"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"packag",
+						"Package Control: Install Package"
+					],
+					[
+						"package contro",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 593.0
+			},
+			"console":
+			{
+				"height": 126.0,
+				"history":
+				[
+					"import subprocess; subprocess.check_output(\"src version\", shell=True)",
+					"import subprocess; subprocess.check_output(\"srcer\", shell=True)",
+					"import subprocess; subprocess.check_output(\"src\", shell=True)",
+					"import subprocess; subprocess.check_output(\"dsfasfa\", shell=True)",
+					"import subprocess; subprocess.check_output(\"echo 1\", shell=True)",
+					"import subprocess; subprocess.check_output(\"src\", shell=True)",
+					"import subprocess; subprocess.check_output(\"src --help\", shell=True)",
+					"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/khan/khan.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/trello2/trello-get-student-ids/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altrollbar/src.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe/config.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/lexia/bridge-lexia-import/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/trello2/boards.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/trello2/new.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/trello2/trello-create-student-boards/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/map/records.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/map/input.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-statistics/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/vishnu2/utility.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/import.sh",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/map/bridge-map-import/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/trello2/organizations.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/trello2/api.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-update/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy_contributes_test.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/data/map_ela_to_standard_id.csv",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/contributes.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge-cards/bridge-cards-export/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-map-import/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-dump/alos.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-map-import/create-tables.sql",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/khan/records.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/khan/bridge-khan-import/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-cleanup/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/apollo2/assessments.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-export/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/apollo2/api.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-alc-summary/create-tables.sql",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/bridge-assessments-cleanup/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge-cards/bridge-cards-http/pull.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/bridge-assessments-statistics/main.go",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/khan/bridge-khan-progress-report/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/lexia/records.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/apollo2/assessments_test.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge-cards/bridge-cards-http/fill.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/records.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge-cards/export.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/s3.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/imports/assessments.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/map/bridge-map-standards-data/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/s3_test.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-alc-summary/plpgoals.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-postgres-keys/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-key/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-dump/plps.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy.json",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altapi/pager.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altapp/students/src.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/map/mapping.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/lexia/bridge-lexia-download/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/lexia/bridge-lexia-export/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/newsela/bridge-newsela-import/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altapi/altschool_api.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altapi/pager_test.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/apollo2/new.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/vishnu2/guardians.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/apollo2/plp_goals.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/apollo2/plp_goals_test.go",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/USAGE.md",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altapp/setup.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/README.md",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-archive/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/bridge-cleanup-assessments/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-one-off/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/vishnu2/api.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/student-board-monitor/student-board-monitor/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/nightly.sh",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/student-board-monitor/drive.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/escape/escape/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/lexia/bridge-lexia-parse/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/student-board-monitor/student-board-processor/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/student-board-monitor/config.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/mongo.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe/trello-apollo-health/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/newsela/new.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/student-board-monitor/recurrence.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/student-board-monitor/actions.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altdrive/get.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altdrive/comments.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altdrive/share.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altdrive/new.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/vishnu2/new_caching.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/student-board-monitor/Procfile",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altapp/mongo.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/mongo/sessions.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/apollo2/cards.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/nightly_archive.sh",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/Godeps/Godeps.json",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/vishnu2/users.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/khan/login_test.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-postgres-keys/create-tables.sql",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/vishnu2/guardians_test.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/report/run.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/report/card.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/report/flags.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/lexia/bridge-lexia-progress-report/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-drive-alc-summary/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/autopilot/model/grade.py",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/autopilot/model/_model_v0.py",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/autopilot/model/_model_stupid.py",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/autopilot/model/_distribution.py",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/autopilot/model/_common.py",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/autopilot/model/__init__.py",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/autopilot/grade.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/map/bridge-map-data/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/apollo2/competencies_test.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altapp/queue.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/bridge-to-assessment/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/student-board-monitor/student-doc-assessor/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/utility/utility.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/apollo2/cards_test.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altviper/src.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/khan/new.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altapp/apis_test.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altapp/mongo_test.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altapp/queue_test.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altapp/taxonomy_test.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/autopilot/model/nwea.py",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/autopilot/model/test_distribution.py",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/autopilot/model/distribution.py",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/khan/api.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe/cleanup.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe/delete.go"
+			],
+			"find":
+			{
+				"height": 37.0
+			},
+			"find_in_files":
+			{
+				"height": 93.0,
+				"where_history":
+				[
+					"-AltSchool/*/Godeps/*",
+					"-AltSchool/*/Godeps/*,AltSchool/gotools/altdrive/*",
+					"-AltSchool/*/Godeps/*",
+					"-AltSchool/*/Godeps/*,AltSchool/bridge/*",
+					"-AltSchool/*/Godeps/*",
+					"-AltSchool/*/Godeps/*,AltSchool/bridge-cards",
+					"-AltSchool/*/Godeps/*",
+					"-AltSchool/*/Godeps/*,AltSchool/apollo-trello-pipe/*",
+					"-AltSchool/*/Godeps/*,AltSchool/gotools/*",
+					"-AltSchool/*/Godeps/*,AltSchool/taxonomy/*",
+					"-AltSchool/*/Godeps/*,*.go",
+					"-AltSchool/*/Godeps/*",
+					"-AltSchool/*/Godeps/*,AltSchool/bridge/*",
+					"-AltSchool/*/Godeps/*,AltSchool/gotools/*",
+					"-AltSchool/*/Godeps/*",
+					"-AltSchool/*/Godeps/*,AltSchool/apollo-trello-pipe",
+					"-AltSchool/*/Godeps/*,AltSchool/apollo-trello-pipe,AltSchool/gotools",
+					"-AltSchool/*/Godeps/*,AltSchool/apollo-trello-pipe",
+					"-AltSchool/*/Godeps/*",
+					"-AltSchool/*/Godeps/*,AltSchool/gotools/queue/*",
+					"-AltSchool/*/Godeps/*,AltSchool/apollo-trello-pipe/*",
+					"-AltSchool/*/Godeps/*",
+					"-AltSchool/*/Godeps/*,AltSchool/apollo-trello-pipe/*",
+					"-AltSchool/*/Godeps/*,AltSchool/autopilot/*",
+					"-AltSchool/*/Godeps/*",
+					"",
+					"AltSchool/analytics-state/Godeps",
+					"-*/Godeps/*",
+					"-*/Godeps/*,AltSchool/autopilot/*.go",
+					"-*/Godeps/*",
+					"-*/Godeps/*,AltSchool/bridge",
+					"-*/Godeps/*",
+					"-*/Godeps/*,AltSchool/analytics-state",
+					"-*/Godeps/*",
+					"-*/Godeps/*,AltSchool/apollo-trello-pipe",
+					"-*/Godeps/*",
+					"-*/Godeps/*,AltSchool/apollo-trello-pipe",
+					"-*/Godeps/*,AltSchool/gotools/trello2",
+					"-*/Godeps/*,AltSchool/gotools/vishnu2",
+					"-*/Godeps/*,AltSchool/gotools/vishnu2i",
+					"-*/Godeps/*,AltSchool/gotools/vishnu2",
+					"-*/Godeps/*,AltSchool/gotools/apollo2",
+					"-*/Godeps/*,AltSchool/analytics-state",
+					"-*/Godeps/*",
+					"-*/Godeps/*,AltSchool/apollo-trello-pipe",
+					"-*/Godeps/*,apollo-trello-pipe",
+					"-*/Godeps/*",
+					"-*/Godeps/*,*/analytics-state/*.go",
+					"-*/Godeps/*,*/analytics-state/*/*.go",
+					"-*/Godeps/*",
+					"",
+					"-*/Godeps/*",
+					"",
+					"AltSchool/analytics-state",
+					"analytics-state",
+					"",
+					"AltSchool/analytics-state",
+					"analytics-state",
+					"",
+					"analytics-state",
+					"-Godeps,analytics-state",
+					"-Godeps",
+					"-*/Godeps",
+					"-Godeps",
+					" -Godeps",
+					" -public lib",
+					" -public",
+					"/Users/drussel/AltSchool/vishnu-frontend, -public",
+					"/Users/drussel/AltSchool/vishnu-frontend",
+					"/Users/drussel/AltSchool/vishnu-frontend/app/models",
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"GetAPIs",
+					"forked",
+					"Password",
+					"callbackport",
+					"2009",
+					"return",
+					"creating",
+					"Wrong number of classrooms",
+					"wrong number",
+					"Error",
+					"verbose",
+					"showAll",
+					"^6-8\\.([^\\.]+)",
+					"^11-12\\.([^\\.]+)",
+					"^9-10\\.([^\\.]+)",
+					"^K\\.([^\\.]+)",
+					"^([^\\.]+)\\.([^\\.]+)\\.([^\\.]+)\\.([^,]+)",
+					"^([0-9]+)\\.([^\\.]+)\\.([^\\.]+)\\.([^\\.]+)",
+					"^([0-9]+)\\.([^\\.]+)",
+					"forked",
+					"added edge",
+					"added edger",
+					"tru",
+					"Where",
+					"DELETE",
+					"OpenFile",
+					"fmt.println",
+					"enqu",
+					"enqueu",
+					"enqueue",
+					"narrative",
+					"uuid",
+					"db",
+					"fmt.Println",
+					"getStudentFromEmailAddress",
+					".R.H.",
+					"5.L.1",
+					"5.L.1a",
+					".R.ST.",
+					".R.F.",
+					".R.I.",
+					"W.HST",
+					".R.L.",
+					"CC.",
+					"fmt.Print",
+					"baseTime",
+					"filter",
+					"trello_organization",
+					"nwea.",
+					".Iter()",
+					"folder",
+					"fmt.Print",
+					"creating shared",
+					"fmt.Print",
+					"DoCardActions",
+					"Wrong list name",
+					"AddCardActionsHandlers",
+					"vishnu_api_url",
+					"edge",
+					"\"5\"",
+					"Grade\"",
+					"Can't find student for",
+					"page_size",
+					"rollbar_api",
+					"No dump found for",
+					"no dump found for",
+					"today",
+					"exposure",
+					"exposureva",
+					"^(.*)$",
+					"\\t",
+					"exposure",
+					"fmt.Print",
+					"dividers",
+					"Updating",
+					"gotools/utility\"",
+					"bridge.Khan",
+					"github.com/AltSchool/bridge/gobridge",
+					"AddRetryLimitHandler",
+					"ExerciseToTaxonomyIdMap",
+					"complete",
+					"GetCardIdFromURL",
+					".One",
+					"Nothing done for",
+					"GetDateRangeQuery",
+					"fmt.Print",
+					"7980",
+					"es",
+					"`json:\"([^\"]*)\"`",
+					"\"not found\"",
+					"Parse",
+					"7fe1d945-a7cc-4678-690f-bb645e5c30d2",
+					"bridge.Khan",
+					"bridge.MAP",
+					"bridge.Lexia",
+					"Select",
+					"Sort",
+					"//	",
+					"fmt.Prin",
+					"readcre",
+					"readredentials",
+					"\"port\"",
+					"apollo",
+					"AddForkedFromToIds",
+					"CheckForMissingFields",
+					"required",
+					"fmt.Print",
+					"GetAssessmentsForCard",
+					"- 1",
+					"assessm",
+					"github.com/google/google-api-go-client",
+					"github.com/AltSchool/google-api-go-client",
+					"AddRea",
+					"name",
+					"defer",
+					"write_page",
+					"Common Core ELA",
+					"Next Generation Science",
+					"subjectArea",
+					"Missing SubjectArea for",
+					"CommonCoreId",
+					"aapi",
+					"still items in queue",
+					"AddRegisterTrelloWebhookHander",
+					"LexiaProgressReport",
+					"progress",
+					"saveprogr",
+					"tapi."
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"200.9",
+					"\\1.6-8",
+					"\\1.11-12",
+					"\\1.9-10",
+					"\\1.K",
+					"\\1.\\2.\\3\\4",
+					"\\2.\\1",
+					".RH.",
+					".RST.",
+					".RF.",
+					".RI.",
+					"WHST",
+					".RL.",
+					"",
+					"\\1KeyItem=csvkey.KeyItem(\"\\1\")",
+					"\\n",
+					"khan.",
+					"github.com/AltSchool/bridge",
+					"ExerciseToStandardIdMap",
+					"`json:\"\\1\" bson:\"\\1\"`",
+					"bridgekhan.",
+					"nwea.",
+					"lexia.",
+					"google.golang.org/api",
+					"github.com/google/google-api-go-client",
+					"CommonCoreELAId",
+					"gotools/altdrive",
+					" altdrive.",
+					"Println",
+					"User",
+					"^\"5",
+					"_write_page",
+					"inMemoryStatistics",
+					"",
+					"altviper.GetString",
+					"tcardId",
+					"id",
+					"pipe",
+					"",
+					"CompetencyRecord",
+					"",
+					"varchar",
+					"Guardians",
+					"new Date",
+					"\"),",
+					"",
+					"\"",
+					"taxonomy.StandardId",
+					"",
+					"autopilot.",
+					"package autopilot",
+					"github.com/AltSchool/autopilot",
+					"mongo.GetDatabase(s, \"bridge\")",
+					"altrollbar.PanicIfNotNil",
+					"althttp.Error",
+					"althttp.MatchesError",
+					"altrollbar",
+					"altrollbar.PanicIfNotNil",
+					"_",
+					",",
+					"",
+					"this.DoRequest(",
+					" this.",
+					"this *impl",
+					"",
+					"this.DoRequest(",
+					"this *impl",
+					" this.",
+					"this *impl",
+					"",
+					"path :=",
+					"i.DoRequest(",
+					"altrollbar.Error",
+					"altrollbar.Message",
+					"",
+					"Panic",
+					"analytics.Panic",
+					"int not null",
+					"apollo2.DocumentType",
+					"apollo2.DocumentId",
+					"q queue",
+					"queue.Queue",
+					"\",\"",
+					"Id",
+					"json:\"\\1\" bson:\"\\1\"",
+					"StandardIdTo",
+					" GetIsTrelloId",
+					".GetIsTrelloId",
+					"",
+					"SubjectArea",
+					"string",
+					"=",
+					"",
+					"SubjectArea",
+					"L.2.1",
+					"",
+					"analytics.TimeField:date",
+					"}))",
+					"bson.M{",
+					"analytics.StudentIdField:",
+					"analytics.TypeField:",
+					"analytics.TimeField:",
+					"doc +=",
+					"Teacher",
+					"teacher",
+					"Review",
+					"PLPGoal",
+					"NewSimpleCountQuery",
+					"CountKey",
+					"PLP",
+					"ALO",
+					"PLP",
+					"vishnu2.",
+					"apollo2.",
+					"CardId",
+					"ities",
+					"Activity",
+					"activity",
+					"ities",
+					"Activity",
+					"activity",
+					"Classroom",
+					"Activity",
+					"List",
+					"Attachment",
+					"CheckItem",
+					"Checklist",
+					"Today"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 29.0
+			},
+			"input":
+			{
+				"height": 31.0
+			},
+			"menu_visible": true,
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe":
+			{
+				"height": 100.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo":
+			{
+				"height": 160.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-add-tree":
+			{
+				"height": 165.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-cat":
+			{
+				"height": 217.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-create":
+			{
+				"height": 100.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-id":
+			{
+				"height": 100.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-ls":
+			{
+				"height": 100.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-rm":
+			{
+				"height": 100.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/lib":
+			{
+				"height": 247.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/pipe":
+			{
+				"height": 258.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/pipe-initialize":
+			{
+				"height": 100.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/pipelib":
+			{
+				"height": 200.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking":
+			{
+				"height": 272.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking-export":
+			{
+				"height": 100.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking-import":
+			{
+				"height": 256.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/utility":
+			{
+				"height": 100.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/alcexport":
+			{
+				"height": 118.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state":
+			{
+				"height": 118.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-alc-state":
+			{
+				"height": 118.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-cleanup":
+			{
+				"height": 136.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-dump":
+			{
+				"height": 136.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe":
+			{
+				"height": 136.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe/pipetools":
+			{
+				"height": 292.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe/trello-apollo-pipe":
+			{
+				"height": 118.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/autopilot/go-lib/model":
+			{
+				"height": 136.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge":
+			{
+				"height": 136.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge-cards":
+			{
+				"height": 136.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/gobridge":
+			{
+				"height": 308.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/report":
+			{
+				"height": 372.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altapi":
+			{
+				"height": 136.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altdrive":
+			{
+				"height": 349.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/apollo2":
+			{
+				"height": 302.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/drive":
+			{
+				"height": 476.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/khan":
+			{
+				"height": 436.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/newsela":
+			{
+				"height": 416.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/queue":
+			{
+				"height": 136.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/trello2":
+			{
+				"height": 136.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/utility":
+			{
+				"height": 136.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/student-board-monitor/student-board-monitor":
+			{
+				"height": 136.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy":
+			{
+				"height": 136.0
+			},
+			"output.9o:///Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime":
+			{
+				"height": 136.0
+			},
+			"output.GoSublime-main-output":
+			{
+				"height": 118.0
+			},
+			"output.GsDoc-output-output":
+			{
+				"height": 136.0
+			},
+			"output.MarGo-output":
+			{
+				"height": 100.0
+			},
+			"output.autopep8":
+			{
+				"height": 100.0
+			},
+			"output.exec":
+			{
+				"height": 155.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 68.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"export",
+						"bridge-cards/export_test.go"
+					],
+					[
+						"cardedhb",
+						"app/templates/card/edit.hbs"
+					],
+					[
+						"apphb",
+						"app/templates/application.hbs"
+					],
+					[
+						"playscs",
+						"app/styles/_playlist.scss"
+					],
+					[
+						"",
+						"app/templates/card/edit.hbs"
+					],
+					[
+						"cardedithb",
+						"app/templates/card/edit.hbs"
+					],
+					[
+						"cardedi",
+						"app/controllers/card_edit_controller.js"
+					],
+					[
+						"tagscon",
+						"app/controllers/tags_controller.js"
+					],
+					[
+						"api_url",
+						"node_modules/karma/node_modules/optimist/node_modules/minimist/.travis.yml"
+					],
+					[
+						"card",
+						"app/models/playlist/card.js"
+					],
+					[
+						"routplay",
+						"app/routes/playlist_route.js"
+					],
+					[
+						"modcar",
+						"app/models/playlist/card.js"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 336.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1276.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"getComm",
+						"getCommentTitle	csvkey.KeyItem ƒ"
+					],
+					[
+						"export",
+						"exportComment	err error ƒ"
+					],
+					[
+						"Che",
+						"Checklist	struct ʈ"
+					],
+					[
+						"out",
+						"outputFilename	*string ν"
+					],
+					[
+						"board",
+						"boardIdMessage	struct ʈ"
+					],
+					[
+						"member",
+						"memberResponse	struct ʈ"
+					],
+					[
+						"Add",
+						"AddMemberToOrganization	trello2.MemberId, error ƒ"
+					],
+					[
+						"addMe",
+						"addMemberOrg	struct ʈ"
+					],
+					[
+						"alt",
+						"altrollbar	 package ρ"
+					],
+					[
+						"GetStu",
+						"GetNamesToStudentsMap	ret vishnu2.NamesToStudentMap, err error ƒ"
+					],
+					[
+						"Get",
+						"GetBoardIdsFromOrganization	[]trello2.BoardId, error ƒ"
+					],
+					[
+						"Read",
+						"ReadAll	[]csvkey.Line, error ƒ"
+					],
+					[
+						"St",
+						"StdDev	float64 ν"
+					],
+					[
+						"RFC",
+						"RFC1123	 Ɩ"
+					],
+					[
+						"al",
+						"altrollbar	 package ρ"
+					],
+					[
+						"D",
+						"DescriptionHtml	string ν"
+					],
+					[
+						"Exer",
+						"ExerciseId	string ʈ"
+					],
+					[
+						"Sta",
+						"StandardIdMetadataField	 Ɩ"
+					],
+					[
+						"GetGra",
+						"GetGradeToIdMap	map[int]apollo2.DocumentId ƒ"
+					],
+					[
+						"GetPa",
+						"GetPathIds	ret []apollo2.DocumentId ƒ"
+					],
+					[
+						"Co",
+						"CommonCoreMathId	 Ɩ"
+					],
+					[
+						"Key",
+						"KeyItem	string ʈ"
+					],
+					[
+						"Test",
+						"TestPercentileKeyItem	 Ɩ"
+					],
+					[
+						"TestSt",
+						"TestStartDateKeyItem	 Ɩ"
+					],
+					[
+						"A",
+						"Args	[]string ƒ"
+					],
+					[
+						"Alt",
+						"AltSchoolPlaylistOrganizationId	 Ɩ"
+					],
+					[
+						"Pri",
+						"PrintError	 ƒ"
+					],
+					[
+						"Orga",
+						"OrganizationId	string ʈ"
+					],
+					[
+						"GetAss",
+						"GetAssessmentFromExternalId	Assessment, error ƒ"
+					],
+					[
+						"Delete",
+						"DeleteAssessment	error ƒ"
+					],
+					[
+						"P",
+						"PracticingLevel	 Ɩ"
+					],
+					[
+						"Ma",
+						"Mastered3Level	 Ɩ"
+					],
+					[
+						"Ext",
+						"ExternalId	*string ν"
+					],
+					[
+						"Ass",
+						"Assessment	struct ʈ"
+					],
+					[
+						"GetS",
+						"GetExerciseToCommonCoreMapping	ret map[khan.ExerciseId][]taxonomy.StandardId, err error ƒ"
+					],
+					[
+						"Ex",
+						"Exercise	struct ʈ"
+					],
+					[
+						"GetPLP",
+						"GetAllPLPGoalsForStudent	[]apollo2.PLPGoal, error ƒ"
+					],
+					[
+						"GetSt",
+						"GetStudentsMap	ret vishnu2.StudentsMap, err error ƒ"
+					],
+					[
+						"Asse",
+						"AssessmentDate	*time.Time ν"
+					],
+					[
+						"Pr",
+						"PrintError	 ƒ"
+					],
+					[
+						"R",
+						"RFC1123	 Ɩ"
+					],
+					[
+						"GetA",
+						"GetAssessmentsForStudentByType	[]apollo2.Assessment, error ƒ"
+					],
+					[
+						"N",
+						"NameToTaxonomyIdMap	map[string]apollo2.DocumentId ʈ"
+					],
+					[
+						"Cre",
+						"CreateProgressChangeAssessments	ret []apollo2.Assessment ƒ"
+					],
+					[
+						"E",
+						"ExerciseModel	khan.Exercise ν"
+					],
+					[
+						"De",
+						"DeleteAssessment	error ƒ"
+					],
+					[
+						"Crea",
+						"CreateAssessment	apollo2.Assessment, error ƒ"
+					],
+					[
+						"En",
+						"EnqueueOneOffTask	 ƒ"
+					],
+					[
+						"Id",
+						"IdMemberCreator	string ν"
+					],
+					[
+						"student",
+						"studentTrelloIds	map[trello2.UserId]bool ν"
+					],
+					[
+						"Mar",
+						"MarshalIndentJson	string ƒ"
+					],
+					[
+						"Cache",
+						"CacheKey	struct ʈ"
+					],
+					[
+						"Cach",
+						"CacheItem	struct ʈ"
+					],
+					[
+						"is",
+						"isSafeFromAsteroids	bool ƒ"
+					],
+					[
+						"compu",
+						"computeMaximumVelocity	Velocity ƒ"
+					],
+					[
+						"compute",
+						"computeMaximumVelocity	Velocity ƒ"
+					],
+					[
+						"class",
+						"classFolder	struct ʈ"
+					],
+					[
+						"Dele",
+						"DeleteObject	*s3.DeleteObjectOutput, error ƒ"
+					],
+					[
+						"GetAll",
+						"GetAllStudents	[]vishnu2.Student, error ƒ"
+					],
+					[
+						"S",
+						"ShareHTML	altdrive.Id, error ƒ"
+					],
+					[
+						"guard",
+						"guardianFamilies	map[vishnu2.GuardianId]int ν"
+					],
+					[
+						"Student",
+						"StudentsMap	map[vishnu2.StudentId]vishnu2.Student ʈ"
+					],
+					[
+						"Dum",
+						"DumpType	 Ɩ"
+					],
+					[
+						"_get_grad",
+						"_get_grade_range"
+					],
+					[
+						"get",
+						"getGoalKStdErrKeyItem	csvkey.KeyItem ƒ"
+					],
+					[
+						"Stude",
+						"StudentIdKeyItem	 Ɩ"
+					],
+					[
+						"First",
+						"StudentFirstNameKeyItem	 Ɩ"
+					],
+					[
+						"Enq",
+						"EnqueueDeleteCard	 ƒ"
+					],
+					[
+						"ID",
+						"IdBoard	*trello2.BoardId ν"
+					],
+					[
+						"GetTa",
+						"GetTaxonomyNamesMap	taxonomy.NameToTaxonomyIdMap ƒ"
+					],
+					[
+						"clea",
+						"cleanupOnly	*bool ν"
+					],
+					[
+						"GetT",
+						"GetTaxonomyNamesMap	taxonomy.NameToTaxonomyIdMap ƒ"
+					],
+					[
+						"Clas",
+						"ClassroomId	int ʈ"
+					],
+					[
+						"New",
+						"NewCaching	v vishnu2.API, err error ƒ"
+					],
+					[
+						"Ge",
+						"GetURL	ret string ƒ"
+					],
+					[
+						"Progress",
+						"ProgressChange	struct ʈ"
+					],
+					[
+						"Assessment",
+						"AssessmentBase	struct ʈ"
+					],
+					[
+						"Acti",
+						"ActivityRecord	struct ʈ"
+					],
+					[
+						"Ceh",
+						"CheckItem	struct ʈ"
+					],
+					[
+						"GetCar",
+						"GetCardIdFromURL	trello2.CardId, error ƒ"
+					],
+					[
+						"GetCl",
+						"GetClassroomsMap	ret vishnu2.ClassroomsMap, err error ƒ"
+					],
+					[
+						"Class",
+						"ClassroomsMap	map[vishnu2.ClassroomId]vishnu2.Classroom ʈ"
+					],
+					[
+						"GetRe",
+						"GetReportSubsectionMarkdown	string ƒ"
+					],
+					[
+						"GetDa",
+						"GetDateRangeQuery	bson.M ƒ"
+					],
+					[
+						"Week",
+						"WeeklyTargetMinutes	float64 ν"
+					],
+					[
+						"T",
+						"Today	time.Duration ν"
+					],
+					[
+						"G",
+						"GetDateRange	start time.Time, end time.Time ƒ"
+					],
+					[
+						"GetBoard",
+						"GetCardIdsFromBoard	[]trello2.CardId, error ƒ"
+					],
+					[
+						"testing",
+						"testingListId	trello2.ListId ν"
+					],
+					[
+						"testCard",
+						"testCardStudentId2	vishnu2.StudentId ν"
+					],
+					[
+						"testStu",
+						"testCardStudentId2	vishnu2.StudentId ν"
+					],
+					[
+						"or",
+						"originalCard	apollo2.Card ν"
+					],
+					[
+						"origi",
+						"GetOrganizationIds	ret []trello2.OrganizationId ƒ"
+					],
+					[
+						"Create",
+						"CreateCard	Card, error ƒ"
+					],
+					[
+						"I",
+						"IdBoard	*trello2.BoardId ν"
+					],
+					[
+						"brd",
+						"bridgenewsela	 package ρ"
+					],
+					[
+						"bridge",
+						"bridgenewsela	 package ρ"
+					],
+					[
+						"brid",
+						"bridgenewsela	 package ρ"
+					],
+					[
+						"Par",
+						"ParseFloat	f float64, err error ƒ"
+					],
+					[
+						"Er",
+						"ErrNotFound	error ν"
+					],
+					[
+						"Progr",
+						"ProgressChange	struct ʈ"
+					],
+					[
+						"time",
+						"timeFieldName	string ν"
+					],
+					[
+						"Dail",
+						"DailyRecord	struct ʈ"
+					],
+					[
+						"start",
+						"StartDate	*string ν"
+					],
+					[
+						"Ensu",
+						"EnsureList	ret trello2.List, err error ƒ"
+					],
+					[
+						"GetStude",
+						"GetStudentsMap	ret vishnu2.StudentsMap, err error ƒ"
+					],
+					[
+						"k",
+						"bridgekhan	 package ρ"
+					],
+					[
+						"progressCha",
+						"progressChangeTask	 Ɩ"
+					],
+					[
+						"Pro",
+						"ProgressChange	struct ʈ"
+					],
+					[
+						"khan",
+						"bridgekhan	 package ρ"
+					],
+					[
+						"KhanS",
+						"KhanStrugglingCollection	 Ɩ"
+					],
+					[
+						"KhanPro",
+						"KhanProgressCollection	 Ɩ"
+					],
+					[
+						"Cass",
+						"ClassroomId	int ʈ"
+					],
+					[
+						"Load",
+						"LoadFromApollo	graph taxonomy.Graph, err error ƒ"
+					],
+					[
+						"test",
+						"testStudentEmail	vishnu2.EmailAddress ν"
+					],
+					[
+						"GetAl",
+						"GetAllExposure	[]Exposure, error ƒ"
+					],
+					[
+						"acces",
+						"accessToken	*oauth.Credentials ν"
+					],
+					[
+						"Guar",
+						"GuardianId	string ʈ"
+					],
+					[
+						"F",
+						"FirstName	string ν"
+					],
+					[
+						"Up",
+						"UpdateCard	trello2.CardId, error ƒ"
+					],
+					[
+						"for",
+						"forkedFromURLTitle	 Ɩ"
+					],
+					[
+						"GetCh",
+						"GetCheckItem	CheckItem, error ƒ"
+					],
+					[
+						"Update",
+						"UpdateCheckItemState	error ƒ"
+					],
+					[
+						"check",
+						"checkListId	 Ɩ"
+					],
+					[
+						"Upda",
+						"UpdateCheckItem	error ƒ"
+					],
+					[
+						"Err",
+						"ErrorIfNotNil	 ƒ"
+					],
+					[
+						"re",
+						"recurCardsAction	err error ƒ"
+					],
+					[
+						"ver",
+						"copyDocVerb	 Ɩ"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "AltSchool/bridge/data/map_ela_to_standard_id.csv",
+					"settings":
+					{
+						"buffer_size": 242355,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "AltSchool/bridge/map/bridge-map-student-ids/main.go",
+					"settings":
+					{
+						"buffer_size": 1609,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "AltSchool/bridge/map/bridge-map-standards-data/main.go",
+					"settings":
+					{
+						"buffer_size": 1149,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "AltSchool/bridge/khan/bridge-khan-exercises/main.go",
+					"settings":
+					{
+						"buffer_size": 1596,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "AltSchool/bridge/khan/records.go",
+					"settings":
+					{
+						"buffer_size": 488,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "package main\n\nimport (\n	\"fmt\"\n	\"time\"\n\n	\"code.google.com/p/go-uuid/uuid\"\n\n	\"github.com/AltSchool/bridge/imports\"\n	bridgekhan \"github.com/AltSchool/bridge/khan\"\n	\"github.com/AltSchool/gotools/altapp\"\n	\"github.com/AltSchool/gotools/altapp/students\"\n	\"github.com/AltSchool/gotools/apollo2\"\n	\"github.com/AltSchool/gotools/khan\"\n	\"github.com/AltSchool/gotools/queue\"\n	\"github.com/AltSchool/gotools/vishnu2\"\n	\"github.com/AltSchool/taxonomy\"\n	\"gopkg.in/mgo.v2\"\n	\"gopkg.in/mgo.v2/bson\"\n)\n\nconst (\n	progressChangeTask = queue.TaskType(\"p\")\n	strugglingTask     = queue.TaskType(\"e\")\n)\n\ntype rec struct {\n	Time time.Time `bson:\"time\"`\n}\n\n// return the time of the last matching record or time.Time{}\nfunc getLastRecordTime(c *mgo.Collection, q bson.M) (ret time.Time, err error) {\n	r := rec{}\n	err = c.Find(q).Select(bson.M{\"time\": 1}).Sort(\"-time\").One(&r)\n	if err == mgo.ErrNotFound {\n		err = nil\n	}\n	ret = r.Time\n	return\n}\n\nfunc doGetProgressChange(vapi vishnu2.API, aapi apollo2.API, kapi khan.API, q queue.LocalQueue, nm taxonomy.NameToTaxonomyIdMap,\n	em map[khan.ExerciseId]khan.Exercise, esm map[khan.ExerciseId][]taxonomy.StandardId, student vishnu2.Student, start time.Time) (err error) {\n\n	fmt.Println(student.User.Email, \"Getting progress changes from\", start.String())\n	pcs, err := kapi.GetProgressChangesForStudent(student.User.Email, start, time.Time{})\n	if err != nil {\n		return\n	}\n	//fmt.Println(student.User.Email, \"Got\", len(pcs))\n\n	for _, pc := range pcs {\n		as := bridgekhan.CreateProgressChangeAssessments(student.Id, pc, esm, em, nm)\n		for _, al := range as {\n			a := al\n			q.EnqueueOneOffTask(0, queue.TaskType(uuid.New()), func() error {\n				_, err := aapi.CreateAssessment(a)\n				return err\n			})\n		}\n	}\n	return nil\n}\n\nfunc doGetStruggling(vapi vishnu2.API, aapi apollo2.API, kapi khan.API, q queue.LocalQueue, nm taxonomy.NameToTaxonomyIdMap,\n	em map[khan.ExerciseId]khan.Exercise, esm map[khan.ExerciseId][]taxonomy.StandardId, student vishnu2.Student, start time.Time) (err error) {\n	ed, err := kapi.GetExerciseDataForStudent(student.User.Email)\n	if err != nil {\n		return\n	}\n	_ = ed\n	// not done\n	return\n}\n\nfunc getStudentFromEmailAddress(nsmap vishnu2.NamesToStudentMap, idsmap vishnu2.StudentsMap, em vishnu2.EmailAddress) vishnu2.Student {\n	sid := nsmap[string(em)]\n	return idsmap[sid]\n}\n\nfunc bootstrap(vapi vishnu2.API, aapi apollo2.API, q queue.LocalQueue) (err error) {\n	kapi := khan.New()\n\n	ss, err := kapi.GetAllStudents()\n	fmt.Println(\"got\", len(ss), \"students\", err)\n	if err != nil {\n		return\n	}\n	nsmap, err := vishnu2.GetNamesToStudentsMap(vapi)\n	if err != nil {\n		return\n	}\n	idsmap := students.Get()\n	nm := altapp.GetTaxonomyNamesMap()\n\n	exercises, err := kapi.GetExercises()\n	if err != nil {\n		return\n	}\n	exerciseMap := map[khan.ExerciseId]khan.Exercise{}\n	for _, e := range exercises {\n		exerciseMap[e.Name] = e\n	}\n	standardIdMap, err := kapi.GetExerciseToCommonCoreMapping()\n	if err != nil {\n		return\n	}\n\n	q.AddHandler(progressChangeTask, func(_ queue.Priority, id queue.TaskId, d interface{}) error {\n		start := d.(time.Time)\n		sem := vishnu2.EmailAddress(id)\n		s := getStudentFromEmailAddress(nsmap, idsmap, sem)\n		return doGetProgressChange(vapi, aapi, kapi, q, nm, exerciseMap, standardIdMap, s, start)\n	})\n	q.AddHandler(strugglingTask, func(_ queue.Priority, id queue.TaskId, d interface{}) error {\n		start := d.(time.Time)\n		sem := vishnu2.EmailAddress(id)\n		s := getStudentFromEmailAddress(nsmap, idsmap, sem)\n		return doGetStruggling(vapi, aapi, kapi, q, nm, exerciseMap, standardIdMap, s, start)\n	})\n	for _, sl := range ss {\n		s := sl\n		// compute time to avoid race condition\n		q.EnqueueOneOffTask(0, queue.TaskType(s.Email), func() error {\n			ss := getStudentFromEmailAddress(nsmap, idsmap, s.Email)\n			if ss.Id == \"\" {\n				fmt.Println(\"Skipping\", s.Email)\n				return nil\n			}\n			since, err := imports.GetLastAssessmentTime(ss.Id, bridgekhan.AssessmentType)\n			if err != nil {\n				return err\n			}\n\n			if since.IsZero() {\n				since = time.Date(2012, 01, 01, 0, 0, 0, 0, time.Local)\n			}\n			//fmt.Println(\"student\", s.Email, since.String())\n			q.EnqueueTask(0, progressChangeTask, queue.TaskId(s.Email), since)\n			// skip for now\n			//q.EnqueueTask(0, strugglingTask, queue.TaskId(s.Email), since)\n			return nil\n		})\n\n	}\n	return\n}\n\nfunc run() {\n	q := altapp.GetQueue()\n	vapi := altapp.GetVishnuAPI()\n	aapi := altapp.GetApolloAPI()\n	q.AddErrorFunction(queue.PrintError)\n	q.EnqueueOneOffTask(0, \"bootstrap\", func() (err error) {\n		return bootstrap(vapi, aapi, q)\n	})\n}\n\nfunc main() {\n	altapp.Run(run)\n}\n",
+					"file": "AltSchool/bridge/khan/bridge-khan-import/main.go",
+					"file_size": 4543,
+					"file_write_time": 130777360950000000,
+					"settings":
+					{
+						"buffer_size": 4543,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "AltSchool/bridge/map/records.go",
+					"settings":
+					{
+						"buffer_size": 1290,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "AltSchool/bridge/lexia/records.go",
+					"settings":
+					{
+						"buffer_size": 1923,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "AltSchool/bridge-cards/bridge-cards-export/main.go",
+					"settings":
+					{
+						"buffer_size": 6840,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "AltSchool/bridge-cards/export.go",
+					"settings":
+					{
+						"buffer_size": 10407,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "AltSchool/bridge-cards/helper.go",
+					"settings":
+					{
+						"buffer_size": 7780,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "AltSchool/apollo-trello-pipe/config.go",
+					"settings":
+					{
+						"buffer_size": 3158,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "Searching 475 files for \"GetAPIs\"\n\n/Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe/boards_test.go:\n   19  	t.Parallel()\n   20  	t.Log(\"Testing org\")\n   21: 	_, _, _, _, q, err := GetAPIs()\n   22  	if err != nil {\n   23  		t.Fatal(err)\n   ..\n   30  \n   31  func TestInitializeActivities(t *testing.T) {\n   32: 	tapi, _, aapi, _, q, err := GetAPIs()\n   33  	q.SetLogActivity(true)\n   34  	if err != nil {\n\n/Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe/cards_test.go:\n   23  \n   24  func TestUpdateCreateActivity(t *testing.T) {\n   25: 	tapi, vapi, aapi, graph, _, err := GetAPIs()\n   26  	if err != nil {\n   27  		t.Fatal(err)\n   ..\n   50  \n   51  func TestUpdateArchived(t *testing.T) {\n   52: 	tapi, vapi, aapi, graph, _, err := GetAPIs()\n   53  	if err != nil {\n   54  		t.Fatal(err)\n   ..\n  113  \n  114  func TestUpdateQueue(t *testing.T) {\n  115: 	_, _, _, _, q, err := GetAPIs()\n  116  	if err != nil {\n  117  		t.Fatal(err)\n\n/Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe/config.go:\n   77  }\n   78  \n   79: func GetAPIs() (tapi trello2.API, vapi vishnu2.API, aapi apollo2.API, graph taxonomy.Graph, q queue.Queue, err error) {\n   80  	tapi = trello2.New()\n   81  	vapi, err = vishnu2.New()\n\n/Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe/trello-apollo-cleanup/main.go:\n   23  	defer altrollbar.ReportPanicsAndExit()\n   24  \n   25: 	_, vapi, _, _, q, err := pipe.GetAPIs()\n   26  	altrollbar.PanicIfNotNil(\"initializing\", err)\n   27  \n\n/Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe/trello-apollo-initialize/main.go:\n   38  	altviper.Setup()\n   39  \n   40: 	tapi, vapi, aapi, graph, q, err := pipe.GetAPIs()\n   41  	q.SetLogActivity(true)\n   42  	altrollbar.PanicIfNotNil(\"loading graph\", err)\n\n/Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe/trello-apollo-pipe/main.go:\n   66  	}()\n   67  \n   68: 	tapi, vapi, aapi, _, q, err := pipe.GetAPIs()\n   69  	altrollbar.PanicIfNotNil(\"initializing\", err)\n   70  	registerHTTPHandlers(tapi, vapi, aapi, q, url, callbackPort)\n\n9 matches across 6 files\n",
+					"settings":
+					{
+						"buffer_size": 2147,
+						"line_ending": "Unix",
+						"name": "Find Results",
+						"scratch": true
+					}
+				},
+				{
+					"file": "AltSchool/apollo-trello-pipe/trello-apollo-pipe/main.go",
+					"settings":
+					{
+						"buffer_size": 2533,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "AltSchool/gotools/apollo2/cards.go",
+					"settings":
+					{
+						"buffer_size": 1934,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "AltSchool/bridge/map/mapping.go",
+					"settings":
+					{
+						"buffer_size": 2869,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "AltSchool/gotools/khan/new.go",
+					"settings":
+					{
+						"buffer_size": 6096,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "AltSchool/bridge/lexia/bridge-lexia-to-csv/main.go",
+					"settings":
+					{
+						"buffer_size": 634,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "AltSchool/gotools/trello2/boards.go",
+					"settings":
+					{
+						"buffer_size": 2377,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "AltSchool/gotools/trello2/members.go",
+					"settings":
+					{
+						"buffer_size": 489,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "AltSchool/gotools/trello2/api.go",
+					"settings":
+					{
+						"buffer_size": 9152,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "Packages/GoSublime/GoSublime.sublime-build",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 392.0,
+				"last_filter": "pep",
+				"selected_items":
+				[
+					[
+						"pep",
+						"AutoPEP8: Format Code"
+					],
+					[
+						"package",
+						"Package Control: Install Package"
+					],
+					[
+						"packcontr",
+						"Package Control: Install Package"
+					],
+					[
+						"pac",
+						"Package Control: Remove Package"
+					],
+					[
+						"pack",
+						"Package Control: Remove Repository"
+					],
+					[
+						"packa",
+						"Package Control: Remove Package"
+					],
+					[
+						"source",
+						"Sourcegraph: Search From Selection"
+					],
+					[
+						"go",
+						"GoSublime: Fmt and save"
+					],
+					[
+						"pa",
+						"Package Control: Install Package"
+					],
+					[
+						"css",
+						"Set Syntax: SCSS"
+					],
+					[
+						"p",
+						"Package Control: Install Package"
+					],
+					[
+						"sass",
+						"Set Syntax: Sass"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"packag",
+						"Package Control: Install Package"
+					],
+					[
+						"package contro",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 593.0
+			},
+			"console":
+			{
+				"height": 126.0,
+				"history":
+				[
+					"import subprocess; subprocess.check_output(\"src version\", shell=True)",
+					"import subprocess; subprocess.check_output(\"srcer\", shell=True)",
+					"import subprocess; subprocess.check_output(\"src\", shell=True)",
+					"import subprocess; subprocess.check_output(\"dsfasfa\", shell=True)",
+					"import subprocess; subprocess.check_output(\"echo 1\", shell=True)",
+					"import subprocess; subprocess.check_output(\"src\", shell=True)",
+					"import subprocess; subprocess.check_output(\"src --help\", shell=True)",
+					"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/lexia/bridge-lexia-to-csv",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/map/bridge-map-standards-data",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/map/bridge-map-student-ids",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/report",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge-cards",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge-cards/bridge-cards-export",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/apollo2",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/khan",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-apollo"
+			],
+			"file_history":
+			[
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/khan/khan.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/trello2/trello-get-student-ids/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altrollbar/src.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe/config.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/lexia/bridge-lexia-import/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/trello2/boards.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/trello2/new.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/trello2/trello-create-student-boards/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/map/records.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/map/input.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-statistics/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/vishnu2/utility.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/import.sh",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/map/bridge-map-import/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/trello2/organizations.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/trello2/api.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-update/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy_contributes_test.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/data/map_ela_to_standard_id.csv",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/contributes.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge-cards/bridge-cards-export/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-map-import/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-dump/alos.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-map-import/create-tables.sql",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/khan/records.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/khan/bridge-khan-import/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-cleanup/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/apollo2/assessments.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy-export/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/apollo2/api.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-alc-summary/create-tables.sql",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/bridge-assessments-cleanup/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge-cards/bridge-cards-http/pull.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/bridge-assessments-statistics/main.go",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/khan/bridge-khan-progress-report/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/lexia/records.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/apollo2/assessments_test.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge-cards/bridge-cards-http/fill.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/records.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge-cards/export.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/s3.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/imports/assessments.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/map/bridge-map-standards-data/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/s3_test.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-alc-summary/plpgoals.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-postgres-keys/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-key/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-dump/plps.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy/taxonomy.json",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altapi/pager.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altapp/students/src.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/map/mapping.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/lexia/bridge-lexia-download/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/lexia/bridge-lexia-export/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/newsela/bridge-newsela-import/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altapi/altschool_api.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altapi/pager_test.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/apollo2/new.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/vishnu2/guardians.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/apollo2/plp_goals.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/apollo2/plp_goals_test.go",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/USAGE.md",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altapp/setup.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/README.md",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-archive/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/bridge-cleanup-assessments/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-one-off/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/vishnu2/api.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/student-board-monitor/student-board-monitor/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/nightly.sh",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/student-board-monitor/drive.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/escape/escape/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/lexia/bridge-lexia-parse/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/student-board-monitor/student-board-processor/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/student-board-monitor/config.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/mongo.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe/trello-apollo-health/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/newsela/new.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/student-board-monitor/recurrence.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/student-board-monitor/actions.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altdrive/get.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altdrive/comments.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altdrive/share.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altdrive/new.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/vishnu2/new_caching.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/student-board-monitor/Procfile",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altapp/mongo.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/mongo/sessions.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/apollo2/cards.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/nightly_archive.sh",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/Godeps/Godeps.json",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/vishnu2/users.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/khan/login_test.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-postgres-keys/create-tables.sql",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/vishnu2/guardians_test.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/report/run.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/report/card.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/report/flags.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/lexia/bridge-lexia-progress-report/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-drive-alc-summary/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/autopilot/model/grade.py",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/autopilot/model/_model_v0.py",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/autopilot/model/_model_stupid.py",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/autopilot/model/_distribution.py",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/autopilot/model/_common.py",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/autopilot/model/__init__.py",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/autopilot/grade.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/map/bridge-map-data/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/apollo2/competencies_test.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altapp/queue.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/bridge-to-assessment/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/student-board-monitor/student-doc-assessor/main.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/utility/utility.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/apollo2/cards_test.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altviper/src.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/khan/new.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altapp/apis_test.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altapp/mongo_test.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altapp/queue_test.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altapp/taxonomy_test.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/autopilot/model/nwea.py",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/autopilot/model/test_distribution.py",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/autopilot/model/distribution.py",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/khan/api.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe/cleanup.go",
+				"/Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe/delete.go"
+			],
+			"find":
+			{
+				"height": 37.0
+			},
+			"find_in_files":
+			{
+				"height": 93.0,
+				"where_history":
+				[
+					"-AltSchool/*/Godeps/*",
+					"-AltSchool/*/Godeps/*,AltSchool/gotools/altdrive/*",
+					"-AltSchool/*/Godeps/*",
+					"-AltSchool/*/Godeps/*,AltSchool/bridge/*",
+					"-AltSchool/*/Godeps/*",
+					"-AltSchool/*/Godeps/*,AltSchool/bridge-cards",
+					"-AltSchool/*/Godeps/*",
+					"-AltSchool/*/Godeps/*,AltSchool/apollo-trello-pipe/*",
+					"-AltSchool/*/Godeps/*,AltSchool/gotools/*",
+					"-AltSchool/*/Godeps/*,AltSchool/taxonomy/*",
+					"-AltSchool/*/Godeps/*,*.go",
+					"-AltSchool/*/Godeps/*",
+					"-AltSchool/*/Godeps/*,AltSchool/bridge/*",
+					"-AltSchool/*/Godeps/*,AltSchool/gotools/*",
+					"-AltSchool/*/Godeps/*",
+					"-AltSchool/*/Godeps/*,AltSchool/apollo-trello-pipe",
+					"-AltSchool/*/Godeps/*,AltSchool/apollo-trello-pipe,AltSchool/gotools",
+					"-AltSchool/*/Godeps/*,AltSchool/apollo-trello-pipe",
+					"-AltSchool/*/Godeps/*",
+					"-AltSchool/*/Godeps/*,AltSchool/gotools/queue/*",
+					"-AltSchool/*/Godeps/*,AltSchool/apollo-trello-pipe/*",
+					"-AltSchool/*/Godeps/*",
+					"-AltSchool/*/Godeps/*,AltSchool/apollo-trello-pipe/*",
+					"-AltSchool/*/Godeps/*,AltSchool/autopilot/*",
+					"-AltSchool/*/Godeps/*",
+					"",
+					"AltSchool/analytics-state/Godeps",
+					"-*/Godeps/*",
+					"-*/Godeps/*,AltSchool/autopilot/*.go",
+					"-*/Godeps/*",
+					"-*/Godeps/*,AltSchool/bridge",
+					"-*/Godeps/*",
+					"-*/Godeps/*,AltSchool/analytics-state",
+					"-*/Godeps/*",
+					"-*/Godeps/*,AltSchool/apollo-trello-pipe",
+					"-*/Godeps/*",
+					"-*/Godeps/*,AltSchool/apollo-trello-pipe",
+					"-*/Godeps/*,AltSchool/gotools/trello2",
+					"-*/Godeps/*,AltSchool/gotools/vishnu2",
+					"-*/Godeps/*,AltSchool/gotools/vishnu2i",
+					"-*/Godeps/*,AltSchool/gotools/vishnu2",
+					"-*/Godeps/*,AltSchool/gotools/apollo2",
+					"-*/Godeps/*,AltSchool/analytics-state",
+					"-*/Godeps/*",
+					"-*/Godeps/*,AltSchool/apollo-trello-pipe",
+					"-*/Godeps/*,apollo-trello-pipe",
+					"-*/Godeps/*",
+					"-*/Godeps/*,*/analytics-state/*.go",
+					"-*/Godeps/*,*/analytics-state/*/*.go",
+					"-*/Godeps/*",
+					"",
+					"-*/Godeps/*",
+					"",
+					"AltSchool/analytics-state",
+					"analytics-state",
+					"",
+					"AltSchool/analytics-state",
+					"analytics-state",
+					"",
+					"analytics-state",
+					"-Godeps,analytics-state",
+					"-Godeps",
+					"-*/Godeps",
+					"-Godeps",
+					" -Godeps",
+					" -public lib",
+					" -public",
+					"/Users/drussel/AltSchool/vishnu-frontend, -public",
+					"/Users/drussel/AltSchool/vishnu-frontend",
+					"/Users/drussel/AltSchool/vishnu-frontend/app/models",
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"GetAPIs",
+					"forked",
+					"Password",
+					"callbackport",
+					"2009",
+					"return",
+					"creating",
+					"Wrong number of classrooms",
+					"wrong number",
+					"Error",
+					"verbose",
+					"showAll",
+					"^6-8\\.([^\\.]+)",
+					"^11-12\\.([^\\.]+)",
+					"^9-10\\.([^\\.]+)",
+					"^K\\.([^\\.]+)",
+					"^([^\\.]+)\\.([^\\.]+)\\.([^\\.]+)\\.([^,]+)",
+					"^([0-9]+)\\.([^\\.]+)\\.([^\\.]+)\\.([^\\.]+)",
+					"^([0-9]+)\\.([^\\.]+)",
+					"forked",
+					"added edge",
+					"added edger",
+					"tru",
+					"Where",
+					"DELETE",
+					"OpenFile",
+					"fmt.println",
+					"enqu",
+					"enqueu",
+					"enqueue",
+					"narrative",
+					"uuid",
+					"db",
+					"fmt.Println",
+					"getStudentFromEmailAddress",
+					".R.H.",
+					"5.L.1",
+					"5.L.1a",
+					".R.ST.",
+					".R.F.",
+					".R.I.",
+					"W.HST",
+					".R.L.",
+					"CC.",
+					"fmt.Print",
+					"baseTime",
+					"filter",
+					"trello_organization",
+					"nwea.",
+					".Iter()",
+					"folder",
+					"fmt.Print",
+					"creating shared",
+					"fmt.Print",
+					"DoCardActions",
+					"Wrong list name",
+					"AddCardActionsHandlers",
+					"vishnu_api_url",
+					"edge",
+					"\"5\"",
+					"Grade\"",
+					"Can't find student for",
+					"page_size",
+					"rollbar_api",
+					"No dump found for",
+					"no dump found for",
+					"today",
+					"exposure",
+					"exposureva",
+					"^(.*)$",
+					"\\t",
+					"exposure",
+					"fmt.Print",
+					"dividers",
+					"Updating",
+					"gotools/utility\"",
+					"bridge.Khan",
+					"github.com/AltSchool/bridge/gobridge",
+					"AddRetryLimitHandler",
+					"ExerciseToTaxonomyIdMap",
+					"complete",
+					"GetCardIdFromURL",
+					".One",
+					"Nothing done for",
+					"GetDateRangeQuery",
+					"fmt.Print",
+					"7980",
+					"es",
+					"`json:\"([^\"]*)\"`",
+					"\"not found\"",
+					"Parse",
+					"7fe1d945-a7cc-4678-690f-bb645e5c30d2",
+					"bridge.Khan",
+					"bridge.MAP",
+					"bridge.Lexia",
+					"Select",
+					"Sort",
+					"//	",
+					"fmt.Prin",
+					"readcre",
+					"readredentials",
+					"\"port\"",
+					"apollo",
+					"AddForkedFromToIds",
+					"CheckForMissingFields",
+					"required",
+					"fmt.Print",
+					"GetAssessmentsForCard",
+					"- 1",
+					"assessm",
+					"github.com/google/google-api-go-client",
+					"github.com/AltSchool/google-api-go-client",
+					"AddRea",
+					"name",
+					"defer",
+					"write_page",
+					"Common Core ELA",
+					"Next Generation Science",
+					"subjectArea",
+					"Missing SubjectArea for",
+					"CommonCoreId",
+					"aapi",
+					"still items in queue",
+					"AddRegisterTrelloWebhookHander",
+					"LexiaProgressReport",
+					"progress",
+					"saveprogr",
+					"tapi."
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"200.9",
+					"\\1.6-8",
+					"\\1.11-12",
+					"\\1.9-10",
+					"\\1.K",
+					"\\1.\\2.\\3\\4",
+					"\\2.\\1",
+					".RH.",
+					".RST.",
+					".RF.",
+					".RI.",
+					"WHST",
+					".RL.",
+					"",
+					"\\1KeyItem=csvkey.KeyItem(\"\\1\")",
+					"\\n",
+					"khan.",
+					"github.com/AltSchool/bridge",
+					"ExerciseToStandardIdMap",
+					"`json:\"\\1\" bson:\"\\1\"`",
+					"bridgekhan.",
+					"nwea.",
+					"lexia.",
+					"google.golang.org/api",
+					"github.com/google/google-api-go-client",
+					"CommonCoreELAId",
+					"gotools/altdrive",
+					" altdrive.",
+					"Println",
+					"User",
+					"^\"5",
+					"_write_page",
+					"inMemoryStatistics",
+					"",
+					"altviper.GetString",
+					"tcardId",
+					"id",
+					"pipe",
+					"",
+					"CompetencyRecord",
+					"",
+					"varchar",
+					"Guardians",
+					"new Date",
+					"\"),",
+					"",
+					"\"",
+					"taxonomy.StandardId",
+					"",
+					"autopilot.",
+					"package autopilot",
+					"github.com/AltSchool/autopilot",
+					"mongo.GetDatabase(s, \"bridge\")",
+					"altrollbar.PanicIfNotNil",
+					"althttp.Error",
+					"althttp.MatchesError",
+					"altrollbar",
+					"altrollbar.PanicIfNotNil",
+					"_",
+					",",
+					"",
+					"this.DoRequest(",
+					" this.",
+					"this *impl",
+					"",
+					"this.DoRequest(",
+					"this *impl",
+					" this.",
+					"this *impl",
+					"",
+					"path :=",
+					"i.DoRequest(",
+					"altrollbar.Error",
+					"altrollbar.Message",
+					"",
+					"Panic",
+					"analytics.Panic",
+					"int not null",
+					"apollo2.DocumentType",
+					"apollo2.DocumentId",
+					"q queue",
+					"queue.Queue",
+					"\",\"",
+					"Id",
+					"json:\"\\1\" bson:\"\\1\"",
+					"StandardIdTo",
+					" GetIsTrelloId",
+					".GetIsTrelloId",
+					"",
+					"SubjectArea",
+					"string",
+					"=",
+					"",
+					"SubjectArea",
+					"L.2.1",
+					"",
+					"analytics.TimeField:date",
+					"}))",
+					"bson.M{",
+					"analytics.StudentIdField:",
+					"analytics.TypeField:",
+					"analytics.TimeField:",
+					"doc +=",
+					"Teacher",
+					"teacher",
+					"Review",
+					"PLPGoal",
+					"NewSimpleCountQuery",
+					"CountKey",
+					"PLP",
+					"ALO",
+					"PLP",
+					"vishnu2.",
+					"apollo2.",
+					"CardId",
+					"ities",
+					"Activity",
+					"activity",
+					"ities",
+					"Activity",
+					"activity",
+					"Classroom",
+					"Activity",
+					"List",
+					"Attachment",
+					"CheckItem",
+					"Checklist",
+					"Today"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 9,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "AltSchool/bridge/data/map_ela_to_standard_id.csv",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 242355,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										88613,
+										88613
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content"
+									],
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 8215.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 17,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "AltSchool/bridge/map/bridge-map-student-ids/main.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1609,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										92,
+										0
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"open_with_edit": true,
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 10,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "AltSchool/bridge/map/bridge-map-standards-data/main.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1149,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										788,
+										788
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 44.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 11,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "AltSchool/bridge/khan/bridge-khan-exercises/main.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1596,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1419,
+										1419
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"open_with_edit": true,
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 485.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 14,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "AltSchool/bridge/khan/records.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 488,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										488,
+										488
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 13,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "AltSchool/bridge/khan/bridge-khan-import/main.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4543,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1472,
+										1472
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 2563.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 12,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "AltSchool/bridge/map/records.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1290,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1009,
+										1290
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 422.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 8,
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "AltSchool/bridge/lexia/records.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1923,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1923,
+										1923
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 7,
+							"type": "text"
+						},
+						{
+							"buffer": 8,
+							"file": "AltSchool/bridge-cards/bridge-cards-export/main.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 6840,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										6170,
+										6170
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 3862.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						},
+						{
+							"buffer": 9,
+							"file": "AltSchool/bridge-cards/export.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 10407,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										8179,
+										8179
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 6772.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 10,
+							"file": "AltSchool/bridge-cards/helper.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 7780,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										7055,
+										7055
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 6029.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 11,
+							"file": "AltSchool/apollo-trello-pipe/config.go",
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 3158,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2150,
+										2157
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 1347.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 12,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2147,
+								"regions":
+								{
+									"match":
+									{
+										"flags": 112,
+										"regions":
+										[
+											[
+												203,
+												210
+											],
+											[
+												362,
+												369
+											],
+											[
+												619,
+												626
+											],
+											[
+												779,
+												786
+											],
+											[
+												923,
+												930
+											],
+											[
+												1092,
+												1099
+											],
+											[
+												1467,
+												1474
+											],
+											[
+												1727,
+												1734
+											],
+											[
+												1988,
+												1995
+											]
+										],
+										"scope": ""
+									}
+								},
+								"selection":
+								[
+									[
+										1991,
+										1991
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"default_dir": "/Users/drussel/AltSchool/go/src/github.com/AltSchool",
+									"detect_indentation": false,
+									"line_numbers": false,
+									"output_tag": 1,
+									"result_base_dir": "",
+									"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+									"result_line_regex": "^ +([0-9]+):",
+									"scroll_past_end": true,
+									"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 493.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 13,
+							"file": "AltSchool/apollo-trello-pipe/trello-apollo-pipe/main.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2533,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1713,
+										1713
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 921.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 14,
+							"file": "AltSchool/gotools/apollo2/cards.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1934,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1173,
+										1173
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 368.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 15,
+							"file": "AltSchool/bridge/map/mapping.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2869,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										360,
+										360
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 9,
+							"type": "text"
+						},
+						{
+							"buffer": 16,
+							"file": "AltSchool/gotools/khan/new.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 6096,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3268,
+										3592
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 2469.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 15,
+							"type": "text"
+						},
+						{
+							"buffer": 17,
+							"file": "AltSchool/bridge/lexia/bridge-lexia-to-csv/main.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 634,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										348,
+										348
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"open_with_edit": true,
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 16,
+							"type": "text"
+						},
+						{
+							"buffer": 18,
+							"file": "AltSchool/gotools/trello2/boards.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2377,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2335,
+										2335
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content"
+									],
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 989.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 20,
+							"type": "text"
+						},
+						{
+							"buffer": 19,
+							"file": "AltSchool/gotools/trello2/members.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 489,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										455,
+										455
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content"
+									],
+									"open_with_edit": true,
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 18,
+							"type": "text"
+						},
+						{
+							"buffer": 20,
+							"file": "AltSchool/gotools/trello2/api.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 9152,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										9018,
+										9018
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content"
+									],
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 3408.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 19,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 29.0
+			},
+			"input":
+			{
+				"height": 31.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe":
+			{
+				"height": 100.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo":
+			{
+				"height": 160.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-add-tree":
+			{
+				"height": 165.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-cat":
+			{
+				"height": 217.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-create":
+			{
+				"height": 100.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-id":
+			{
+				"height": 100.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-ls":
+			{
+				"height": 100.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/apollo-rm":
+			{
+				"height": 100.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/lib":
+			{
+				"height": 247.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/pipe":
+			{
+				"height": 258.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/pipe-initialize":
+			{
+				"height": 100.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/pipelib":
+			{
+				"height": 200.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking":
+			{
+				"height": 272.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking-export":
+			{
+				"height": 100.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/tracking-import":
+			{
+				"height": 256.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/apollo-trello-pipe/utility":
+			{
+				"height": 100.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/alcexport":
+			{
+				"height": 118.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state":
+			{
+				"height": 118.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-alc-state":
+			{
+				"height": 118.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-cleanup":
+			{
+				"height": 136.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/analytics-state/analytics-state-dump":
+			{
+				"height": 136.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe":
+			{
+				"height": 136.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe/pipetools":
+			{
+				"height": 292.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe/trello-apollo-pipe":
+			{
+				"height": 118.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/autopilot/go-lib/model":
+			{
+				"height": 136.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge":
+			{
+				"height": 136.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge-cards":
+			{
+				"height": 136.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/gobridge":
+			{
+				"height": 308.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/bridge/report":
+			{
+				"height": 372.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altapi":
+			{
+				"height": 136.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/altdrive":
+			{
+				"height": 349.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/apollo2":
+			{
+				"height": 302.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/drive":
+			{
+				"height": 476.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/khan":
+			{
+				"height": 436.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/newsela":
+			{
+				"height": 416.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/queue":
+			{
+				"height": 136.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/trello2":
+			{
+				"height": 136.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools/utility":
+			{
+				"height": 136.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/student-board-monitor/student-board-monitor":
+			{
+				"height": 136.0
+			},
+			"output.9o:///Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy":
+			{
+				"height": 136.0
+			},
+			"output.9o:///Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime":
+			{
+				"height": 136.0
+			},
+			"output.GoSublime-main-output":
+			{
+				"height": 118.0
+			},
+			"output.GsDoc-output-output":
+			{
+				"height": 136.0
+			},
+			"output.MarGo-output":
+			{
+				"height": 100.0
+			},
+			"output.autopep8":
+			{
+				"height": 100.0
+			},
+			"output.exec":
+			{
+				"height": 155.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "1 266 250 1276 777 0 0 1680 1027 ",
+			"project": "AltSchool.sublime-project",
+			"replace":
+			{
+				"height": 68.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"export",
+						"bridge-cards/export_test.go"
+					],
+					[
+						"cardedhb",
+						"app/templates/card/edit.hbs"
+					],
+					[
+						"apphb",
+						"app/templates/application.hbs"
+					],
+					[
+						"playscs",
+						"app/styles/_playlist.scss"
+					],
+					[
+						"",
+						"app/templates/card/edit.hbs"
+					],
+					[
+						"cardedithb",
+						"app/templates/card/edit.hbs"
+					],
+					[
+						"cardedi",
+						"app/controllers/card_edit_controller.js"
+					],
+					[
+						"tagscon",
+						"app/controllers/tags_controller.js"
+					],
+					[
+						"api_url",
+						"node_modules/karma/node_modules/optimist/node_modules/minimist/.travis.yml"
+					],
+					[
+						"card",
+						"app/models/playlist/card.js"
+					],
+					[
+						"routplay",
+						"app/routes/playlist_route.js"
+					],
+					[
+						"modcar",
+						"app/models/playlist/card.js"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 336.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 284,
+			"workspace_name": "/Users/drussel/AltSchool/go/src/github.com/AltSchool.sublime-workspace"
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"create",
+						"create_assessment_from_progress_change〔function〕"
+					],
+					[
+						"KHAN",
+						"KHAN_URL〔variable〕"
+					],
+					[
+						"author",
+						"authorize_url"
+					],
+					[
+						"TEST",
+						"TEST_START_DATE"
+					],
+					[
+						"STUDE",
+						"STUDENT_ID"
+					],
+					[
+						"asse",
+						"assessment_date〔argument〕"
+					],
+					[
+						"STU",
+						"STUDENT_ID"
+					],
+					[
+						"STUDENT",
+						"STUDENT_MI"
+					],
+					[
+						"STUDEN",
+						"STUDENT_FIRST_NAME"
+					],
+					[
+						"get",
+						"get_confidence"
+					],
+					[
+						"get_c",
+						"get_confidence"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/Python PEP8 Autoformat/pep8_autoformat.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 479,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/User/pep8_autoformat.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 58,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "vishnu-backend/apollo/competencies/sources/khan.py",
+					"settings":
+					{
+						"buffer_size": 4488,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/User/AutoPep8.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 64,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 392.0,
+				"last_filter": "package",
+				"selected_items":
+				[
+					[
+						"package",
+						"Package Control: Remove Package"
+					],
+					[
+						"Package Control: remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"packag",
+						"Package Control: Remove Package"
+					],
+					[
+						"packa",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 593.0
+			},
+			"console":
+			{
+				"height": 167.0,
+				"history":
+				[
+					"import subprocess; subprocess.check_output(\"src version\", shell=True)",
+					"import subprocess; subprocess.check_output(\"srcer\", shell=True)",
+					"import subprocess; subprocess.check_output(\"src\", shell=True)",
+					"import subprocess; subprocess.check_output(\"dsfasfa\", shell=True)",
+					"import subprocess; subprocess.check_output(\"echo 1\", shell=True)",
+					"import subprocess; subprocess.check_output(\"src\", shell=True)",
+					"import subprocess; subprocess.check_output(\"src --help\", shell=True)",
+					"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/Users/drussel/AltSchool/vishnu-backend",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/competencies",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/competencies/sources",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/competencies/updaters",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/static",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/tests",
+				"/Users/drussel/AltSchool/vishnu-backend/server",
+				"/Users/drussel/AltSchool/vishnu-backend/server/models"
+			],
+			"file_history":
+			[
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/AutoPEP8/Default (OSX).sublime-keymap",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/AutoPEP8/AutoPep8.sublime-settings",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/competencies/sources/khan.py",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/tests/test_competencies.py",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/competencies/sources/lexia.py",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/competencies/sources/nwea.py",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/competencies/updaters/v1.py",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/competencies/assessments.py",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/competencies/update.py",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/management/commands/bridge_external_ids_import.py",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/management/commands/bridge_khan_import.py",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/management/commands/bridge_lexia_import.py",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/management/commands/bridge_nwea_map_import.py",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/management/commands/competencies_compute_all.py",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/tests/test_bridge.py",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/tests/test_competencies_distribution.py",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/tests/test_khan.py",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/competencies/updaters/stupid.py",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/User/AutoPep8.sublime-settings",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/competencies/_distribution.py",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/Python Flake8 Lint/Flake8Lint.sublime-settings",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/User/Flake8Lint.sublime-settings",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/competencies/nwea.py",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/competencies/khan.py",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/competencies/lexia.py",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/settings.py",
+				"/Users/drussel/AltSchool/vishnu-backend/server/settings.py",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/management/commands/bridge-khan-import.py",
+				"/Users/drussel/AltSchool/vishnu-backend/manage.py",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/management/commands/hello.py",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/competencies/khan_exercises.csv",
+				"/Users/drussel/AltSchool/vishnu-backend/vishnu/views/views.py",
+				"/Users/drussel/AltSchool/vishnu-backend/vishnu/urls.py",
+				"/Users/drussel/AltSchool/vishnu-backend/khan_test.py",
+				"/Users/drussel/AltSchool/vishnu-backend/requirements.txt",
+				"/Users/drussel/AltSchool/vishnu-backend/build/lib/vishnu/views/views.py",
+				"/Users/drussel/AltSchool/vishnu-backend/Makefile",
+				"/Users/drussel/AltSchool/vishnu-backend/build/lib/vishnu/tags.py",
+				"/Users/drussel/AltSchool/vishnu-backend/setup.py",
+				"/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/GoSublime/USAGE.md",
+				"/Users/drussel/AltSchool/vishnu-backend/apollo/competencies/nwea_to_alo.csv",
+				"/Users/drussel/AltSchool/vishnu-backend/nwea_to_alo_test.csv",
+				"/Users/drussel/AltSchool/vishnu-backend/vishnu/settings_test.py",
+				"/Users/drussel/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+				"/Users/drussel/Library/Application Support/Sublime Text 2/Packages/User/AutoPep8.sublime-settings",
+				"/Users/drussel/AltSchool/vishnu-backend/README.md",
+				"/Users/drussel/AltSchool/vishnu-backend/server/fixtures/initial_testdata.json",
+				"/Users/drussel/Library/Application Support/Sublime Text 2/Packages/AutoPEP8/AutoPep8.sublime-settings",
+				"/Users/drussel/AltSchool/vishnu-backend/server/tags.py",
+				"/Users/drussel/AltSchool/vishnu-backend/server/views.py",
+				"/Users/drussel/AltSchool/vishnu-backend/vishnu/settings.py",
+				"/Users/drussel/AltSchool/vishnu-backend/vishnu/wsgi.py",
+				"/Users/drussel/AltSchool/tagsearch.sublime-workspace",
+				"/Users/drussel/AltSchool/vishnu-backend.sublime.sublime-project",
+				"/Users/drussel/AltSchool/vishnu-backend/server/server/models.py"
+			],
+			"find":
+			{
+				"height": 37.0
+			},
+			"find_in_files":
+			{
+				"height": 99.0,
+				"where_history":
+				[
+					"vishnu-backend/*",
+					"./*",
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"apollo.competencies import nwea",
+					"apollo.competencies import lexia",
+					"apollo.competencies import khan",
+					"apollo.competencies.lexia",
+					"apollo.competencies.khan",
+					"nwea",
+					"log(",
+					".log",
+					"python",
+					"ssl",
+					"tags",
+					"Mong",
+					".tags",
+					"MongoC",
+					"pymongo",
+					".tags",
+					".tagd",
+					"pymongo",
+					"create_standard_id_to_alo_map",
+					"User(",
+					"User",
+					"apollo.models",
+					"server.models",
+					"print",
+					"objects.get(",
+					".get(",
+					"_get_map_bump",
+					"_print_once",
+					"login_callback",
+					"SESSION_COOKIE_AGE",
+					"cookie",
+					"sessionid",
+					"ontology",
+					"get_ontology_index",
+					"    ",
+					"metadata_db_name",
+					"card_db_name",
+					"print",
+					"student 1",
+					".id",
+					"print",
+					"mongoC",
+					"	",
+					"get_tags",
+					"mongo"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"apollo.competencies.sources import nwea",
+					"apollo.competencies.sources import lexia",
+					"apollo.competencies.sources import khan",
+					"apollo.competencies.sources.lexia",
+					"apollo.competencies.sources.khan",
+					"taxonomy",
+					"  ",
+					"METADATA_DB_NAME",
+					"CARD_DB_NAME",
+					"    "
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 2,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/Python PEP8 Autoformat/pep8_autoformat.sublime-settings",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 479,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										33,
+										61
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/JavaScript/JSON.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/User/pep8_autoformat.sublime-settings",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 58,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										55,
+										55
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"auto_complete": true,
+									"bh_regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/JavaScript/JSON.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "vishnu-backend/apollo/competencies/sources/khan.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4488,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3691,
+										3691
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"auto_complete": false,
+									"bh_regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"editorconfig": true,
+									"ensure_newline_at_eof_on_save": true,
+									"syntax": "Packages/Python/Python.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true,
+									"trim_trailing_white_space_on_save": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1132.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/Users/drussel/src/dotfiles/Library/Application Support/Sublime Text 3/Packages/User/AutoPep8.sublime-settings",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 64,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										26,
+										26
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"auto_complete": true,
+									"bh_regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/JavaScript/JSON.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 37.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.MarGo-output":
+			{
+				"height": 136.0
+			},
+			"output.autopep8":
+			{
+				"height": 100.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "1 200 136 1276 777 0 0 1680 1027 ",
+			"project": "vishnu-backend.sublime.sublime-project",
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 327.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 302,
+			"workspace_name": "/Users/drussel/AltSchool/vishnu-backend.sublime.sublime-workspace"
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/Users/drussel/AltSchool/vishnu-backend.sublime.sublime-workspace",
+			"/Users/drussel/AltSchool/vishnu-frontend.sublime-workspace",
+			"/Users/drussel/AltSchool/go/src/github.com/AltSchool.sublime-workspace",
+			"/Users/drussel/AltSchool/go/src/github.com/AltSchool/taxonomy.sublime-workspace",
+			"/Users/drussel/AltSchool/go/src/github.com/AltSchool/alcexport.sublime-workspace",
+			"/Users/drussel/AltSchool/go/src/github.com/AltSchool/apollo-trello-pipe.sublime-workspace",
+			"/Users/drussel/AltSchool/go/src/github.com/AltSchool/gotools.sublime-workspace",
+			"/Users/drussel/AltSchool/go/src/github.com/AltSchool/service-proxy.sublime-workspace",
+			"/Users/drussel/AltSchool/cheapseats-research.sublime-workspace",
+			"/Users/drussel/AltSchool/apollo-backend.sublime-workspace",
+			"/Users/drussel/AltSchool/ChromeExtensionTrello.sublime-workspace",
+			"/Users/drussel/AltSchool/vishnu-frontend-alo-editor.sublime-workspace",
+			"/Users/drussel/AltSchool/vishnu-frontend-tagger.sublime-workspace"
+		]
+	}
+}

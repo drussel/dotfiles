@@ -1,0 +1,1 @@
+{"url": "https://github.com/nirm03/SublimeLinter-clang", "description": "SublimeLinter plugin for C/C++, using clang", "platforms": ["*"], "version": "1.0.4", "dependencies": [], "sublime_text": ">=3000"}

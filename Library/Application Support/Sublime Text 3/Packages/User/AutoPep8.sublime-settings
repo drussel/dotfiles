@@ -1,4 +1,5 @@
 {
-	"format_on_save": true,
-	"indent-size": 2
+	"format_on_save": false,
+	"ignore": "E24",
+	"aggressive": 2
 }

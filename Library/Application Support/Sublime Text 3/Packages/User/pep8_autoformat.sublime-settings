@@ -1,3 +1,4 @@
 {
-    "aggressive": 100
+    "aggressive": 100,
+    "autoformat_on_save": true
 }

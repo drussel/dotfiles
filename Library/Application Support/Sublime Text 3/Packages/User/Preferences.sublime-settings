@@ -1,17 +1,11 @@
 {
-	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/User/Monokai (SL) (Flake8Lint).tmTheme",
 	"font_face": "Source Sans Pro",
 	"font_size": 16,
 	"ignored_packages":
 	[
-		"SublimeLinter-gjslint",
-		"Vintage",
-		"Python PEP8 Autoformat",
-		"SublimeLinter",
-		"Markdown",
-		"SublimeLinter-jshint"
 	],
 	"spell_check": true,
-	"tab_size": 2,
-	"trim_trailing_white_space_on_save": true
+	"tab_size": 4,
+	"trim_trailing_white_space_on_save": false
 }
