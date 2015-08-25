@@ -33,7 +33,5 @@ rm -f  Library/LaunchAgents/local.launchd.conf.plist
 ln -s src/dotfiles/Library/LaunchAgents/local.launchd.conf.plist Library/LaunchAgents/local.launchd.conf.plist
 
 cd ~/Library/Application\ Support
-trash Sublime\ Text\ 2
-ln -s ~/src/dotfiles/Library/Application\ Support/Sublime\ Text\ 2
 trash Sublime\ Text\ 3
 ln -s ~/src/dotfiles/Library/Application\ Support/Sublime\ Text\ 3
